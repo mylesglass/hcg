@@ -15,3 +15,25 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Pages"
+    name: "pages"
+    files:
+    - name: "homepage"
+      label: "Homepage"
+      file: "content/home.json"
+      fields:
+        - label: "Splash Heading"
+          name: "splash_heading"
+          widget: "string"
+        - label: "Splash Subtitle"
+          name: "splash_subtitle"
+          widget: "string"
+        - label: "Splash Button"
+          name: "splash_button"
+          widget: "string"
+        - label: "Splash Link"
+          name: "splash_link"
+          widget: "select"
+          options:
+            - { label: "Homepage", value: "home"}
+            - { label: "Programmes", value: "programmes"}

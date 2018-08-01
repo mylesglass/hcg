@@ -18,6 +18,18 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+    - name: "general"
+      label: "General"
+      file: 'content/general.json'
+      fields:
+        - label: "Navigation Logo"
+          name: "nav-logo"
+          widget: "image"
+          default: "static/images/uploads/hcg-logo_purple_half.png"
+        - label: "Navigation Logo Inverted"
+          name: "nav-logo-inv"
+          widget: "image"
+          default: "static/images/uploads/hcg-logo_white_half.png"
     - name: "homepage"
       label: "Homepage"
       file: "content/home.json"

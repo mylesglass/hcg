@@ -23,11 +23,11 @@ collections:
       file: 'content/general.json'
       fields:
         - label: "Navigation Logo"
-          name: "nav-logo"
+          name: "nav_logo"
           widget: "image"
           default: "static/images/uploads/hcg-logo_purple_half.png"
         - label: "Navigation Logo Inverted"
-          name: "nav-logo-inv"
+          name: "nav_logo_inv"
           widget: "image"
           default: "static/images/uploads/hcg-logo_white_half.png"
     - name: "homepage"
@@ -49,3 +49,27 @@ collections:
           options:
             - { label: "Homepage", value: "home"}
             - { label: "Programmes", value: "programmes"}
+    - name: "nav"
+      label: "Navigation"
+      file: "content/nav.json"
+      fields:
+        - label: "Navigation Logo"
+          name: "nav_logo"
+          widget: "image"
+          default: "static/images/uploads/hcg-logo_purple_half.png"
+        - label: "Navigation Logo Inverted"
+          name: "nav_logo_inv"
+          widget: "image"
+          default: "static/images/uploads/hcg-logo_white_half.png"
+        - label: "Menu"
+          name: "menu_items"
+          widget: "list"
+          allow_add: true
+          fields:
+            - label: Title
+              name: title
+              widget: string
+            - label: Link
+              name: url
+              widget: string
+

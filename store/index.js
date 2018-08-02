@@ -17,6 +17,10 @@ const store = () => new Vuex.Store({
 
     setNavData (state, payload) {
       state.nav_items = payload
+    },
+
+    addProgramme (state, payload) {
+      state.nav_items.dropdown.programme_items.push(payload)
     }
   },
 
@@ -24,6 +28,16 @@ const store = () => new Vuex.Store({
     async loadNav ({ commit }) {
       let content = await import('~/content/nav.json')
       commit('setNavData', content)
+
+      // Fake loading programmes
+      for (var i = 0; i < 10; i++) {
+        let prog = {
+          'title': 'Programme ' + i,
+          'link': '/programme' + i
+        }
+
+        commit('addProgramme', prog)
+      }
     }
   }
 })

@@ -64,7 +64,7 @@ collections:
         - label: "Menu"
           name: "menu_items"
           widget: "list"
-          allow_add: false
+          allow_add: true
           fields:
             - label: "Title"
               name: "title"
@@ -79,13 +79,13 @@ collections:
               widget: "boolean"
         - label: "Programmes Dropdown"
           name: "dropdown"
-          widget: "list"
-          allow_add: false
+          widget: "object"
+          allow_add: true
           fields:
             - label: "Title"
               name: "title"
               widget: "string"
-              defualt: "Programmes"
+              default: "Programmes"
             - label: "Link"
               name: "url"
               widget: "string"

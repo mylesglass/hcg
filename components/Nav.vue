@@ -8,6 +8,18 @@
 
     <div class="navbar-menu">
       <div class="navbar-end">
+        <b-dropdown v-model="dropdown" hoverable v-if="$store.state.nav_items.dropdown">
+          <nuxt-link slot="trigger" class="navbar-item" :to="$store.state.nav_items.dropdown.url">
+            <span>{{ $store.state.nav_items.dropdown.title }}</span>
+          </nuxt-link>
+          <b-dropdown-item has-link 
+            v-for="item in $store.state.nav_items.dropdown.programme_items"
+            :key="item.title">
+            <nuxt-link :to="item.link">
+              {{ item.title }}
+            </nuxt-link>
+          </b-dropdown-item>
+        </b-dropdown>
         <nuxt-link
           class="navbar-item" 
           v-for="item in $store.state.nav_items.menu_items"
@@ -23,6 +35,12 @@
 
 <script>
 export default {
+  data () {
+    return {
+      dropdown: ''
+    }
+  },
+
   created () {
     // Initialise Data
     this.$store.dispatch('loadNav')

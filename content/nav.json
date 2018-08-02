@@ -7,11 +7,10 @@
       "url": "/typography"
     }
   ],
-  "dropdown": [
+  "dropdown": 
     {
       "title": "Programmes",
       "url": "/programmes",
       "subtitle": "See All Programmes"
     }
-  ]
 }

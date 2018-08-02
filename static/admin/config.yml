@@ -66,10 +66,12 @@ collections:
           widget: "list"
           allow_add: true
           fields:
-            - label: Title
-              name: title
-              widget: string
-            - label: Link
-              name: url
-              widget: string
+            - label: "Title"
+              name: "title"
+              widget: "string"
+              default: "Link"
+            - label: "Link"
+              name: "url"
+              widget: "string"
+              default: "/"
 

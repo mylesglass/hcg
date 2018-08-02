@@ -1,16 +1,3 @@
 {
-    "nav_logo": "/images/uploads/hcg-logo_purple_half.png",
-    "nav_logo_inv": "/images/uploads/hcg-logo_white_half.png",
-    "menu_items": {
-        "menu_item": {
-            "title": "Typography",
-            "url": "/typography",
-            "is_active": true
-        },
-        "menu_item_2": {
-            "title": "Home",
-            "url": "/home",
-            "is_active": false
-        }
-    }
+  
 }

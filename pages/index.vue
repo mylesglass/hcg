@@ -23,24 +23,24 @@
     <!-- About HCG -->
     <section class="section">
       <div class="container">
-        <h1 class="title">About HCG</h1>
-        <p class="subtitle">We've been providing gymnastics to the Eastern Suburbs since 1945</p>
+        <h1 class="title">{{ about_title }}</h1>
+        <p class="subtitle">{{ about_subtitle }}</p>
       </div>
     </section>
 
     <!-- Programmes -->
     <section class="section" id="programmes-section">
       <div class="container">
-        <h1 class="title has-text-white">Gymnastics for all.</h1>
-        <p class="subtitle has-text-light">We believe that people of all ages and abilities can participate and enjoy gymnastics.</p>
+        <h1 class="title has-text-white">{{ programmes_title}}</h1>
+        <p class="subtitle has-text-light">{{ programmes_subtitle }}</p>
       </div>
     </section>
 
     <!-- Contact -->
     <section class="section">
       <div class="container">
-        <h1 class="title">Get in touch!</h1>
-        <p class="subtitle">We would love for you to join us!</p>
+        <h1 class="title">{{ contact_title }}</h1>
+        <p class="subtitle">{{ contact_subtitle }}</p>
       </div>
     </section>
   </div>

@@ -22,7 +22,7 @@
 
     <!-- About HCG -->
     <section class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">{{ about_title }}</h1>
         <p class="subtitle">{{ about_subtitle }}</p>
       </div>
@@ -30,7 +30,7 @@
 
     <!-- Programmes -->
     <section class="section" id="programmes-section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title has-text-white">{{ programmes_title}}</h1>
         <p class="subtitle has-text-light">{{ programmes_subtitle }}</p>
       </div>
@@ -38,7 +38,7 @@
 
     <!-- Contact -->
     <section class="section">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">{{ contact_title }}</h1>
         <p class="subtitle">{{ contact_subtitle }}</p>
       </div>

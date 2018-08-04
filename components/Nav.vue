@@ -38,6 +38,15 @@
           :class="{ 'is-active' : item.is_active }">
             {{ item.title }}
         </nuxt-link>
+
+        <!-- Login -->
+        <nuxt-link class="navbar-item" to="/login">
+          <div class="field">
+            <p class="control">
+              <a class="button">Sign In</a>
+            </p>
+          </div>
+        </nuxt-link>
       </div>
     </div>
   </nav>

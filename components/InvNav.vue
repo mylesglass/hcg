@@ -38,6 +38,15 @@
           :class="{ 'is-active' : item.is_active }">
             {{ item.title }}
         </nuxt-link>
+
+        <!-- Login -->
+        <nuxt-link class="navbar-item" to="/login">
+          <div class="field">
+            <p class="control">
+              <button class="button nav-button">Sign In</button>
+            </p>
+          </div>
+        </nuxt-link>
       </div>
     </div>
   </nav>
@@ -67,5 +76,15 @@ nav {
 
 .is-active {
   text-decoration: underline;  
+}
+
+.nav-button {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-button:hover {
+  background-color: #ffffff;
+  color: #7957d5;
 }
 </style>

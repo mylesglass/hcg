@@ -18,6 +18,10 @@ header {
     }
 }
 
+.title {
+    font-weight: 900;
+}
+
 .paragraph {
     line-height: 1.8rem;
 }
@@ -39,4 +43,9 @@ ul, ol {
 
 .container {
     max-width: 1000px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }

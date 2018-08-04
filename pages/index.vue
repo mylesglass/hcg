@@ -1,24 +1,81 @@
 <template>
-  <section class="section">
-    <h1 class="title">
-      Myles Was Here
-    </h1>
-  </section>
+  <div id="homepage">
+    <!-- Splash & Navigation -->
+    <section class="hero is-primary is-large">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <inverted-nav></inverted-nav>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title splash-title">
+            {{ splash_heading }}
+          </h1>
+          <h2 class="subtitle splash-subtitle">
+            {{ splash_subtitle }}
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- About HCG -->
+    <section class="section">
+      <div class="container">
+        <h1 class="title">About HCG</h1>
+        <p class="subtitle">We've been providing gymnastics to the Eastern Suburbs since 1945</p>
+      </div>
+    </section>
+
+    <!-- Programmes -->
+    <section class="section" id="programmes-section">
+      <div class="container">
+        <h1 class="title has-text-white">Gymnastics for all.</h1>
+        <p class="subtitle has-text-light">We believe that people of all ages and abilities can participate and enjoy gymnastics.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Get in touch!</h1>
+        <p class="subtitle">We would love for you to join us!</p>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import InvertedNav from '~/components/InvNav'
 
 export default {
-  layout: 'default',
+  layout: 'home',
 
   components: {
-    AppLogo
+    InvertedNav
+  },
+
+  async asyncData() {
+    let content = await import('~/content/home.json')
+    return content
   }
 }
 </script>
 
-<style>
+<style scoped>
 
+#programmes-section {
+  background-color: #0e132b;
+}
+
+.splash-title {
+  font-size: 3rem;
+  line-height: 3.4rem;
+}
+
+.splash-subtitle {
+  font-size: 1.5rem;
+}
 </style>
 

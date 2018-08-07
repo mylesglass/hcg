@@ -115,7 +115,7 @@ collections:
               default: "See All Programmes"
     - name: "foot"
       label: "Footer"
-      file: "content/foot.json"
+      file: "content/footer.json"
       fields:
         - label: "Gymnastics NZ Logo"
           name: "gnz_logo"

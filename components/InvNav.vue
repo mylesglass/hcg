@@ -43,7 +43,7 @@
         <nuxt-link class="navbar-item" to="/login">
           <div class="field">
             <p class="control">
-              <button class="button nav-button">Sign In</button>
+              <button class="button is-primary is-inverted is-outlined">Sign In</button>
             </p>
           </div>
         </nuxt-link>

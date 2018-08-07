@@ -24,11 +24,11 @@
     <section class="section">
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ about_title }}</h1>
-        <figure class="image is-16by9">
-          <img src="" alt="Harbour City Gymnastics">
+        <figure class="image about-image is-16by9">
+          <img :src="about_image" alt="Harbour City Gymnastics">
         </figure>
         <p class="paragraph">{{ about_subtitle }}</p>
-        <a class="home-button button">Learn More</a> 
+        <a class="home-button button is-primary">Learn More</a> 
       </div>
     </section>
 
@@ -38,6 +38,34 @@
         <h1 class="title home-title has-text-white">{{ programmes_title}}</h1>
         <p class="subtitle has-text-light">{{ programmes_subtitle }}</p>
       </div>
+      <div class="container has-text-centered programme-col-container">
+        <div class="columns">
+          <div class="column">
+            <figure class="image about-image is-16by9">
+              <img :src="about_image" alt="Harbour City Gymnastics">
+            </figure>
+            <p class="subtitle has-text-light">Column 1</p>
+            <p class="paragraph has-text-light">A number of the dead were indeed witches, though utterly innocent of the crimes for which they had been arrested.</p>
+            <a class="home-button button is-primary is-inverted is-outlined">Learn More</a> 
+          </div>
+          <div class="column">
+            <figure class="image about-image is-16by9">
+              <img :src="about_image" alt="Harbour City Gymnastics">
+            </figure>
+            <p class="subtitle has-text-light">Column 1</p>
+            <p class="paragraph has-text-light">A number of the dead were indeed witches, though utterly innocent of the crimes for which they had been arrested.</p>
+            <a class="home-button button is-primary is-inverted is-outlined">Learn More</a> 
+          </div>
+          <div class="column">
+            <figure class="image about-image is-16by9">
+              <img :src="about_image" alt="Harbour City Gymnastics">
+            </figure>
+            <p class="subtitle has-text-light">Column 1</p>
+            <p class="paragraph has-text-light">A number of the dead were indeed witches, though utterly innocent of the crimes for which they had been arrested.</p>
+            <a class="home-button button is-primary is-inverted is-outlined">Learn More</a> 
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
@@ -45,6 +73,7 @@
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ contact_title }}</h1>
         <p class="subtitle">{{ contact_subtitle }}</p>
+        <a class="home-button button is-primary">Contact Us</a> 
       </div>
     </section>
   </div>
@@ -88,6 +117,14 @@ export default {
 
 .home-title {
   padding-bottom: 2rem;
+}
+
+.about-image {
+  margin-bottom: 3rem;
+}
+
+.programme-col-container {
+  padding-top: 3rem;
 }
 </style>
 

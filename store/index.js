@@ -7,7 +7,8 @@ Vue.use(Vuex)
 const store = () => new Vuex.Store({
   state: {
     counter: 0, 
-    nav_items: {}
+    nav_items: {},
+    foot_items: {}
   },
 
   mutations: {
@@ -17,6 +18,10 @@ const store = () => new Vuex.Store({
 
     setNavData (state, payload) {
       state.nav_items = payload
+    },
+
+    setFootData (state, payload) {
+      state.foot_items = payload
     },
 
     addProgramme (state, payload) {
@@ -38,6 +43,11 @@ const store = () => new Vuex.Store({
 
         commit('addProgramme', prog)
       }
+    },
+
+    async loadFoot ({ commit }) {
+      let content = await import('~/content/footer.json')
+      commit('setFootData', content)
     }
   }
 })

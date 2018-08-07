@@ -23,15 +23,19 @@
     <!-- About HCG -->
     <section class="section">
       <div class="container has-text-centered">
-        <h1 class="title">{{ about_title }}</h1>
-        <p class="subtitle">{{ about_subtitle }}</p>
+        <h1 class="title home-title">{{ about_title }}</h1>
+        <figure class="image is-16by9">
+          <img src="" alt="Harbour City Gymnastics">
+        </figure>
+        <p class="paragraph">{{ about_subtitle }}</p>
+        <a class="home-button button">Learn More</a> 
       </div>
     </section>
 
     <!-- Programmes -->
     <section class="section" id="programmes-section">
       <div class="container has-text-centered">
-        <h1 class="title has-text-white">{{ programmes_title}}</h1>
+        <h1 class="title home-title has-text-white">{{ programmes_title}}</h1>
         <p class="subtitle has-text-light">{{ programmes_subtitle }}</p>
       </div>
     </section>
@@ -39,7 +43,7 @@
     <!-- Contact -->
     <section class="section">
       <div class="container has-text-centered">
-        <h1 class="title">{{ contact_title }}</h1>
+        <h1 class="title home-title">{{ contact_title }}</h1>
         <p class="subtitle">{{ contact_subtitle }}</p>
       </div>
     </section>
@@ -76,6 +80,14 @@ export default {
 
 .splash-subtitle {
   font-size: 1.5rem;
+}
+
+.home-button {
+  margin-top: 3rem;
+}
+
+.home-title {
+  padding-bottom: 2rem;
 }
 </style>
 

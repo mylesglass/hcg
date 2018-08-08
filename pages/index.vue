@@ -16,6 +16,7 @@
           <h2 class="subtitle splash-subtitle">
             {{ splash_subtitle }}
           </h2>
+          <nuxt-link to="/programmes" class="button is-primary is-outlined is-inverted">See Our Programmes</nuxt-link>
         </div>
       </div>
     </section>

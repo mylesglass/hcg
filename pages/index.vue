@@ -28,7 +28,7 @@
           <img :src="about_image" alt="Harbour City Gymnastics">
         </figure>
         <p class="paragraph">{{ about_subtitle }}</p>
-        <nuxt-link to="/about" class="home-button button is-primary">Learn More</nuxt-link> 
+        <nuxt-link to="/about" class="home-button button is-primary">{{ about_button }}</nuxt-link> 
       </div>
     </section>
 
@@ -44,25 +44,25 @@
             <figure class="image about-image is-16by9">
               <img :src="about_image" alt="Harbour City Gymnastics">
             </figure>
-            <p class="subtitle has-text-weight-bold has-text-light">Column 1</p>
-            <p class="paragraph has-text-light">A number of the dead were indeed witches, though utterly innocent of the crimes for which they had been arrested.</p>
-            <a class="home-button button is-primary is-inverted is-outlined">Learn More</a> 
+            <p class="subtitle has-text-weight-bold has-text-light">{{ col1_title }}</p>
+            <p class="paragraph has-text-light">{{ col1_desc }}</p>
+            <nuxt-link :to="col1_link" class="home-button button is-primary is-inverted is-outlined">{{ col1_button }}</nuxt-link> 
           </div>
           <div class="column">
             <figure class="image about-image is-16by9">
               <img :src="about_image" alt="Harbour City Gymnastics">
             </figure>
-            <p class="subtitle  has-text-weight-bold has-text-light">Column 1</p>
-            <p class="paragraph has-text-light">A number of the dead were indeed witches, though utterly innocent of the crimes for which they had been arrested.</p>
-            <a class="home-button button is-primary is-inverted is-outlined">Learn More</a> 
+            <p class="subtitle has-text-weight-bold has-text-light">{{ col2_title }}</p>
+            <p class="paragraph has-text-light">{{ col2_desc }}</p>
+            <nuxt-link :to="col2_link" class="home-button button is-primary is-inverted is-outlined">{{ col2_button }}</nuxt-link> 
           </div>
           <div class="column">
             <figure class="image about-image is-16by9">
               <img :src="about_image" alt="Harbour City Gymnastics">
             </figure>
-            <p class="subtitle  has-text-weight-bold has-text-light">Column 1</p>
-            <p class="paragraph has-text-light">A number of the dead were indeed witches, though utterly innocent of the crimes for which they had been arrested.</p>
-            <a class="home-button button is-primary is-inverted is-outlined">Learn More</a> 
+            <p class="subtitle has-text-weight-bold has-text-light">{{ col3_title }}</p>
+            <p class="paragraph has-text-light">{{ col3_desc }}</p>
+            <nuxt-link :to="col3_link" class="home-button button is-primary is-inverted is-outlined">{{ col3_button }}</nuxt-link> 
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ contact_title }}</h1>
         <p class="subtitle">{{ contact_subtitle }}</p>
-        <nuxt-link to="/contact" class="home-button button is-primary">Contact Us</nuxt-link> 
+        <nuxt-link to="/contact" class="home-button button is-primary">{{ contact_button }}</nuxt-link> 
       </div>
     </section>
   </div>

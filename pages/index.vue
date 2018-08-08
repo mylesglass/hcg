@@ -9,7 +9,7 @@
 
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
-        <div class="container has-text-centered">
+        <div class="container">
           <h1 class="title splash-title">
             {{ splash_heading }}
           </h1>

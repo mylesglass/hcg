@@ -18,6 +18,12 @@ header {
     }
 }
 
+.hero-body {
+    .subtitle {
+        padding-top: 1rem;
+    }
+}
+
 .title {
     font-weight: 900;
 }
@@ -34,9 +40,14 @@ header {
     padding-top: 1rem;
 }
 
+.meta {
+    font-size: 0.8rem;
+}
+
 ul, ol {
-    padding-left: 2rem;
+    line-height: 1.8rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 // Layout
@@ -48,4 +59,10 @@ ul, ol {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+// Navigation
+
+.nuxt-link-exact-active {
+    
 }

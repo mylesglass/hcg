@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <img :src="$store.state.nav_items.nav_logo_inv" alt="Harbour City GymSports">
@@ -34,19 +34,18 @@
           class="navbar-item has-text-white" 
           v-for="item in $store.state.nav_items.menu_items"
           :key="item.title"
-          :to="item.url"
-          :class="{ 'is-active' : item.is_active }">
+          :to="item.url">
             {{ item.title }}
         </nuxt-link>
 
-        <!-- Login -->
+        <!-- Login 
         <nuxt-link class="navbar-item" to="/login">
           <div class="field">
             <p class="control">
               <button class="button is-primary is-inverted is-outlined">Sign In</button>
             </p>
           </div>
-        </nuxt-link>
+        </nuxt-link>-->
       </div>
     </div>
   </nav>

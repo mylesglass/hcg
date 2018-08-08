@@ -39,14 +39,14 @@
             {{ item.title }}
         </nuxt-link>
 
-        <!-- Login -->
+        <!-- Login 
         <nuxt-link class="navbar-item" to="/login">
           <div class="field">
             <p class="control">
               <a class="button">Sign In</a>
             </p>
           </div>
-        </nuxt-link>
+        </nuxt-link>-->
       </div>
     </div>
   </nav>

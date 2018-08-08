@@ -8,7 +8,8 @@ const store = () => new Vuex.Store({
   state: {
     counter: 0, 
     nav_items: {},
-    foot_items: {}
+    foot_items: {},
+    active_page: ''
   },
 
   mutations: {
@@ -26,6 +27,10 @@ const store = () => new Vuex.Store({
 
     addProgramme (state, payload) {
       state.nav_items.dropdown.programme_items.push(payload)
+    },
+
+    setActiveNav (state, payload) {
+      state.active_page = payload
     }
   },
 
@@ -33,7 +38,7 @@ const store = () => new Vuex.Store({
     async loadNav ({ commit }) {
       let content = await import('~/content/nav.json')
       commit('setNavData', content)
-
+      /** 
       // Fake loading programmes
       for (var i = 0; i < 10; i++) {
         let prog = {
@@ -42,7 +47,7 @@ const store = () => new Vuex.Store({
         }
 
         commit('addProgramme', prog)
-      }
+      }**/
     },
 
     async loadFoot ({ commit }) {

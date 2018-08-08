@@ -3,7 +3,7 @@
     <div class="container">
       <header>
         <h1 class="title">{{ title }}</h1>
-        <p class="subtitle">We really out here</p>
+        <p class="subtitle">{{ subtitle }}</p>
       </header>
       <p class="paragraph">
         {{ content }}

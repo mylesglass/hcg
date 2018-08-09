@@ -209,19 +209,13 @@ collections:
         - label: "Content"
           name: "content"
           widget: "markdown"
-  - label: "Members Only"
-    name: "members"
-    files:
-    - name: "intro_to_comp"
-      label: "Intro to Competitive"
-      file: "content/members/intro_to_comp.json"
-      fields:
-        - label: "Title"
-          name: "title"
-          widget: "string"
-        - label: "Subitle"
-          name: "subtitle"
-          widget: "string"
-        - label: "Content"
-          name: "markdown"
-          widget: "markdown"
+  - name: "members"
+    label: "Members"
+    folder: "content/members"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Body", name: "markdown", widget: "markdown"}

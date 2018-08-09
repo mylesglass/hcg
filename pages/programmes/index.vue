@@ -20,6 +20,62 @@
         <p class="title">Recreational</p>
         <p class="subtitle">Gymnastics courses that encourage fun, movement, and allow entry level</p>
         <div class="columns">
+          <div class="column" v-for="prog in progs" :key="prog.title">
+            <programme-card
+              :title="prog.title"
+              :subtitle="prog.subtitle"
+              :age="prog.age"
+              :link="prog._path"
+              :imageUrl="prog.thumbnail" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</template>
+
+<script>
+import InvertedNav from '~/components/InvNav'
+import ProgrammeCard from '~/components/ProgrammeCard'
+
+export default {
+  layout: 'page',
+
+  components: {
+    InvertedNav,
+    ProgrammeCard
+  },
+
+  data () {
+    // Using webpacks context to gather all files from a folder
+    const context = require.context('~/content/programmes/', false, /\.json$/)
+
+    const progs = context.keys().map(key => ({
+      ...context(key),
+      _path: `/programmes/${key.replace('.json', '').replace('./', '')}`
+    }))
+
+    // Here we sort into categories
+
+    return { progs }
+  }
+}
+</script>
+
+<style scoped>
+.intermediate, .other{
+  background-color: #0e132b;
+}
+</style>
+
+<!--
+
+    <section class="section">
+      <div class="container">
+        <p class="title">Recreational</p>
+        <p class="subtitle">Gymnastics courses that encourage fun, movement, and allow entry level</p>
+        <div class="columns">
           <div class="column">
             <programme-card/>
           </div>
@@ -33,7 +89,7 @@
       </div>
     </section>
 
-    <!-- Intermediate -->
+
     <section class="section intermediate">
       <div class="container">
         <p class="title has-text-white">Intermediate</p>
@@ -52,7 +108,7 @@
       </div>
     </section>
 
-    <!-- Advanced -->
+
     <section class="section">
       <div class="container">
         <p class="title">Advanced</p>
@@ -71,7 +127,7 @@
       </div>
     </section>
 
-    <!-- Other -->
+
     <section class="section other">
       <div class="container">
         <p class="title has-text-white">Other</p>
@@ -88,27 +144,4 @@
           </div>
         </div>
       </div>
-    </section>
-  </div>
-</template>
-
-<script>
-import InvertedNav from '~/components/InvNav'
-import ProgrammeCard from '~/components/ProgrammeCard'
-
-export default {
-  layout: 'page',
-
-  components: {
-    InvertedNav,
-    ProgrammeCard
-  }
-}
-</script>
-
-<style scoped>
-.intermediate, .other{
-  background-color: #0e132b;
-}
-</style>
-
+    </section>-->

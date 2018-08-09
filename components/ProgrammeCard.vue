@@ -3,21 +3,33 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is4by3">
-          <img src="/images/uploads/beam-16x9.jpg" alt="Programme Image">
+          <img :src="imageUrl" alt="Programme Image">
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="subtitle has-text-weight-bold">Ribbon Award Class</p>
-            <p class="meta">For ages 5 and 6</p>
+            <p class="subtitle has-text-weight-bold">{{ title }}</p>
+            <p class="meta">{{ age }}</p>
           </div>
         </div>
         <div class="content">
-          <p>Fun, safe, structured gymnastics for young children of all abilities.</p>
-          <a href="" class="button is-fullwidth is-info is-outlined">View</a>
+          <p>{{ subtitle }}</p>
+          <nuxt-link :to="link" class="button is-fullwidth is-info is-outlined">View</nuxt-link>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    title: String,
+    subtitle: String,
+    age: String,
+    link: String,
+    imageUrl: String
+  }
+}
+</script>

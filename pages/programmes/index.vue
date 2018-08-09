@@ -14,19 +14,21 @@
       </div>
     </section>
 
-    <!-- Recreational -->
     <section class="section">
       <div class="container">
-        <p class="title">Recreational</p>
-        <p class="subtitle">Gymnastics courses that encourage fun, movement, and allow entry level</p>
-        <div class="columns">
-          <div class="column" v-for="prog in progs" :key="prog.title">
+        <p class="title">Our Programmes</p>
+        <p class="subtitle">We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
+        <p class="has-text-weight-bold">Categories</p>
+        <p>We have categorised our programmes to make it easier for you to have an idea of what experience level is nessesary for each class.</p>
+        <div class="columns is-multiline">
+          <div class="column is-one-third" v-for="prog in progs" :key="prog.title">
             <programme-card
               :title="prog.title"
               :subtitle="prog.subtitle"
               :age="prog.age"
               :link="prog._path"
-              :imageUrl="prog.thumbnail" />
+              :imageUrl="prog.thumbnail"
+              :category="prog.category" />
           </div>
         </div>
       </div>

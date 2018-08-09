@@ -11,13 +11,15 @@
       "title": "Contact",
       "url": "/contact",
       "is_active": false
+    },
+    {
+      "title": "Members",
+      "url": "/members"
     }
   ],
   "dropdown": {
     "title": "Programmes",
     "url": "/programmes",
-    "is_active": false,
-    "subtitle": "See All Programmes",
-    "programme_items": []
+    "subtitle": "See All Programmes"
   }
 }

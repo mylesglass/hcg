@@ -39,8 +39,7 @@ module.exports = {
         rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png",
         rel: "icon", type: "image/png", sizes: "96x96", href: "/favicon-96x96.png",
         rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png",
-        rel: 'stylesheet', href: 'https://rsms.me/inter/inter-ui.css',
-        rel: "stylesheet", href: "//fonts.googleapis.com/icon?family=Material+Icons"
+        rel: 'stylesheet', href: 'https://rsms.me/inter/inter-ui.css'
       }
     ]
   },
@@ -54,7 +53,8 @@ module.exports = {
   ** Modules
   */
   modules: [
-    'nuxt-buefy'
+    'nuxt-buefy',
+    'nuxt-material-design-icons'
   ],
   /*
   ** Customize the progress bar color

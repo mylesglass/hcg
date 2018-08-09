@@ -2,9 +2,10 @@
   <section class="section">
     <div class="container">
       <header>
-        <h1>{{ title }}</h1>
+        <h1>{{ title }} <b-icon icon="wifi" size="is-large"></b-icon></h1>
         <p class="subtitle">{{ subtitle }}</p>
       </header>
+      
       <span v-html="htmlContent"></span>
     </div>
   </section>

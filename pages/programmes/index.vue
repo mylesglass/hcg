@@ -4,14 +4,6 @@
       <div class="hero-head">
         <inverted-nav></inverted-nav>
       </div>
-      <div class="hero-body">
-        <div class="container">
-          <header>
-            <h1>Gymnastics Programmes</h1>
-            <p class="subtitle">We got that boi!</p>
-          </header>
-        </div>
-      </div>
     </section>
 
     <section class="section">

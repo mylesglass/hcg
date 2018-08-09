@@ -4,16 +4,21 @@
       <nuxt-link class="navbar-item" to="/">
         <img :src="$store.state.nav_items.nav_logo" alt="Harbour City GymSports">
       </nuxt-link>
+      <div class="navbar-burger burger" @click="toggleMenu" :class="{'is-active': navIsActive}" data-target="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
 
-    <div class="navbar-menu">
+    <div class="navbar-menu" id="mainNav" :class="{'is-active': navIsActive}">
       <div class="navbar-end">
         <!-- Programmes -->
         <b-dropdown v-model="dropdown" hoverable v-if="$store.state.nav_items.dropdown">
-          <nuxt-link slot="trigger" class="navbar-item" :to="$store.state.nav_items.dropdown.url">
+          <a slot="trigger" class="navbar-item">
             <span>{{ $store.state.nav_items.dropdown.title }}</span>
             <b-icon icon="chevron-down"></b-icon>
-          </nuxt-link>
+          </a>
           <b-dropdown-item has-link 
             v-for="item in $store.state.nav_items.dropdown.programme_items"
             :key="item.title">
@@ -56,7 +61,14 @@
 export default {
   data () {
     return {
-      dropdown: ''
+      dropdown: '',
+      navIsActive: false
+    }
+  },
+
+  methods: {
+    toggleMenu () {
+      this.navIsActive = !this.navIsActive
     }
   },
 
@@ -69,7 +81,5 @@ export default {
 
 
 <style>
-.is-active {
-  text-decoration: underline;  
-}
+
 </style>

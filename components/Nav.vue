@@ -62,18 +62,13 @@ export default {
 
   created () {
     // Initialise Data
-    this.$store.dispatch('loadNav')
+    if (Object.keys(this.$store.state.nav_items).length === 0) this.$store.dispatch('loadNav')
   }
 }
 </script>
 
 
 <style>
-nav {
-    margin: auto;
-    max-width: 1000px;
-}
-
 .is-active {
   text-decoration: underline;  
 }

@@ -26,7 +26,12 @@ const store = () => new Vuex.Store({
     },
 
     addProgramme (state, payload) {
-      state.nav_items.dropdown.programme_items.push(payload)
+      if (!state.nav_items.dropdown.programme_items) {
+        state.nav_items.dropdown.programme_items = []
+        state.nav_items.dropdown.programme_items.push(payload)
+      } else {
+        state.nav_items.dropdown.programme_items.push(payload)
+      }
     },
 
     setActiveNav (state, payload) {
@@ -38,16 +43,18 @@ const store = () => new Vuex.Store({
     async loadNav ({ commit }) {
       let content = await import('~/content/nav.json')
       commit('setNavData', content)
-      /** 
-      // Fake loading programmes
-      for (var i = 0; i < 10; i++) {
-        let prog = {
-          'title': 'Programme ' + i,
-          'link': '/programme' + i
-        }
 
-        commit('addProgramme', prog)
-      }**/
+      // Using webpacks context to gather all files from a folder
+      const context = require.context('~/content/programmes/', false, /\.json$/)
+
+      const programmes = context.keys().map(key => ({
+        ...context(key),
+        _path: `/programmes/${key.replace('.json', '').replace('./', '')}`
+      }))
+
+      for (var index in programmes) {
+        commit('addProgramme', {'title': programmes[index].title, 'link': programmes[index]._path})
+      }
     },
 
     async loadFoot ({ commit }) {

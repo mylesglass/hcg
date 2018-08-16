@@ -54,3 +54,15 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.media-content {
+  min-height: 75px;
+}
+
+.media-content > .subtitle {
+  margin-bottom: 0;
+}
+
+</style>
+

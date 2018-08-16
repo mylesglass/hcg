@@ -22,10 +22,17 @@ export default {
   computed: {
     htmlContent () {
       let md = new Markdown({
-        breaks: true
+        breaks: true,
+        html: true,
+        typographer: true
       })
 
-      return md.render(this.body).replace(/<p>/g, '<p class="paragraph">')
+      let content = md.render(this.body)
+
+      // add paragraph class
+      content = content.replace(/<p>/g, '<p class="paragraph">')
+
+      return content
     }
   }
 }

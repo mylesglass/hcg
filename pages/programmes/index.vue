@@ -21,6 +21,7 @@
               :category="prog.category" />
           </div>
         </div>
+
       </div>
     </section>
 

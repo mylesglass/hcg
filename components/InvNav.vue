@@ -15,7 +15,7 @@
       <div class="navbar-end">
         <!-- Programmes -->
         <b-dropdown v-model="dropdown" hoverable v-if="$store.state.nav_items.dropdown">
-          <a slot="trigger" class="navbar-item has-text-white">
+          <a slot="trigger" class="navbar-item has-text-white dropdown">
             <span>{{ $store.state.nav_items.dropdown.title }}</span>
             <b-icon icon="chevron-down"></b-icon>
           </a>
@@ -79,15 +79,10 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 
 .nav-button {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
-}
-
-.nav-button:hover {
-  background-color: #ffffff;
-  color: #7957d5;
 }
 </style>

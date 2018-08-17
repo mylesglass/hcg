@@ -1,28 +1,31 @@
 <template>
   <div id="homepage">
+    
     <!-- Splash & Navigation -->
-    <section class="hero is-primary is-large">
+    <section class="hero is-large" :style="bg">
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
         <inverted-nav></inverted-nav>
       </div>
 
       <!-- Hero content: will be in the middle -->
+      
       <div class="hero-body">
         <div class="container">
-          <h1 class="title splash-title">
+          <h1 class="title splash-title has-text-white">
             {{ splash_heading }}
           </h1>
-          <h2 class="subtitle splash-subtitle">
+          <h2 class="subtitle splash-subtitle has-text-light">
             {{ splash_subtitle }}
           </h2>
           <nuxt-link to="/programmes" class="button is-primary is-outlined is-inverted">See Our Programmes</nuxt-link>
         </div>
       </div>
+      
     </section>
-
+  
     <!-- About HCG -->
-    <section class="section">
+    <section class="section" id="about-section">
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ about_title }}</h1>
         <figure class="image about-image is-16by9">
@@ -70,7 +73,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="section">
+    <section class="section" id="contact-section">
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ contact_title }}</h1>
         <p class="subtitle">{{ contact_subtitle }}</p>
@@ -82,17 +85,25 @@
 
 <script>
 import InvertedNav from '~/components/InvNav'
+import Parallax from 'vue-parallaxy'
 
 export default {
   layout: 'home',
 
   components: {
-    InvertedNav
+    InvertedNav,
+    Parallax
   },
 
   async asyncData() {
     let content = await import('~/content/home.json')
     return content
+  },
+
+  computed: {
+    bg () {
+      return 'background-image: url(' + this.splash_image + ');'
+    }
   }
 }
 </script>
@@ -101,6 +112,10 @@ export default {
 
 #programmes-section {
   background-color: #0e132b;
+}
+
+#contact-section, #about-section {
+  background-color: white;
 }
 
 .splash-title {
@@ -123,6 +138,11 @@ export default {
 .about-image {
   margin-top: 3rem;
   margin-bottom: 2rem;
+}
+
+.hero {
+  background-size: cover; 
+  background-position: center center;
 }
 </style>
 

@@ -7,16 +7,24 @@
       </header>
       <span v-html="htmlContent" class="markdown"></span>
     </div>
+    <div class="container">
+      <info-card v-for="item in items" :key="item.title" :item="item"/>
+    </div>
   </section>
 </template>
 
  <script>
 import Markdown from 'markdown-it'
+import InfoCard from '~/components/InfoCard'
 
 export default {
   async asyncData ({ params }) {
     let post = await import('~/content/programmes/' + params.slug + '.json')
     return post
+  },
+
+  components: {
+    InfoCard
   },
 
   computed: {

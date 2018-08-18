@@ -2,7 +2,7 @@
   "title": "Ribbon Award",
   "subtitle": "Fun, safe, structured gymnastics for young children of all abilities.",
   "age": "5 & 6",
-  "class": [
+  "classes": [
     {
       "days": [
         {
@@ -13,7 +13,8 @@
         }
       ],
       "time": "3:30 - 4:20PM",
-      "cost": "$120"
+      "cost": "$120",
+      "detail": "Yo"
     }
   ],
   "category": "Recreational",

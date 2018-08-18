@@ -27,6 +27,13 @@ collections:
       - {label: "Category", name: "category", widget: "select", options: ["Recreational", "Intermediate", "Advanced"]}
       - {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Additional Items"
+        name: "items"
+        widget: "list"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: string}
+          - {label: Image, name: image, widget: image}
   - label: "Pages"
     name: "pages"
     files:

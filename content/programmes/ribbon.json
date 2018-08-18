@@ -9,12 +9,14 @@
     {
       "title": "Developing",
       "content": "Our award system is something we are constantly developing, and confident that it produces well rounded gymnasts. We cover all skills within the gymnast current level during the term, either in circuits or in small groups with coaches.",
-      "image": "/images/uploads/developing-ribbon.png"
+      "image": "/images/uploads/developing-ribbon.png",
+      "is_ribbon": true
     },
     {
       "title": "Confident",
       "content": "Our award system is something we are constantly developing, and confident that it produces well rounded gymnasts. We cover all skills within the gymnast current level during the term, either in circuits or in small groups with coaches.",
-      "image": "/images/uploads/confident-ribbon.png"
+      "image": "/images/uploads/confident-ribbon.png",
+      "is_ribbon": true
     }
   ]
 }

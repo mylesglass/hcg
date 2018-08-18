@@ -2,6 +2,18 @@
   "title": "Badge Award",
   "subtitle": "Entry-level gymnastics for all abilities this needs to be longer.",
   "age": "7 - 9 Years Old",
+  "classes": [
+    {
+      "days": [
+        {
+          "monday": true,
+          "wednesday": true
+        }
+      ],
+      "time": "4:30 - 5:30PM",
+      "cost": "$150"
+    }
+  ],
   "category": "Recreational",
   "thumbnail": "/images/uploads/4xbadge_3.jpg",
   "body": "Yo",

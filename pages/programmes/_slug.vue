@@ -7,7 +7,7 @@
       </header>
       <span v-html="htmlContent" class="markdown"></span>
     </div>
-    <div class="container">
+    <div class="container" v-if="items">
       <info-card v-for="item in items" :key="item.title" :item="item"/>
     </div>
   </section>

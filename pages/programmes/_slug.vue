@@ -36,7 +36,7 @@
         </div>
       </nav>
     </div>
-    <div class="container" v-if="classes.length > 1">
+    <div class="container table-container" v-if="classes.length > 1">
       <b-table :data="classes">
         <template slot-scope="props">
           <b-table-column field="days" label="Day">
@@ -122,7 +122,7 @@ export default {
  </script>
  
  <style lang="scss" scoped>
- .level-container {
+ .level-container, .table-container {
    padding-bottom: 2rem;
  }
  </style>

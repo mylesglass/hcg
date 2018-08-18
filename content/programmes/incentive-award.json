@@ -2,6 +2,38 @@
   "title": "Incentive Award",
   "subtitle": "Artistic gymnastics for gymnasts looking for more and more.",
   "age": "6 - 15 Years Old",
+  "classes": [
+    {
+      "days": [
+        {
+          "tuesday": true
+        }
+      ],
+      "time": "4:30 - 5:30PM",
+      "cost": "$150",
+      "detail": "Junior class for levels 1 - 4"
+    },
+    {
+      "days": [
+        {
+          "wednesday": true
+        }
+      ],
+      "time": "5:00 - 6:15PM",
+      "cost": "$187",
+      "detail": "Levels 4, 5 & 6"
+    },
+    {
+      "days": [
+        {
+          "friday": true
+        }
+      ],
+      "time": "3:45 - 5:00PM",
+      "cost": "$187",
+      "detail": "Levels 5+"
+    }
+  ],
   "category": "Intermediate",
   "thumbnail": "/images/uploads/incentive4x3.jpg",
   "body": "Ayyyyyyyy",

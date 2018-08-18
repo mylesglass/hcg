@@ -5,5 +5,11 @@
   "category": "Recreational",
   "thumbnail": "/images/uploads/4xbadge_3.jpg",
   "body": "Yo",
-  "items": []
+  "items": [
+    {
+      "title": "Iron",
+      "content": "Both your second example and your right-hand expression in the && operation tests if the value is \"falsey\", i.e., if it coerces to false in a boolean context. Such values include null, false, 0, and the empty string, not all of which you may want to discard.",
+      "image": "/images/uploads/iron-badge.png"
+    }
+  ]
 }

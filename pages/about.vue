@@ -1,16 +1,12 @@
 <template>
   <div id="about">
-    <section class="hero is-primary is-small">
-      <div class="hero-body">
-        <div class="container">
-          <header>
-            <h1>{{ title }}</h1>
-            <p class="subtitle">{{ subtitle }}</p>
-          </header>
-        </div>
-      </div>
-    </section>
     <section class="section">
+      <div class="container">
+        <header>
+          <h1>{{ title }}</h1>
+          <p class="subtitle">{{ subtitle }}</p>
+        </header>
+      </div>
       <div class="container">
         <span v-html="htmlContent"></span>
       </div>

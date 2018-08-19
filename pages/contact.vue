@@ -1,17 +1,11 @@
 <template>
   <div id="contact">
-    <section class="hero is-primary is-small">
-      <div class="hero-body">
-        <div class="container">
-          <header>
-            <h1>Contact Us!</h1>
-            <p class="subtitle">We're always looking for new members, and happy to discuss with you what's best for your needs. Don't hesitate to use one of the following forms of communication to get in touch.</p>
-          </header>
-        </div>
-      </div>
-    </section>
     <section class="section">
       <div class="container">
+        <header>
+          <h1>Contact Us!</h1>
+          <p class="subtitle">We're always looking for new members, and happy to discuss with you what's best for your needs. Don't hesitate to use one of the following forms of communication to get in touch.</p>
+        </header>
         <div class="columns">
           <div class="column">
             <p class="title">Phone</p>

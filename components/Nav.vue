@@ -85,7 +85,7 @@ export default {
 // Colors
 $nav-unselected: #9898bb;
 $nav-selected: rgb(100, 100, 100);
-$hcg-deep-purple: #0e132b; 
+$hcg-deep-purple: #194280; 
 $turq: hsl(197, 78%, 41%);
 
 @media only all and (min-width: 1088px) {
@@ -102,6 +102,8 @@ $turq: hsl(197, 78%, 41%);
       padding-right: 30px;
       padding-left: 30px;
       color: $nav-unselected;
+      -webkit-transition: color 0.5s; /* Safari */
+      transition: color 0.5s;
     }
 
     .nuxt-link-active {
@@ -123,10 +125,12 @@ $turq: hsl(197, 78%, 41%);
       p {
         text-transform: uppercase;
         font-size: 0.8rem;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 2px;
         color: $nav-unselected;
         padding-right: 20px;
+        -webkit-transition: color 0.5s; /* Safari */
+        transition: color 0.5s;
       }
     }
 

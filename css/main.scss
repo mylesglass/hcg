@@ -111,6 +111,10 @@ ul, ol {
     
       table {
         min-width: 360px;
+        background-color: white;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
       }
     
       th, td {

@@ -1,9 +1,7 @@
 <template>
   <div id="homepage">
-    <!-- Splash & Navigation -->
+    <!-- Splash -->
     <section class="hero is-large" :style="bg">
-      <!-- Hero content: will be in the middle -->
-      
       <div class="hero-body">
         <div class="container">
           <h1 class="title splash-title has-text-white">
@@ -15,7 +13,6 @@
           <nuxt-link to="/programmes" class="button is-primary is-outlined is-inverted">See Our Programmes</nuxt-link>
         </div>
       </div>
-      
     </section>
   
     <!-- About HCG -->
@@ -78,13 +75,7 @@
 </template>
 
 <script>
-import Parallax from 'vue-parallaxy'
-
 export default {
-  components: {
-    Parallax
-  },
-
   async asyncData() {
     let content = await import('~/content/home.json')
     return content

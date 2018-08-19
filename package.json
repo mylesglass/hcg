@@ -19,8 +19,7 @@
     "nuxt": "^1.0.0",
     "nuxt-buefy": "^0.1.0",
     "nuxt-material-design-icons": "^1.0.4",
-    "sass-loader": "^7.0.3",
-    "vue-parallaxy": "^1.1.1"
+    "sass-loader": "^7.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

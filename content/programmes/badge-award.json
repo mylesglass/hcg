@@ -22,6 +22,26 @@
       "title": "Iron",
       "content": "Both your second example and your right-hand expression in the && operation tests if the value is \"falsey\", i.e., if it coerces to false in a boolean context. Such values include null, false, 0, and the empty string, not all of which you may want to discard.",
       "image": "/images/uploads/iron-badge.png"
+    },
+    {
+      "title": "Bronze",
+      "content": "Netlify CMS stores content in your GitHub, GitLab, or Bitbucket repository. In order for this to work, you need to authenticate with your Git host, and in most cases that requires a server. We have a few options for handling this.",
+      "image": "/images/uploads/bronze-badge.png"
+    },
+    {
+      "title": "Silver",
+      "content": "Netlify CMS stores content in your GitHub, GitLab, or Bitbucket repository. In order for this to work, you need to authenticate with your Git host, and in most cases that requires a server. We have a few options for handling this.",
+      "image": "/images/uploads/silver-badge.png"
+    },
+    {
+      "title": "Gold",
+      "content": "Netlify CMS stores content in your GitHub, GitLab, or Bitbucket repository. In order for this to work, you need to authenticate with your Git host, and in most cases that requires a server. We have a few options for handling this.",
+      "image": "/images/uploads/gold-badge.png"
+    },
+    {
+      "title": "Star Awards",
+      "content": "Netlify CMS stores content in your GitHub, GitLab, or Bitbucket repository. In order for this to work, you need to authenticate with your Git host, and in most cases that requires a server. We have a few options for handling this.",
+      "image": "/images/uploads/star-badge.png"
     }
   ]
 }

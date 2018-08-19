@@ -1,11 +1,5 @@
 <template>
   <div id="programmes">
-    <section class="hero is-primary is-small">
-      <div class="hero-head">
-        <inverted-nav></inverted-nav>
-      </div>
-    </section>
-
     <section class="section">
       <div class="container">
         <p class="title">Our Programmes</p>
@@ -29,14 +23,10 @@
 </template>
 
 <script>
-import InvertedNav from '~/components/InvNav'
 import ProgrammeCard from '~/components/ProgrammeCard'
 
 export default {
-  layout: 'page',
-
   components: {
-    InvertedNav,
     ProgrammeCard
   },
 

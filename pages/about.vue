@@ -1,9 +1,6 @@
 <template>
   <div id="about">
     <section class="hero is-primary is-small">
-      <div class="hero-head">
-        <inverted-nav></inverted-nav>
-      </div>
       <div class="hero-body">
         <div class="container">
           <header>
@@ -23,15 +20,8 @@
 
 <script>
 import Markdown from 'markdown-it'
-import InvertedNav from '~/components/InvNav'
 
 export default {
-    layout: 'page',
-
-    components: {
-      InvertedNav
-    },
-
     async asyncData() {
         let content = await import('~/content/about.json')
         return content

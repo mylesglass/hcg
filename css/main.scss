@@ -1,7 +1,9 @@
+
 // Typography
 
 body {
     font-family: "Inter UI", "Helvetica Neue", Arial, sans-serif; /* 1 */
+    background-color: #f6f6f6;
 }
 
 header {
@@ -52,11 +54,6 @@ ul, ol {
 
 // Layout
 
-nav {
-    margin: auto;
-    max-width: 800px;
-}
-
 .container {
     max-width: 800px;
 }
@@ -68,9 +65,6 @@ nav {
 
 // Navigation
 
-.nuxt-link-exact-active {
-    
-}
 
 .hero {
     a.navbar-item:hover {

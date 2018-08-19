@@ -1,9 +1,6 @@
 <template>
   <div id="contact">
     <section class="hero is-primary is-small">
-      <div class="hero-head">
-        <inverted-nav></inverted-nav>
-      </div>
       <div class="hero-body">
         <div class="container">
           <header>
@@ -43,13 +40,8 @@
 </template>
 
 <script>
-import InvertedNav from '~/components/InvNav'
-
 export default {
-  layout: 'page',
-
   components: {
-    InvertedNav
   }
 }
 </script>

@@ -1,13 +1,7 @@
 <template>
   <div id="homepage">
-    
     <!-- Splash & Navigation -->
     <section class="hero is-large" :style="bg">
-      <!-- Hero head: will stick at the top -->
-      <div class="hero-head">
-        <inverted-nav></inverted-nav>
-      </div>
-
       <!-- Hero content: will be in the middle -->
       
       <div class="hero-body">
@@ -84,14 +78,10 @@
 </template>
 
 <script>
-import InvertedNav from '~/components/InvNav'
 import Parallax from 'vue-parallaxy'
 
 export default {
-  layout: 'home',
-
   components: {
-    InvertedNav,
     Parallax
   },
 

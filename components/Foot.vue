@@ -31,3 +31,8 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+.footer {
+  border-top: 1px solid rgba(108,108,108,0.1);
+}
+</style>

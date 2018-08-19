@@ -5,16 +5,17 @@
     {
       "title": "About",
       "url": "/about",
-      "is_active": false
+      "icon": "information"
     },
     {
       "title": "Contact",
       "url": "/contact",
-      "is_active": false
+      "icon": "cellphone"
     },
     {
       "title": "Members",
-      "url": "/members"
+      "url": "/members",
+      "icon": "account"
     }
   ],
   "dropdown": {

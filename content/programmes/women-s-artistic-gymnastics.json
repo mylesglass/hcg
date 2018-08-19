@@ -2,6 +2,23 @@
   "title": "Women's Artistic Gymnastics",
   "subtitle": "Competitive gymnastics that produces healthy, confident, happy athletes",
   "age": "6 Years and above",
+  "classes": [
+    {
+      "days": [
+        {
+          "monday": true,
+          "tuesday": true,
+          "wednesday": false,
+          "thursday": true,
+          "friday": true,
+          "saturday": true
+        }
+      ],
+      "time": "Varies per level",
+      "cost": " ",
+      "detail": " "
+    }
+  ],
   "category": "Advanced",
   "thumbnail": "/images/uploads/4x3_template-recovered.jpg",
   "body": "# WAG",

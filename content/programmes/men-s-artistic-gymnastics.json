@@ -1,0 +1,53 @@
+{
+  "title": "Men's Artistic Gymnastics",
+  "subtitle": "Competitive gymnastics for boys",
+  "age": "7+",
+  "classes": [
+    {
+      "days": [
+        {
+          "monday": true,
+          "thursday": true,
+          "saturday": true
+        }
+      ],
+      "time": "Varies per level",
+      "cost": "$---"
+    }
+  ],
+  "category": "Advanced",
+  "thumbnail": "/images/uploads/ribbon_4x3.jpg",
+  "body": "We Out Here",
+  "items": [
+    {
+      "title": "Floor",
+      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "image": "/images/uploads/ub.png"
+    },
+    {
+      "title": "Pommel Horse",
+      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "image": "/images/uploads/ub.png"
+    },
+    {
+      "title": "Still Rings",
+      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "image": "/images/uploads/ub.png"
+    },
+    {
+      "title": "Vault",
+      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "image": "/images/uploads/ub.png"
+    },
+    {
+      "title": "Parallel Bars",
+      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "image": "/images/uploads/ub.png"
+    },
+    {
+      "title": "Horizontal Bar",
+      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "image": "/images/uploads/ub.png"
+    }
+  ]
+}

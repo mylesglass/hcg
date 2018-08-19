@@ -1,0 +1,27 @@
+{
+  "title": "Adults",
+  "subtitle": "The international competition order is decided by the FIG. The men's Olympic order is floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar.",
+  "age": "17+",
+  "classes": [
+    {
+      "days": [
+        {
+          "wednesday": true
+        }
+      ],
+      "time": "7:15 - 9:15PM",
+      "cost": "$444",
+      "detail": ""
+    }
+  ],
+  "category": "Recreational",
+  "thumbnail": "/images/uploads/preschool_4x3.jpg",
+  "body": "The international competition order is decided by the FIG. The men's Olympic order is floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar.",
+  "items": [
+    {
+      "title": "Conditioning",
+      "content": "The international competition order is decided by the FIG. The men's Olympic order is floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar.",
+      "image": "/images/uploads/ub.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "card_1": {
+        "title": "FriendlyManager",
+        "subtitle": "Our enrollments are handled externally via Friendly Manager.",
+        "image": "https://bulma.io/images/placeholders/1280x960.png",
+        "button": "Go",
+        "link": "https://harbourcitygym.friendlymanager.com/login?"
+    },
+
+    "card_2": {
+        "title": "Coaches & Admin",
+        "subtitle": "Tools & resources for our coaches and administrative staff.",
+        "image": "https://bulma.io/images/placeholders/1280x960.png",
+        "button": "Go",
+        "link": "https://hcg-org-nz.firebaseapp.com/#/home/dashboard"
+    }
+}

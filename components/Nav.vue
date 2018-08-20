@@ -45,14 +45,9 @@
             <p>{{ item.title }}</p>
         </nuxt-link>
 
-        <!-- Login 
-        <nuxt-link class="navbar-item" to="/login">
-          <div class="field">
-            <p class="control">
-              <a class="button">Sign In</a>
-            </p>
-          </div>
-        </nuxt-link>-->
+        <nuxt-link class="navbar-item login-item" to="/login">
+          <b-icon icon="login-variant" class="nav-icon is-hidden-touch"></b-icon>
+        </nuxt-link>
       </div>
     </div>
   </nav>
@@ -178,6 +173,10 @@ $turq: hsl(197, 78%, 41%);
 
     .dropdown-menu {
       min-width: 17.2rem;
+    }
+
+    .login-item {
+      min-width: 1rem;
     }
   }
 }

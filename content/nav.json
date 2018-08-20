@@ -13,6 +13,11 @@
       "icon": "cellphone"
     },
     {
+      "title": "News",
+      "url": "/news",
+      "icon": "newspaper"
+    },
+    {
       "title": "",
       "url": "/login",
       "icon": "login-variant"

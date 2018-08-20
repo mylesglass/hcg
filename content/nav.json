@@ -13,9 +13,9 @@
       "icon": "cellphone"
     },
     {
-      "title": "Members",
-      "url": "/members",
-      "icon": "account"
+      "title": "",
+      "url": "/login",
+      "icon": "login-variant"
     }
   ],
   "dropdown": {

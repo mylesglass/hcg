@@ -21,17 +21,26 @@
           </div>
         </div>
         <div class="level-item has-text-centered">
-          <b-tooltip animated type="is-light" position="is-bottom" multilined label="This class runs for 10 weeks over the school term.">
-            <div>
-              <p class="heading">Cost</p>
-              <p class="title">{{ entry.cost }}</p>
-            </div>
-          </b-tooltip>
+          <div>
+            <p class="heading">Cost</p>
+            <p class="title">{{ entry.cost }}</p>
+          </div>
         </div>
         <div class="level-item has-text-centered" v-if="entry.detail">
           <div>
             <p class="heading">Info</p>
             <p>{{ entry.detail }}</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <button class="button is-fullwidth is-success is-medium"
+              @click="isEnquireModalActive = true">
+              Enquire
+            </button>
+            <b-modal :active.sync="isEnquireModalActive" has-modal-card scroll="keep">
+              <enquire-modal-card :current-class="title"></enquire-modal-card>
+            </b-modal>
           </div>
         </div>
       </nav>
@@ -67,6 +76,7 @@
 import Markdown from 'markdown-it'
 import InfoCard from '~/components/InfoCard'
 import DayInfo from '~/components/DayInfo'
+import EnquireModalCard from '~/components/EnquireModalCard'
 
 export default {
   async asyncData ({ params }) {
@@ -76,7 +86,8 @@ export default {
 
   components: {
     InfoCard,
-    DayInfo
+    DayInfo,
+    EnquireModalCard
   },
 
   data () {
@@ -98,7 +109,9 @@ export default {
           field: 'detail',
           label: 'Details'
         }
-      ]
+      ],
+
+      isEnquireModalActive: false
     }
   },
 

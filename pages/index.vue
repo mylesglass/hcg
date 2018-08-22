@@ -36,24 +36,24 @@
       <div class="container has-text-centered programme-col-container">
         <div class="columns">
           <div class="column">
-            <figure class="image about-image is-16by9">
-              <img :src="about_image" alt="Harbour City Gymnastics">
+            <figure class="image about-image is-4x3">
+              <img :src="col1_image" alt="Harbour City Gymnastics">
             </figure>
             <p class="subtitle has-text-weight-bold has-text-light">{{ col1_title }}</p>
             <p class="paragraph has-text-light">{{ col1_desc }}</p>
             <nuxt-link :to="col1_link" class="home-button button is-primary is-inverted is-outlined">{{ col1_button }}</nuxt-link> 
           </div>
           <div class="column">
-            <figure class="image about-image is-16by9">
-              <img :src="about_image" alt="Harbour City Gymnastics">
+            <figure class="image about-image is-4x3">
+              <img :src="col2_image" alt="Harbour City Gymnastics">
             </figure>
             <p class="subtitle has-text-weight-bold has-text-light">{{ col2_title }}</p>
             <p class="paragraph has-text-light">{{ col2_desc }}</p>
             <nuxt-link :to="col2_link" class="home-button button is-primary is-inverted is-outlined">{{ col2_button }}</nuxt-link> 
           </div>
           <div class="column">
-            <figure class="image about-image is-16by9">
-              <img :src="about_image" alt="Harbour City Gymnastics">
+            <figure class="image about-image is-4x3">
+              <img :src="col3_image" alt="Harbour City Gymnastics">
             </figure>
             <p class="subtitle has-text-weight-bold has-text-light">{{ col3_title }}</p>
             <p class="paragraph has-text-light">{{ col3_desc }}</p>

@@ -9,6 +9,7 @@
         <div class="columns">
           <div class="column">
             <p class="title">Phone</p>
+            <a class="has-text-weight-bold is-size-5" href="tel:043864443">04 386 4443</a>
             <p class="paragraph">We can be reached via phone during the following hours:</p>
             <ul>
               <li>Tuesday: 9:30 - 1:00 PM</li>
@@ -39,4 +40,3 @@ export default {
   }
 }
 </script>
-

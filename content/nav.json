@@ -11,11 +11,6 @@
       "title": "Contact",
       "url": "/contact",
       "icon": "cellphone"
-    },
-    {
-      "title": "News",
-      "url": "/news",
-      "icon": "newspaper"
     }
   ],
   "dropdown": {

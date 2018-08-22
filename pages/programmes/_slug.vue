@@ -5,6 +5,9 @@
         <h1>{{ title }}</h1>
         <p class="subtitle">{{ subtitle }}</p>
       </header>
+      <figure class="image main-image">
+        <img :src="thumbnail" :alt="title + ' Image'">
+      </figure>
     </div>
     <div class="container level-container" v-for="entry in classes" :key="entry.time" v-if="classes.length === 1">
       <nav class="level">
@@ -138,6 +141,13 @@ export default {
  <style lang="scss" scoped>
  .level-container, .table-container {
    padding-bottom: 2rem;
+ }
+
+ .main-image {
+   padding-bottom: 2rem;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
  }
  </style>
  

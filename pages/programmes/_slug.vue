@@ -32,6 +32,7 @@
             <p>{{ entry.detail }}</p>
           </div>
         </div>
+        <!-- Enquiry Dialog 
         <div class="level-item has-text-centered">
           <div>
             <button class="button is-fullwidth is-success is-medium"
@@ -42,7 +43,7 @@
               <enquire-modal-card :current-class="title"></enquire-modal-card>
             </b-modal>
           </div>
-        </div>
+        </div>-->
       </nav>
     </div>
     <div class="container table-container" v-if="classes.length > 1">

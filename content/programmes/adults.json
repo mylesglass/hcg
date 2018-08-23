@@ -1,7 +1,7 @@
 {
   "title": "Adults",
-  "subtitle": "The international competition order is decided by the FIG. The men's Olympic order is floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar.",
-  "age": "17+",
+  "subtitle": "You're never to old to do gymnastics! ",
+  "age": "17+ Years Old",
   "classes": [
     {
       "days": [
@@ -16,12 +16,6 @@
   ],
   "category": "Recreational",
   "thumbnail": "/images/uploads/preschool_4x3.jpg",
-  "body": "The international competition order is decided by the FIG. The men's Olympic order is floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar.",
-  "items": [
-    {
-      "title": "Conditioning",
-      "content": "The international competition order is decided by the FIG. The men's Olympic order is floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar.",
-      "image": "/images/uploads/ub.png"
-    }
-  ]
+  "body": "Our Adults class is designed for gymnasts at any level (beginner through to advanced) aged 17 or older.\n\nClasses generally begin with a group warm-up, stretching, and basic tumbling and line drills. After this gymnasts are free to pursue what they are interested in.\n\nNewcomers are encouraged to work with a coach to develop fundamental shapes and basic tumbles. Come to class with goals in mind. We will be able to point you in the right direction and advice on how to structure your training to achieve what it is you want.\n\nMany of our coaches attend adults class, and are full to the brim of knowledge that they are happy to share. Please ask us, we love teaching. \n\nMost sessions will conclude with an optional conditioning session to help develop shapes and strength for gymnastics.",
+  "items": []
 }

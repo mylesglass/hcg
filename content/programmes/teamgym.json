@@ -1,7 +1,7 @@
 {
   "title": "TeamGym",
   "subtitle": "Take skills from other types of gymnastics and add a team element.",
-  "age": "7 and above",
+  "age": "7 Years and above",
   "classes": [
     {
       "days": [
@@ -20,7 +20,7 @@
         }
       ],
       "time": "2:00 - 4:00PM",
-      "cost": "$333",
+      "cost": "$160",
       "detail": "Junior Training"
     },
     {
@@ -30,7 +30,7 @@
         }
       ],
       "time": "4:00 - 6:00PM",
-      "cost": "$999",
+      "cost": "$190",
       "detail": "Intermediate Training 2"
     },
     {
@@ -40,28 +40,28 @@
         }
       ],
       "time": "6:00 - 8:00PM",
-      "cost": "$ABC",
+      "cost": "$---",
       "detail": "Senior Training"
     }
   ],
   "category": "Intermediate",
   "thumbnail": "/images/uploads/team-4x3.jpg",
-  "body": "TeamGym is a competitive programme that we offer within our club. HCG has a long history of competing in the sport, most years we have between 3 - 4 teams that will compete in multiple events accross the lower North Island.  It involves a fair amount of commitment, as gymnasts will be required to travel for competitions and older teams will train more than once per week.\n\n# How to get involved?\n\nWe form our TeamGym teams in Term 1 of each year. We do this to prepare for the competition season which is between September and December of each year. If you would like to be involved in next years selection process, make sure you let your coach know or email [Myles](mailto:myles@hcg.org.nz) to register your interest.\n\n# What is TeamGym?\n\nTeamGym is a form of gymnastics competition popular in Europe, and gaining traction in New Zealand and Australia. It comprises of 3 different disciplines: floor, tumbling, and spring.\n\nIn the lower North Island, we also like wear costumes, use props, and paint our faces.",
+  "body": "TeamGym is a competitive programme that we offer within our club. HCG has a long history of competing in the sport, most years we have between 3 - 4 teams that will compete in multiple events accross the lower North Island.  It involves a fair amount of commitment, as gymnasts will be required to travel for competitions and older teams will train more than once per week.\n\n## How to get involved?\n\nWe form our teams in Term 1 of each year. We do this to prepare for the competition season which is between September and December of each year. If you would like to be involved in next years selection process, make sure you let your coach know or email [Myles](mailto:myles@hcg.org.nz) to register your interest.\n\n## What is TeamGym?\n\nTeamGym is a form of gymnastics competition popular in Europe, and gaining traction in New Zealand and Australia. It comprises of 3 different disciplines: floor, tumbling, and spring.\n\nIn the lower North Island, we also like wear costumes, use props, and paint our faces.",
   "items": [
     {
       "title": "Floor",
       "content": "A choreographed routine combining a mixture of dance, flexibility, and skill is performed to music. There is a list of required skills to have that involve tumbling, balancing, and other gymnastics elements.",
-      "image": "/images/uploads/ub.png"
+      "image": "/images/uploads/fx.png"
     },
     {
       "title": "Spring",
       "content": "Spring is a combination of vaulting from a beatboard over a vaulting apparatus, and high aerial skills performed from a mini-trampoline.",
-      "image": "/images/uploads/ub.png"
+      "image": "/images/uploads/v.png"
     },
     {
       "title": "Tumble",
       "content": "Tumbling is performed on either a spring floor, or a floor with more rebound (like the big air floor that we have against the back wall of our gym). Teams will perform series of tumbles, synchronized, and individually.",
-      "image": "/images/uploads/ub.png"
+      "image": "/images/uploads/fx.png"
     }
   ]
 }

@@ -2,8 +2,10 @@
   <div id="programmes">
     <section class="section">
       <div class="container">
-        <p class="title">Our Programmes</p>
-        <p class="subtitle">We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
+        <header>
+          <h1>Our Programmes</h1>
+          <p class="subtitle">We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
+        </header>
         <div class="columns is-multiline">
           <div class="column is-one-third" v-for="prog in progs" :key="prog.title">
             <programme-card

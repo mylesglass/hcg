@@ -6,7 +6,7 @@
     {
       "days": [
         {
-          "tuesday": true,
+          "tuesday": false,
           "wednesday": true,
           "thursday": true
         }

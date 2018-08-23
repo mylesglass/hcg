@@ -21,7 +21,7 @@
   ],
   "category": "Advanced",
   "thumbnail": "/images/uploads/4x3_template-recovered.jpg",
-  "body": "# WAG\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/HGqgyQwULMo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+  "body": "# WAG\n\n<iframe src=\"https://www.youtube.com/embed/HGqgyQwULMo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
   "items": [
     {
       "title": "Vault",

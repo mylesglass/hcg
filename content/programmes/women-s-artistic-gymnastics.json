@@ -21,26 +21,26 @@
   ],
   "category": "Advanced",
   "thumbnail": "/images/uploads/4x3_template-recovered.jpg",
-  "body": "# WAG",
+  "body": "# WAG\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/HGqgyQwULMo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
   "items": [
     {
       "title": "Vault",
-      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "content": "A 25m run up must develop the necessary power to take off from the springboard, and complete aerial skills before a stable landing",
       "image": "/images/uploads/ub.png"
     },
     {
       "title": "Uneven Bars",
-      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "content": "Continuous swings in both directions, above, below and between bars with multiple re-grasp elements, precede an acrobatic dismount.",
       "image": "/images/uploads/ub.png"
     },
     {
       "title": "Balance Beam",
-      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "content": "Series of leaps, jumps and turns demonstrate elegance, flexibility, balance and control, before a tumbling combination to dismount.",
       "image": "/images/uploads/ub.png"
     },
     {
       "title": "Floor",
-      "content": "For repositories stored on GitHub, the github backend allows CMS users to log in directly with their GitHub account. Note that all users must have push access to your content repository for this to work.",
+      "content": "Choreographed to music, this acrobatic routine displays tumbling, strength and balance movements connected with gymnastic artistry.",
       "image": "/images/uploads/ub.png"
     }
   ]

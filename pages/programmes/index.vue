@@ -1,26 +1,27 @@
 <template>
   <div id="programmes">
-    <section class="section">
+    <div class="helping-header">
       <div class="container">
         <header>
           <h1>Our Programmes</h1>
-          <p class="subtitle">We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
+          <p>We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
         </header>
-        <div class="columns is-multiline">
-          <div class="column is-one-third" v-for="prog in progs" :key="prog.title">
-            <programme-card
-              :title="prog.title"
-              :subtitle="prog.subtitle"
-              :age="prog.age"
-              :link="prog._path"
-              :imageUrl="prog.thumbnail"
-              :category="prog.category" />
-          </div>
-        </div>
-
+      </div>
+    </div>
+    <section class="section">
+      <div class="container">
+        <muuri-grid :options="muuriOptions" id="grid">
+          <programme-card
+            v-for="prog in progs" :key="prog.title" :id="prog._path"
+            :title="prog.title"
+            :subtitle="prog.subtitle"
+            :age="prog.age"
+            :link="prog._path"
+            :imageUrl="prog.thumbnail"
+            :category="prog.category" />
+        </muuri-grid>
       </div>
     </section>
-
   </div>
 </template>
 
@@ -43,90 +44,34 @@ export default {
 
     // Here we sort into categories
 
-    return { progs }
+    return { 
+      progs,
+      muuriOptions: {
+        items: '.item',
+        dragEnabled: true,
+        dragReleaseDuration: 100
+      },
+      grid: Object
+    }
   }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .intermediate, .other{
   background-color: #0e132b;
 }
+
+// Main Heading
+.helping-header {
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
+    background: #ffffff; /* Old browsers */
+    min-height: 3.8rem;
+
+    header {
+      padding-top: 3rem;
+    }
+}
 </style>
-
-<!--
-
-    <section class="section">
-      <div class="container">
-        <p class="title">Recreational</p>
-        <p class="subtitle">Gymnastics courses that encourage fun, movement, and allow entry level</p>
-        <div class="columns">
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="section intermediate">
-      <div class="container">
-        <p class="title has-text-white">Intermediate</p>
-        <p class="subtitle has-text-light">Gymnastics courses that encourage fun, movement, and allow entry level</p>
-        <div class="columns">
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="section">
-      <div class="container">
-        <p class="title">Advanced</p>
-        <p class="subtitle">Gymnastics courses that encourage fun, movement, and allow entry level</p>
-        <div class="columns">
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="section other">
-      <div class="container">
-        <p class="title has-text-white">Other</p>
-        <p class="subtitle has-text-light">Gymnastics courses that encourage fun, movement, and allow entry level</p>
-        <div class="columns">
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-          <div class="column">
-            <programme-card/>
-          </div>
-        </div>
-      </div>
-    </section>-->

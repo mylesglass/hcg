@@ -1,32 +1,31 @@
 <template>
-  <div class="programme-card">
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is4by3">
-          <img :src="imageUrl" alt="Programme Image">
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <p class="subtitle has-text-weight-bold">{{ title }}</p>
-            <div class="level">
-              <div class="level-left">
-                <div class="level-item">
-                  <p class="meta">{{ age }}</p>
-                </div>
-              </div>
-              <div class="level-right">
-                <div class="level-item">
-                  <span class="tag" :class="tagColor">{{ category }}</span>
-                </div>
-              </div>
+  <div class="item"
+    :style="{
+      'width': '100%',
+      'max-width': width,
+      'min-height': height
+    }">
+    <div class="item-content">
+      <div class="card">
+        <div class="card-image">
+          <span class="tag category" :class="tagColor">{{ category }}</span>
+          <figure class="image is4by3">
+            <img :src="imageUrl" alt="Programme Image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="has-text-weight-bold is-size-5">{{ title }}</p>
+              <p class="meta has-text-grey-light">{{ age }}</p>
             </div>
           </div>
-        </div>
-        <div class="content">
-          <p>{{ subtitle }}</p>
-          <nuxt-link :to="link" class="button is-fullwidth is-info is-outlined">View</nuxt-link>
+          <div class="content">
+            <p>{{ subtitle }}</p>
+            <div class="card-button">
+              <nuxt-link :to="link" class="button car-button is-fullwidth is-info is-outlined">View</nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -44,6 +43,13 @@ export default {
     category: String
   },
 
+  data () {
+    return {
+      width: '250px',
+      height: '28.5rem'
+    }
+  },
+
   computed: {
     tagColor () {
       if (this.category === "Recreational") return 'is-success'
@@ -56,13 +62,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.media-content {
-  min-height: 75px;
+.category {
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  right: 5px;
 }
 
-.media-content > .subtitle {
-  margin-bottom: 0;
+.card {
+  min-height: 28.5rem;
+  position: relative
 }
 
+.card-button {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  width: 200px;
+}
 </style>
 

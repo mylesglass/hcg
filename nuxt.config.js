@@ -47,7 +47,8 @@ module.exports = {
   ** CSS
   */
   css: [
-    '~/css/main.scss'
+    '~/css/main.scss',
+    'vue-muuri/dist/vue-muuri.css'
   ],
   /*
   ** Modules
@@ -94,6 +95,10 @@ module.exports = {
       }
     }
   },
+
+  plugins: [
+    { src: '~/plugins/vue-muuri', ssr: false }
+  ],
 
   router: {
     scrollBehavior: function (to, from, savedPosition) {

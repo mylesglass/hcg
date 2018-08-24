@@ -16,7 +16,7 @@
     </section>
   
     <!-- About HCG -->
-    <section class="section" id="about-section">
+    <section class="section home-section" id="about-section">
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ about_title }}</h1>
         <figure class="image about-image is-16by9">
@@ -28,7 +28,7 @@
     </section>
 
     <!-- Programmes -->
-    <section class="section" id="programmes-section">
+    <section class="section home-section" id="programmes-section">
       <div class="container has-text-centered">
         <h1 class="title home-title has-text-white">{{ programmes_title}}</h1>
         <p class="subtitle has-text-light">{{ programmes_subtitle }}</p>
@@ -64,7 +64,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="section" id="contact-section">
+    <section class="section home-section" id="contact-section">
       <div class="container has-text-centered">
         <h1 class="title home-title">{{ contact_title }}</h1>
         <p class="subtitle">{{ contact_subtitle }}</p>
@@ -124,6 +124,10 @@ export default {
 .hero {
   background-size: cover; 
   background-position: center center;
+}
+
+.home-section {
+  padding-top: 120px;
 }
 </style>
 

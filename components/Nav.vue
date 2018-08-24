@@ -85,11 +85,7 @@ $turq: hsl(197, 78%, 41%);
 
 @media only all and (min-width: 1088px) {
   .navbar {
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-    background: #ffffff; /* Old browsers */
-    min-height: 3.8rem;
+    border-bottom: 1px solid #f3f3f3;
   }
 
   .navbar-menu {

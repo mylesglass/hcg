@@ -4,10 +4,8 @@
       <div class="container">
         <header>
           <h1>{{ title }}</h1>
-          <p class="subtitle">{{ subtitle }}</p>
+          <p>{{ subtitle }}</p>
         </header>
-      </div>
-      <div class="container">
         <span v-html="htmlContent"></span>
       </div>
     </section>

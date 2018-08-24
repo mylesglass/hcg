@@ -3,7 +3,7 @@
     <div class="container">
       <header>
         <h1>{{ title }}</h1>
-        <p class="subtitle">{{ subtitle }}</p>
+        <p>{{ subtitle }}</p>
       </header>
       <figure class="image main-image">
         <img :src="thumbnail" :alt="title + ' Image'">

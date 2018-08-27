@@ -14,7 +14,7 @@
     <div class="navbar-menu" id="mainNav" :class="{'is-active': navIsActive}">
       <div class="navbar-end">
         <!-- Programmes -->
-        <b-dropdown v-model="dropdown" hoverable v-if="$store.state.nav_items.dropdown">
+        <b-dropdown v-model="dropdown" hoverable v-if="$store.state.nav_items.dropdown" class="is-hidden-touch">
           <nuxt-link :to="$store.state.nav_items.dropdown.url" slot="trigger" class="navbar-item">
             <b-icon icon="run" class="nav-icon is-hidden-touch"></b-icon>
             <p>{{ $store.state.nav_items.dropdown.title }}</p>
@@ -37,7 +37,7 @@
 
         <!-- Other Menu Items -->
         <nuxt-link
-          class="navbar-item"
+          class="navbar-item is-hidden-touch"
           v-for="item in $store.state.nav_items.menu_items"
           :key="item.title"
           :to="item.url">
@@ -45,9 +45,33 @@
             <p>{{ item.title }}</p>
         </nuxt-link>
 
-        <nuxt-link class="navbar-item login-item" to="/login">
+        <nuxt-link class="navbar-item login-item is-hidden-touch" to="/login">
           <b-icon icon="login-variant" class="nav-icon is-hidden-touch"></b-icon>
         </nuxt-link>
+
+        <!-- Mobile Nav -->
+        <nav class="level is-mobile is-hidden-desktop">
+          <div class="level-item has-text-centered">
+            <nuxt-link to="/programmes">
+              <p class="heading">Programmes</p>
+              <b-icon icon="run" class="nav-icon"></b-icon>
+            </nuxt-link>
+          </div>
+          <div class="level-item has-text-centered"
+            v-for="item in $store.state.nav_items.menu_items"
+            :key="item.title">
+            <nuxt-link :to="item.url">
+              <p class="heading">{{ item.title }}</p>
+              <b-icon :icon="item.icon" class="nav-icon"></b-icon>
+            </nuxt-link>
+          </div>
+          <div class="level-item has-text-centered">
+            <nuxt-link to="/login">
+              <p class="heading">Login</p>
+              <b-icon icon="login-variant" class="nav-icon"></b-icon>
+            </nuxt-link>
+          </div>
+        </nav>
       </div>
     </div>
   </nav>

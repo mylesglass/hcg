@@ -3,7 +3,10 @@
     <div class="card-content">
       <div class="media">
         <div class="media-left">
-          <figure class="image is-128x128" :class="{ ribbon: item.is_ribbon }">
+          <figure class="image is-128x128 is-hidden-mobile" :class="{ ribbon: item.is_ribbon }">
+            <img :src="item.image">
+          </figure>
+          <figure class="image is-64x64 is-hidden-tablet" :class="{ ribbon: item.is_ribbon }">
             <img :src="item.image">
           </figure>
         </div>

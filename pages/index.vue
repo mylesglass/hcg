@@ -16,14 +16,35 @@
     </section>
   
     <!-- About HCG -->
-    <section class="section home-section" id="about-section">
+    <!-- Programmes -->
+    <section class="section home-section">
       <div class="container has-text-centered">
-        <h1 class="title home-title">{{ about_title }}</h1>
-        <figure class="image about-image is-16by9">
-          <img :src="about_image" alt="Harbour City Gymnastics">
-        </figure>
-        <p class="paragraph">{{ about_subtitle }}</p>
-        <nuxt-link to="/about" class="home-button button is-primary">{{ about_button }}</nuxt-link> 
+        <h1 class="title home-title">Why you should visit us</h1>
+      </div>
+      <div class="container programme-col-container">
+        <div class="columns">
+          <div class="column">
+            <figure class="image about-image is-4x3">
+              <img :src="col1_image" alt="Harbour City Gymnastics">
+            </figure>
+            <p class="subtitle has-text-weight-bold">Safe, Friendly Environment</p>
+            <p class="paragraph">We believe gymnastics is a safe and nuturing sport, and from the moment you walk into our gymnasium you will see we are a safe, </p> 
+          </div>
+          <div class="column">
+            <figure class="image about-image is-4x3">
+              <img :src="col2_image" alt="Harbour City Gymnastics">
+            </figure>
+            <p class="subtitle has-text-weight-bold">Awesome coaches, dedicated to gymnastics</p>
+            <p>Our staff all have a passion for gymnastics, and are fullly trained through Gymnastics NZ. We offer a higher coach-to-gymnast ratio than most other clubs.</p>
+          </div>
+          <div class="column">
+            <figure class="image about-image is-4x3">
+              <img :src="col3_image" alt="Harbour City Gymnastics">
+            </figure>
+            <p class="subtitle has-text-weight-bold">Opportunities for all abilities</p>
+            <p class="paragraph">Not only to we have </p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -90,6 +111,9 @@ export default {
 </script>
 
 <style scoped>
+.section  {
+  padding-bottom: 120px;
+}
 
 #programmes-section {
   background-color: #0e132b;

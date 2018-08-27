@@ -1,18 +1,33 @@
 <template>
   <div id="programmes">
-    <div class="helping-header">
+    <section class="section helping-header">
       <div class="container">
         <header>
           <h1>Our Programmes</h1>
           <p>We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
         </header>
       </div>
-    </div>
-    <section class="section">
+    </section>
+    <section class="section is-hidden-desktop">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-half" v-for="prog in progs" :key="prog.title">
+            <programme-card
+            :title="prog.title"
+            :subtitle="prog.subtitle"
+            :age="prog.age"
+            :link="prog._path"
+            :imageUrl="prog.thumbnail"
+            :category="prog.category" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-hidden-touch">
       <div class="container">
         <muuri-grid :options="muuriOptions" id="grid">
           <programme-card
-            v-for="prog in progs" :key="prog.title" :id="prog._path"
+            v-for="prog in progs" :key="prog.title" :id="prog._path" type="Desktop"
             :title="prog.title"
             :subtitle="prog.subtitle"
             :age="prog.age"

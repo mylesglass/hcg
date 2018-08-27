@@ -40,13 +40,12 @@ export default {
     age: String,
     link: String,
     imageUrl: String,
-    category: String
+    category: String,
+    type: String
   },
 
   data () {
     return {
-      width: '250px',
-      height: '28.5rem'
     }
   },
 
@@ -56,6 +55,16 @@ export default {
       else if (this.category === "Intermediate") return 'is-info'
       else if (this.category === "Advanced") return 'is-danger'
       else return 'is-white'
+    },
+
+    width () {
+      if(this.type === "Desktop") return '250px'
+      else return '100%'
+    },
+
+    height () {
+      if(this.type === "Desktop") return '28.5rem'
+      else return 'auto'
     }
   }
 }
@@ -72,13 +81,6 @@ export default {
 .card {
   min-height: 28.5rem;
   position: relative
-}
-
-.card-button {
-  position: absolute;
-  left: 25px;
-  bottom: 25px;
-  width: 200px;
 }
 </style>
 

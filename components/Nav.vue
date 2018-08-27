@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" v-on-clickaway="closeMenu">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <img :src="$store.state.nav_items.nav_logo" alt="Harbour City GymSports">
@@ -52,7 +52,7 @@
         <!-- Mobile Nav -->
         <nav class="level is-mobile is-hidden-desktop">
           <div class="level-item has-text-centered">
-            <nuxt-link to="/programmes">
+            <nuxt-link to="/programmes" @click.native="toggleMenu">
               <p class="heading">Programmes</p>
               <b-icon icon="run" class="nav-icon"></b-icon>
             </nuxt-link>
@@ -60,13 +60,13 @@
           <div class="level-item has-text-centered"
             v-for="item in $store.state.nav_items.menu_items"
             :key="item.title">
-            <nuxt-link :to="item.url">
+            <nuxt-link :to="item.url" @click.native="toggleMenu">
               <p class="heading">{{ item.title }}</p>
               <b-icon :icon="item.icon" class="nav-icon"></b-icon>
             </nuxt-link>
           </div>
           <div class="level-item has-text-centered">
-            <nuxt-link to="/login">
+            <nuxt-link to="/login" @click.native="toggleMenu">
               <p class="heading">Login</p>
               <b-icon icon="login-variant" class="nav-icon"></b-icon>
             </nuxt-link>
@@ -78,7 +78,11 @@
 </template>
 
 <script>
+import { mixin as clickaway } from 'vue-clickaway'
+
 export default {
+  mixins: [clickaway],
+
   data () {
     return {
       dropdown: '',
@@ -89,6 +93,10 @@ export default {
   methods: {
     toggleMenu () {
       this.navIsActive = !this.navIsActive
+    },
+
+    closeMenu () {
+      if (this.navIsActive) this.navIsActive = false
     }
   },
 

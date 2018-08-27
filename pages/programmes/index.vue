@@ -25,16 +25,18 @@
     </section>
     <section class="section is-hidden-touch">
       <div class="container">
-        <muuri-grid :options="muuriOptions" id="grid">
-          <programme-card
-            v-for="prog in progs" :key="prog.title" :id="prog._path" type="Desktop"
-            :title="prog.title"
-            :subtitle="prog.subtitle"
-            :age="prog.age"
-            :link="prog._path"
-            :imageUrl="prog.thumbnail"
-            :category="prog.category" />
-        </muuri-grid>
+        <no-ssr>
+          <muuri-grid :options="muuriOptions" id="grid">
+            <programme-card
+              v-for="prog in progs" :key="prog.title" :id="prog._path" type="Desktop"
+              :title="prog.title"
+              :subtitle="prog.subtitle"
+              :age="prog.age"
+              :link="prog._path"
+              :imageUrl="prog.thumbnail"
+              :category="prog.category" />
+          </muuri-grid>
+        </no-ssr>
       </div>
     </section>
   </div>

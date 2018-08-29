@@ -57,7 +57,7 @@
       "title": "In Training",
       "content": "This ribbon is awarded to recognise a gymnasts progress towards earning their current testing level. This means they still have some things to work on, and these skills should be clearly identified on their report card they are given at the final session of the term.",
       "image": "/images/uploads/training-ribbon.svg",
-      "is_ribbon": false
+      "is_ribbon": true
     }
   ]
 }

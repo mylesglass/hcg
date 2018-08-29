@@ -66,7 +66,15 @@ export default {
       muuriOptions: {
         items: '.item',
         dragEnabled: true,
-        dragReleaseDuration: 100
+        dragReleaseDuration: 100/**,
+        sortData: {
+          foo: function (item, element) {
+            return parseFloat(element.getAttribute('data-foo'));
+          },
+          bar: function (item, element) {
+            return element.getAttribute('data-bar').toUpperCase();
+          }
+        }**/
       },
       grid: Object
     }

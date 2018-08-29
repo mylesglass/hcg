@@ -33,7 +33,7 @@ export default {
 }
 
 .ribbon {
-  top: -26px;
+  top: -24px;
   width: 64px;
 }
 </style>

@@ -21,42 +21,42 @@
     {
       "title": "Iron",
       "content": "Designed for beginners aged between 7-9 covering basic skills necessary to move on to harder skills.",
-      "image": "/images/uploads/ironbadge.png"
+      "image": "/images/uploads/iron-badge.svg"
     },
     {
       "title": "Bronze",
       "content": "After achieving Iron, gymnasts move on to achieving their skills with confidence and attempting harder challenges.",
-      "image": "/images/uploads/bronzebadge.png"
+      "image": "/images/uploads/bronze-badge.svg"
     },
     {
       "title": "Silver",
       "content": "Gymnasts begin to demonstrate achievement in harder skills, control over their movements, and an understanding of all fundamental movements in gymnastics.",
-      "image": "/images/uploads/silverbadge.png"
+      "image": "/images/uploads/silver-badge.svg"
     },
     {
       "title": "Gold",
       "content": "Gymnasts demonstrate a confident understanding of fundamental movements and control over harder skills.",
-      "image": "/images/uploads/goldbadge.png"
+      "image": "/images/uploads/gold-badge.svg"
     },
     {
       "title": "Bronze Star",
       "content": "At this level gymnasts will be challenged to perform skills that require more strength and precision than previously. Introductions are made into safe stretching for splits and bridges. Round offs and handsprings are developed for tumbling. Dive roll vaults, and front flips are worked on. Gymnasts create and perform a beam routine with required skills.",
-      "image": "/images/uploads/star-badge.png"
+      "image": "/images/uploads/bronze-star.svg"
     },
     {
       "title": "Silver Start",
       "content": "Gymnasts who reach this level will put thier previous training into use and begin to learn difficult skills that require strong gymnastics fundementals. Handspring vaults and backhip circles are introduced. Front flips and new tumbling skills are taught.",
-      "image": "/images/uploads/star-badge.png"
+      "image": "/images/uploads/silver-star.svg"
     },
     {
       "title": "Gold Star",
       "content": "At this level, a degree of flexibility in what is taught is allowed. Gymnasts are taught skills that play to their strengths. At the completion of this level, gymnasts will continue to train and develop with their coaches guidance.",
-      "image": "/images/uploads/star-badge.png"
+      "image": "/images/uploads/gold-star.svg"
     },
     {
       "title": "In Training",
       "content": "This ribbon is awarded to recognise a gymnasts progress towards earning their current testing level. This means they still have some things to work on, and these skills should be clearly identified on their report card they are given at the final session of the term.",
-      "image": "/images/uploads/in-training-ribbon.png",
+      "image": "/images/uploads/training-ribbon.svg",
       "is_ribbon": true
     }
   ]

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" v-on-clickaway="closeMenu">
+  <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation" v-on-clickaway="closeMenu">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <img :src="$store.state.nav_items.nav_logo" alt="Harbour City GymSports">
@@ -115,10 +115,15 @@ $nav-selected: rgb(100, 100, 100);
 $hcg-deep-purple: #194280; 
 $turq: hsl(197, 78%, 41%);
 
+.navbar {
+  border-bottom: 1px solid #f3f3f3;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
+  background: #ffffff; /* Old browsers */
+}
+
 @media only all and (min-width: 1088px) {
-  .navbar {
-    border-bottom: 1px solid #f3f3f3;
-  }
 
   .navbar-menu {
     .nav-icon {
@@ -137,12 +142,12 @@ $turq: hsl(197, 78%, 41%);
       }
 
       &:hover {
-        padding-bottom: 3px !important;
+        padding-bottom: 6px !important;
       }
     }
 
     .navbar-item {
-      padding-bottom: 3px;
+      padding-bottom: 6px;
       min-width: 10rem;
 
       p {
@@ -159,7 +164,7 @@ $turq: hsl(197, 78%, 41%);
 
     .navbar-item:hover {
       border-bottom: 3px solid $turq;
-      padding-bottom: 0px;
+      padding-bottom: 3px;
 
       .nav-icon, p {
         color: $turq;

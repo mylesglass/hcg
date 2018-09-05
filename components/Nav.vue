@@ -128,7 +128,6 @@ $hcg-deep-purple: #194280;
 $turq: hsl(197, 78%, 41%);
 
 .navbar {
-  border-bottom: 1px solid #f3f3f3;
   -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
   -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
   box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
@@ -227,10 +226,15 @@ $turq: hsl(197, 78%, 41%);
 }
 
 .nav-logo {
-  width: 7rem;
+  width: 10.5rem;
+  padding-top: 6px;
 }
 
 .cartwheel-icon {
   padding-top: 7px;
+}
+
+.navbar-burger {
+  height: auto;
 }
 </style>

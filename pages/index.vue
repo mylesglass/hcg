@@ -1,15 +1,15 @@
 <template>
   <div id="homepage">
     <!-- Splash -->
-    <section class="hero is-large" :style="bg">
+    <section class="hero is-large is-primary is-bold" :style="bg">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title splash-title has-text-white">
+          <h1 class="splash-title has-text-white">
             {{ splash_heading }}
           </h1>
-          <h2 class="subtitle splash-subtitle has-text-light">
+          <p class="splash-subtitle has-text-light">
             {{ splash_subtitle }}
-          </h2>
+          </p>
           <nuxt-link to="/programmes" class="button is-primary is-outlined is-inverted">See Our Programmes</nuxt-link>
         </div>
       </div>
@@ -92,19 +92,28 @@
         <nuxt-link to="/contact" class="home-button button is-primary">{{ contact_button }}</nuxt-link> 
       </div>
     </section>
+
+    <foot />
   </div>
 </template>
 
 <script>
+import Foot from '~/components/Foot'
+
 export default {
   async asyncData() {
     let content = await import('~/content/home.json')
     return content
   },
 
+  components: {
+    Foot
+  },
+
   computed: {
     bg () {
-      return 'background-image: url(' + this.splash_image + ');'
+      // return 'background-image: url(' + this.splash_image + ');'
+      return '';
     }
   }
 }
@@ -125,11 +134,13 @@ export default {
 
 .splash-title {
   font-size: 3rem;
+  font-weight: 900;
   line-height: 3.4rem;
+  padding-bottom: 1rem;
 }
 
 .splash-subtitle {
-  font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .home-button {

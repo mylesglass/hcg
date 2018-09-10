@@ -22,7 +22,8 @@
     "nuxt-material-design-icons": "^1.0.4",
     "sass-loader": "^7.0.3",
     "vue-clickaway": "^2.2.2",
-    "vue-muuri": "^0.1.2"
+    "vue-muuri": "^0.1.2",
+    "vue-resize": "^0.4.4"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

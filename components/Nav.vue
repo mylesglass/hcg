@@ -120,8 +120,8 @@ export default {
 
 <style scoped lang="scss">
 // Colors
-$nav-unselected: #9898bb;
-$nav-selected: rgb(100, 100, 100);
+$nav-unselected: #194280;
+$nav-selected: #194280;
 $hcg-deep-purple: #194280; 
 $turq: hsl(197, 78%, 41%);
 

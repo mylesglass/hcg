@@ -97,7 +97,7 @@
       </div>
       <div class="column is-half">
         <section class="section right-column" :style="rightColumnHeight">
-          <div class="container">
+          <div class="container right-content-container">
             <span v-html="htmlContent" class="markdown"></span>
           </div>
           <div class="container" v-if="items">
@@ -196,18 +196,13 @@ export default {
  </script>
  
 <style lang="scss" scoped>
-h1 {
-  font-size: 5rem;
-  line-height: 5rem;
-}
-
 .level-container, .table-container {
 padding-bottom: 2rem;
 }
 
 .image-container {
 max-width: 100%;
-min-height: 500px;
+min-height: 25rem;
 background-size: cover; 
 background-position: center center;
 }
@@ -216,10 +211,14 @@ background-position: center center;
   
 }
 
+.right-content-container {
+  padding-top: 25rem;
+}
+
 .left-column {
 padding-left: 0px;
 padding-right: 0px;
-background-color: #5172aa;
+background-color: #2f3a4e;
 }
 
 .container {

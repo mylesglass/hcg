@@ -15,8 +15,7 @@
       </div>
     </section>
   
-    <!-- About HCG -->
-    <!-- Programmes -->
+    <!-- Visit Us 
     <section class="section home-section">
       <div class="container has-text-centered">
         <h1 class="title home-title">Why you should visit us</h1>
@@ -46,7 +45,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- Programmes -->
     <section class="section home-section" id="programmes-section">

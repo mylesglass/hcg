@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Contact Us!",
+  "subtitle": "We're always looking for new members, and happy to discuss with you what's best for your needs. Don't hesitate to use one of the following forms of communication to get in touch.",
+  "hours": [
+    "Tuesday: 9:30 - 1:00 PM",
+    "Wedneday: 9:30 - 1:00 PM",
+    "Thursday: 9:30 - 1:00 PM"
+  ],
+  "email": [
+    {
+      "title": "General Enquiries",
+      "url": "office@hcg.org.nz"
+    },
+    {
+      "title": "Accounts",
+      "url": "accounts@hcg.org.nz"
+    },
+    {
+      "title": "Head Coach",
+      "url": "kay@hcg.org.nz"
+    },
+    {
+      "title": "Recreational Programme Enquires",
+      "url": "gym4all@hcg.org.nz"
+    }
+  ]
+}

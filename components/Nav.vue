@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation" v-on-clickaway="closeMenu">
+  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" v-on-clickaway="closeMenu">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <span class="nav-logo">
@@ -51,9 +51,9 @@
             <p>{{ item.title }}</p>
         </nuxt-link>
 
-        <nuxt-link class="navbar-item login-item is-hidden-touch" to="/login">
+        <a class="navbar-item login-item is-hidden-touch" href="https://harbourcitygym.friendlymanager.com/login?">
           <b-icon icon="login-variant" class="nav-icon is-hidden-touch"></b-icon>
-        </nuxt-link>
+        </a>
 
         <!-- Mobile Nav -->
         <nav class="level is-mobile is-hidden-desktop">
@@ -76,10 +76,10 @@
             </nuxt-link>
           </div>
           <div class="level-item has-text-centered">
-            <nuxt-link to="/login" @click.native="toggleMenu">
+            <a href="https://harbourcitygym.friendlymanager.com/login?" @click.native="toggleMenu">
               <p class="heading">Login</p>
               <b-icon icon="login-variant" class="nav-icon"></b-icon>
-            </nuxt-link>
+            </a>
           </div>
         </nav>
       </div>
@@ -126,9 +126,6 @@ $hcg-deep-purple: #194280;
 $turq: hsl(197, 78%, 41%);
 
 .navbar {
-  -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-  box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
   background: #ffffff; /* Old browsers */
 }
 

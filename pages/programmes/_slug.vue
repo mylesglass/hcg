@@ -53,8 +53,8 @@
   </section>-->
   <div>
     <div class="columns">
-      <div class="column is-half left-column">
-        <div class="image-container" :style="bg"></div>
+      <div class="column is-half left-column has-background-image" :style="bg">
+        <div class="image-container" ></div>
         <section class="section">
           <div class="container">
             <header>
@@ -84,13 +84,14 @@
           </div>
           <div class="level-item has-text-centered">
             <div>
+              <!--
               <button class="button is-fullwidth is-success is-medium"
                 @click="isEnquireModalActive = true">
                 Enquire about {{ title }}
               </button>
               <b-modal :active.sync="isEnquireModalActive" has-modal-card>
                 <enquire-modal-card :current-class="title"></enquire-modal-card>
-              </b-modal>
+              </b-modal>-->
             </div>
           </div>
         </section>
@@ -197,14 +198,15 @@ export default {
  
 <style lang="scss" scoped>
 .level-container, .table-container {
-padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .image-container {
-max-width: 100%;
-min-height: 25rem;
-background-size: cover; 
-background-position: center center;
+  max-width: 100%;
+  min-height: 25rem;
+  background-size: cover; 
+  background-position: center center;
 }
 
 .main-image {
@@ -212,7 +214,7 @@ background-position: center center;
 }
 
 .right-content-container {
-  padding-top: 25rem;
+  padding-top: 120px;
 }
 
 .left-column {

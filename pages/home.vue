@@ -1,103 +1,54 @@
 <template>
   <div id="homepage">
     <!-- Splash -->
-    <section class="hero is-large is-primary is-bold" :style="bg">
+    <section class="hero is-large has-background-image" :style="bg">
       <div class="hero-body">
         <div class="container">
-          <h1 class="splash-title has-text-white">
-            {{ splash_heading }}
-          </h1>
-          <p class="splash-subtitle has-text-light">
-            {{ splash_subtitle }}
-          </p>
-          <nuxt-link to="/programmes" class="button is-primary is-outlined is-inverted">See Our Programmes</nuxt-link>
+          <h1 class="splash-title">{{ splash_heading }}</h1>
+          <p class="splash-subtitle">{{ splash_subtitle }}</p>
+          <div class="field">
+            <div class="control">
+              <nuxt-link :to="splash_link" class="button is-square-button is-purple-button">{{ splash_button }}</nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  
-    <!-- Visit Us 
-    <section class="section home-section">
-      <div class="container has-text-centered">
-        <h1 class="title home-title">Why you should visit us</h1>
-      </div>
-      <div class="container programme-col-container">
-        <div class="columns">
-          <div class="column">
-            <figure class="image about-image is-4x3">
-              <img :src="col1_image" alt="Harbour City Gymnastics">
-            </figure>
-            <p class="subtitle has-text-weight-bold">Safe, Friendly Environment</p>
-            <p class="paragraph">We believe gymnastics is a safe and nuturing sport, and from the moment you walk into our gymnasium you will see we are a safe, </p> 
-          </div>
-          <div class="column">
-            <figure class="image about-image is-4x3">
-              <img :src="col2_image" alt="Harbour City Gymnastics">
-            </figure>
-            <p class="subtitle has-text-weight-bold">Awesome coaches, dedicated to gymnastics</p>
-            <p>Our staff all have a passion for gymnastics, and are fullly trained through Gymnastics NZ. We offer a higher coach-to-gymnast ratio than most other clubs.</p>
-          </div>
-          <div class="column">
-            <figure class="image about-image is-4x3">
-              <img :src="col3_image" alt="Harbour City Gymnastics">
-            </figure>
-            <p class="subtitle has-text-weight-bold">Opportunities for all abilities</p>
-            <p class="paragraph">Not only to we have </p>
-          </div>
-        </div>
-      </div>
-    </section>-->
 
-    <!-- Programmes -->
-    <section class="section home-section" id="programmes-section">
-      <div class="container has-text-centered">
-        <h1 class="title home-title has-text-white">{{ programmes_title}}</h1>
-        <p class="subtitle has-text-light">{{ programmes_subtitle }}</p>
-      </div>
-      <div class="container has-text-centered programme-col-container">
-        <div class="columns">
-          <div class="column">
-            <figure class="image about-image is-4x3">
-              <img :src="col1_image" alt="Harbour City Gymnastics">
-            </figure>
-            <p class="subtitle has-text-weight-bold has-text-light">{{ col1_title }}</p>
-            <p class="paragraph has-text-light">{{ col1_desc }}</p>
-            <nuxt-link :to="col1_link" class="home-button button is-primary is-inverted is-outlined">{{ col1_button }}</nuxt-link> 
-          </div>
-          <div class="column">
-            <figure class="image about-image is-4x3">
-              <img :src="col2_image" alt="Harbour City Gymnastics">
-            </figure>
-            <p class="subtitle has-text-weight-bold has-text-light">{{ col2_title }}</p>
-            <p class="paragraph has-text-light">{{ col2_desc }}</p>
-            <nuxt-link :to="col2_link" class="home-button button is-primary is-inverted is-outlined">{{ col2_button }}</nuxt-link> 
-          </div>
-          <div class="column">
-            <figure class="image about-image is-4x3">
-              <img :src="col3_image" alt="Harbour City Gymnastics">
-            </figure>
-            <p class="subtitle has-text-weight-bold has-text-light">{{ col3_title }}</p>
-            <p class="paragraph has-text-light">{{ col3_desc }}</p>
-            <nuxt-link :to="col3_link" class="home-button button is-primary is-inverted is-outlined">{{ col3_button }}</nuxt-link> 
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Points of Interest -->
+    <div class="columns is-gapless is-multiline">
+      <tile-column
+        v-for="(tile, index) in home_tiles"
+        :key="index"
+        :title="tile.title"
+        :content="tile.content"
+        :buttonText="tile.button"
+        :buttonUrl="tile.url"
+        :imageUrl="tile.image"
+        :color="index">
+      </tile-column>
+    </div>
 
     <!-- Contact -->
-    <section class="section home-section" id="contact-section">
+    <section class="section">
       <div class="container has-text-centered">
-        <h1 class="title home-title">{{ contact_title }}</h1>
-        <p class="subtitle">{{ contact_subtitle }}</p>
-        <nuxt-link to="/contact" class="home-button button is-primary">{{ contact_button }}</nuxt-link> 
+        <header>
+          <h1>{{ contact_title }}</h1>
+          <p>{{ contact_subtitle }}</p>
+        </header>
+        <nuxt-link to="/contact" class="button is-square-button is-card-button contact-button">{{ contact_button }}</nuxt-link> 
       </div>
     </section>
 
+    <sponsors></sponsors>
     <foot />
   </div>
 </template>
 
 <script>
 import Foot from '~/components/Foot'
+import TileColumn from '~/components/TileColumn'
+import Sponsors from '~/components/Sponsors'
 
 export default {
   async asyncData() {
@@ -106,62 +57,61 @@ export default {
   },
 
   components: {
-    Foot
+    Foot,
+    TileColumn,
+    Sponsors
   },
 
   computed: {
     bg () {
-      // return 'background-image: url(' + this.splash_image + ');'
-      return '';
+      return 'background-image: url(' + this.splash_image + ');'
     }
   }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .section  {
   padding-bottom: 120px;
 }
 
-#programmes-section {
-  background-color: #0e132b;
-}
-
-#contact-section, #about-section {
-  background-color: white;
-}
+$title-pad: 0.25em;
 
 .splash-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
-  line-height: 3.4rem;
-  padding-bottom: 1rem;
-}
-
-.splash-subtitle {
-  padding-bottom: 1rem;
-}
-
-.home-button {
-  margin-top: 3rem;
-}
-
-.home-title {
-  padding-bottom: 2rem;
-}
-
-.about-image {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  display: inline;
+  background: white; 
+  padding: 2rem;
 }
 
 .hero {
-  background-size: cover; 
-  background-position: center center;
+  height: calc(100vh - 3.25rem);
 }
 
-.home-section {
-  padding-top: 120px;
+.hero-body {
+  .container {
+    left: 5vw;
+    bottom: 5vh;
+    position: absolute;
+    padding-right: 5vw;
+  }
+}
+
+@media only all and (max-width: 768px) {
+  .splash-title {
+    font-size: 2rem;
+    line-height: 6rem;
+  }
+}
+
+.splash-subtitle {
+  background: white; 
+  padding: 2rem;
+}
+
+.contact-button {
+  margin-top: 3rem;
 }
 </style>
 

@@ -1,12 +1,7 @@
 <template>
-  <div class="item"
-    :style="{
-      'width': '100%',
-      'max-width': width,
-      'min-height': height
-    }">
-    <div class="item-content">
-      <div class="card">
+  <div class="item" :style="dimensions">
+    <div class="item-content" :style="dimensions">
+      <div class="card" ref="card" :style="dimensions">
         <div class="card-image">
           <span class="tag category" :class="tagColor">{{ category }}</span>
           <figure class="image is4by3">
@@ -20,12 +15,10 @@
               <p class="meta has-text-grey-light">{{ age }}</p>
             </div>
           </div>
-          <div class="content">
-            <p>{{ subtitle }}</p>
-            <div class="card-button">
-              <nuxt-link :to="link" class="button car-button is-fullwidth is-info is-outlined">View</nuxt-link>
-            </div>
-          </div>
+          <p>{{ subtitle }}</p>
+        </div>
+        <div class="card-footer">
+          <nuxt-link :to="link" class="card-footer-item is-card-button button is-square-button">View</nuxt-link>
         </div>
       </div>
     </div>
@@ -44,11 +37,6 @@ export default {
     type: String
   },
 
-  data () {
-    return {
-    }
-  },
-
   computed: {
     tagColor () {
       if (this.category === "Recreational") return 'is-success'
@@ -57,15 +45,16 @@ export default {
       else return 'is-white'
     },
 
-    width () {
-      if(this.type === "Desktop") return '250px'
-      else return '100%'
-    },
+    dimensions () {
 
-    height () {
-      if(this.type === "Desktop") return '28.5rem'
-      else return 'auto'
+      if (this.type === 'Desktop') return 'width: 20rem; height: auto; min-height: auto'
+      
+      else return 'width: auto; height: auto; min-height: auto'
     }
+  },
+
+  mounted () {
+    console.log(this.$refs.card.clientHeight + 'px')
   }
 }
 </script>
@@ -78,9 +67,9 @@ export default {
   right: 5px;
 }
 
-.card {
-  min-height: 28.5rem;
-  position: relative
+.card-image {
+  min-height: 240px;
 }
+
 </style>
 

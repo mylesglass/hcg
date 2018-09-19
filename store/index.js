@@ -9,6 +9,7 @@ const store = () => new Vuex.Store({
     counter: 0, 
     nav_items: {},
     foot_items: {},
+    sponsors: {},
     active_page: ''
   },
 
@@ -23,6 +24,10 @@ const store = () => new Vuex.Store({
 
     setFootData (state, payload) {
       state.foot_items = payload
+    },
+
+    setSponsorData (state, payload) {
+      state.sponsors = payload
     },
 
     addProgramme (state, payload) {
@@ -60,6 +65,11 @@ const store = () => new Vuex.Store({
     async loadFoot ({ commit }) {
       let content = await import('~/content/footer.json')
       commit('setFootData', content)
+    },
+
+    async loadSponsors ({ commit }) {
+      let content = await import('~/content/sponsors.json')
+      commit('setSponsorData', content)
     }
   }
 })

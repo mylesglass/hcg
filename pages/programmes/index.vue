@@ -1,13 +1,38 @@
 <template>
   <div id="programmes">
-    <section class="section helping-header">
+    <section class="section">
       <div class="container">
         <header>
           <h1>Our Programmes</h1>
           <p>We offer a wide variety of programmes for all ages and abilites. If you need help with choosing the right programme for you or your child, please don't hesitate to <nuxt-link to="/contact">contact us.</nuxt-link></p>
         </header>
+
+        <!-- Implement Me
+        <p>Use the toggles to refine what you're looking for.</p>
+        <nav class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <div class="field">
+                <label class="label">Recreational</label>
+                <div class="control"><b-switch v-model="recToggle"></b-switch></div>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="field">
+                <label class="label">Intermediate</label>
+                <div class="control"><b-switch v-model="intToggle"></b-switch></div>
+              </div>
+            </div>
+            <div class="level-item">
+              <div class="field">
+                <label class="label">Advanced</label>
+                <div class="control"><b-switch v-model="advToggle"></b-switch></div>
+              </div>
+            </div>
+          </div>
+        </nav>-->
       </div>
-    </section>
+    </section> 
     <section class="section is-hidden-desktop">
       <div class="container">
         <div class="columns is-multiline">
@@ -24,13 +49,14 @@
       </div>
     </section>
     <section class="section is-hidden-touch">
-      <div class="container">
+      <div class="container muuri-container">
         <no-ssr>
           <muuri-grid :options="muuriOptions" id="grid">
             <programme-card
               v-for="prog in progs" :key="prog.title" :id="prog._path" type="Desktop"
               :title="prog.title"
               :subtitle="prog.subtitle"
+              :class="{ 'muuri-item-shown' : recToggle, 'muuri-item-hidden' : !recToggle }"
               :age="prog.age"
               :link="prog._path"
               :imageUrl="prog.thumbnail"
@@ -59,10 +85,11 @@ export default {
       _path: `/programmes/${key.replace('.json', '').replace('./', '')}`
     }))
 
-    // Here we sort into categories
-
     return { 
       progs,
+      recToggle: true,
+      intToggle: true,
+      advToggle: true,
       muuriOptions: {
         items: '.item',
         dragEnabled: true,
@@ -78,25 +105,28 @@ export default {
       },
       grid: Object
     }
+  },
+
+  watch: {
+    recToggle () {
+      this.toggleRec()
+    }
+  },
+
+  mounted () {
+
+  },
+
+  methods: {
+    toggleRec () {
+      console.log('io')
+    }
   }
 }
 </script>
 
 <style scoped lang="scss">
-.intermediate, .other{
-  background-color: #0e132b;
-}
-
-// Main Heading
-.helping-header {
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.05);
-    background: #ffffff; /* Old browsers */
-    min-height: 3.8rem;
-
-    header {
-      padding-top: 3rem;
-    }
+#programmes {
+  min-height: calc(100vh - 3.25rem);
 }
 </style>

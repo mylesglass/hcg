@@ -97,7 +97,8 @@ module.exports = {
   },
 
   plugins: [
-    { src: '~/plugins/vue-muuri', ssr: false }
+    { src: '~/plugins/vue-muuri', ssr: false },
+    { src: '~/plugins/vue-carousel.js', ssr: false }
   ],
 
   router: {

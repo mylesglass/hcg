@@ -37,3 +37,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+#contact {
+  min-height: calc(100vh - 3.25rem);
+}
+</style>
+

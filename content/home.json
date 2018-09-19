@@ -21,6 +21,29 @@
   "splash_subtitle": "Harbour City GymSports is a Wellington based gymnastics provider, offering a wide range of specialised classes for all ages and abilities. We cater for athletes of all ages - from the preschooler child right through to adults",
   "contact_button": "How to contact us",
   "splash_link": "programmes",
+  "home-tiles": [
+    {
+      "title": "Safe, Friendly Environment",
+      "content": "We believe gymnastics is a safe and nuturing sport, and from the moment you walk into our gymnasium you will see we are a safe",
+      "button": "Learn About Us",
+      "url": "/about",
+      "image": "/images/uploads/4x3_template-recovered.jpg"
+    },
+    {
+      "title": "Awesome coaches, dedicated to gymnastics",
+      "content": "Our staff all have a passion for gymnastics, and are fullly trained through Gymnastics NZ. We offer a higher coach-to-gymnast ratio than most other clubs.",
+      "button": "meet our team",
+      "url": "/staff",
+      "image": "/images/uploads/asb.jpg"
+    },
+    {
+      "title": "Opportunities for all abilities",
+      "content": "We believe everybody can do gymnastics, and offer a range of programmes and services for all ages and abilities.",
+      "button": "See our programmes",
+      "url": "/programmes",
+      "image": "/images/uploads/team-4x3.jpg"
+    }
+  ],
   "contact_subtitle": "Send us your questions about what you're after, or express interest in a class.",
   "contact_title": "Get in touch!",
   "col3_desc": "Take a look at the other programmes that we offer, there's something for everyone!",

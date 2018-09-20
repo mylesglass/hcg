@@ -1,0 +1,33 @@
+{
+  "title": "Open Class",
+  "subtitle": "Fun, weekly, challenging gymnastics for older children",
+  "age": "9+ Years Old",
+  "classes": [
+    {
+      "days": [
+        {
+          "wednesday": true
+        }
+      ],
+      "time": "5:45 - 7:00 PM",
+      "cost": "$168",
+      "detail": "Boys Open Class"
+    },
+    {
+      "days": [
+        {
+          "wednesday": true
+        }
+      ],
+      "time": "5:45 - 7:00 PM",
+      "cost": "$168",
+      "detail": "Girls Open"
+    }
+  ],
+  "category": "Recreational",
+  "thumbnail": "/images/uploads/4x3_template-recovered.jpg",
+  "body": "Our open age classes offer a fun, exciting opportunity for gymnasts of all levels to participate. We encourage new gymnasts as well as those who have moved through our Badge programme to join. We offer separate classes for boys and girls. Both classes warm up together, then split after to work with their coaches on new challenges. \n\nOur experienced coaches understand that every child has their own strengths and weaknesses, and are fully accommodating to any of the gymnasts needs, whether that is making something easier, or challenging a gymnast to extend their abilities. It is encouraged for gymnasts to bring in their own goals of skills they want to learn.\n\nIf your child is asking about trying gymnastics, and over the age of 9, this is the class for them.",
+  "items": [
+    {}
+  ]
+}

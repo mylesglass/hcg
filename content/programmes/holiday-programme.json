@@ -1,0 +1,27 @@
+{
+  "title": "Holiday Programme",
+  "subtitle": "Fun, structured, entertaining activities for your child during the school break.",
+  "age": "5 - 12 Years Old",
+  "classes": [
+    {
+      "days": [
+        {
+          "monday": true,
+          "tuesday": true,
+          "wednesday": true,
+          "thursday": true,
+          "friday": true
+        }
+      ],
+      "time": "9:00 AM - 3:00 PM",
+      "cost": "$35",
+      "detail": "Cost is per session"
+    }
+  ],
+  "category": "Recreational",
+  "thumbnail": "/images/uploads/splash_2.jpg",
+  "body": "Harbour City GymSports is running a Holiday Programme  during the first week of the school holidays (1st Oct - 5th Oct) from 9AM -3PM.\n\nIf you would like your child to attend please complete and return the attached registration form as soon as possible\n\n[Fill out this form to register](https://goo.gl/forms/2OcPCsY3Pq3zSgtI2)\n\nThe fees are required to be paid prior to attending the sessions.\n\nAge group is for 5 to 12 Years Old only.\n\nYour Gymnast will experience unique and challenging circuits, specific coaching tailored to their level, creative activities, and free play in our fully equipped facility.\n\nSpaces are limited so be in quick!",
+  "items": [
+    {}
+  ]
+}

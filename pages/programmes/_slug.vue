@@ -53,8 +53,8 @@
   </section>-->
   <div>
     <div class="columns">
-      <div class="column is-half left-column has-background-image" :style="bg">
-        <div class="image-container" ></div>
+      <div class="column is-half left-column" >
+        <div class="image-container has-background-image" :style="bg"></div>
         <section class="section">
           <div class="container">
             <header>
@@ -82,23 +82,23 @@
               </template>
             </b-table>
           </div>
-          <div class="level-item has-text-centered">
+          <!--<div class="level-item has-text-centered">
             <div>
-              <!--
+              
               <button class="button is-fullwidth is-success is-medium"
                 @click="isEnquireModalActive = true">
                 Enquire about {{ title }}
               </button>
               <b-modal :active.sync="isEnquireModalActive" has-modal-card>
                 <enquire-modal-card :current-class="title"></enquire-modal-card>
-              </b-modal>-->
+              </b-modal>
             </div>
-          </div>
+          </div>-->
         </section>
       </div>
-      <div class="column is-half">
-        <section class="section right-column" :style="rightColumnHeight">
-          <div class="container right-content-container">
+      <div class="column is-half right-column" :style="rightColumnHeight">
+        <section class="section right-section">
+          <div class="container">
             <span v-html="htmlContent" class="markdown"></span>
           </div>
           <div class="container" v-if="items">
@@ -111,13 +111,13 @@
   </div>
 </template>
 
- <script>
+<script>
 import Markdown from 'markdown-it'
 import InfoCard from '~/components/InfoCard'
 import DayInfo from '~/components/DayInfo'
 import EnquireModalCard from '~/components/EnquireModalCard'
 import 'vue-resize/dist/vue-resize.css'
-import { ResizeObserver } from 'vue-resize'
+import { ResizeObserver } from 'vue-resize' // Used to re-calc view hieght on resize
 
 export default {
   async asyncData ({ params }) {
@@ -158,6 +158,7 @@ export default {
   },
 
   computed: {
+    // Handles markdown and adds html tags
     htmlContent () {
       let md = new Markdown({
         breaks: true,
@@ -177,6 +178,7 @@ export default {
       return 'background-image: url(' + this.thumbnail + ');'
     },
 
+    // Check is the programme has detail data
     hasDetails () {
       if (this.classes[0].detail.length < 1) return false
       else return true
@@ -184,8 +186,9 @@ export default {
   },
 
   methods: {
+    // Calculates resize for right column in desktop views
     handleResize () {
-      let height = window.innerHeight - 64 // main image and nav heights subtracted
+      let height = window.innerHeight - 42 // main image and nav heights subtracted
       this.rightColumnHeight = 'min-height: ' + height + 'px; max-height: ' + height + 'px;'
     }
   },
@@ -213,14 +216,19 @@ export default {
   
 }
 
-.right-content-container {
+.right-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .left-column {
 padding-left: 0px;
 padding-right: 0px;
 background-color: #2f3a4e;
+}
+
+.right-column {
+
 }
 
 .container {

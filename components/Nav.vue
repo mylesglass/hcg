@@ -53,6 +53,7 @@
 
         <a class="navbar-item login-item is-hidden-touch" href="https://harbourcitygym.friendlymanager.com/login?">
           <b-icon icon="login-variant" class="nav-icon is-hidden-touch"></b-icon>
+          <p>Login</p>
         </a>
 
         <!-- Mobile Nav -->

@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-12">
+  <div class="column is-12 tile-column">
     <div class="columns is-gapless">
       <div class="column is-half">
         <div class="image-tile has-background-image" :style="{ backgroundImage: 'url(' + imageUrl + ')' }"></div>
@@ -13,7 +13,7 @@
             </header>
             <!-- Bottom Content -->
             <div class="info-bottom-content">
-              <nuxt-link :to="buttonUrl" class="button is-square-button" :class="buttonType">{{ buttonText }}</nuxt-link>
+              <nuxt-link :to="buttonUrl" class="button is-square-button is-pulled-right" :class="buttonType">{{ buttonText }}</nuxt-link>
             </div>
         </div>
       </div>
@@ -49,6 +49,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.tile-column {
+  //max-width: 1400px;
+  //margin: auto
+}
+
+.paragraph {
+  padding-bottom: 3re
+}
+
 .info-table {
   height: 100%;
   border-collapse: collapse;

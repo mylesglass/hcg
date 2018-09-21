@@ -53,7 +53,7 @@
   </section>-->
   <div>
     <div class="columns">
-      <div class="column is-half left-column" >
+      <div class="column is-half left-column is-turquoise">
         <div class="image-container has-background-image" :style="bg"></div>
         <section class="section">
           <div class="container">
@@ -82,18 +82,23 @@
               </template>
             </b-table>
           </div>
-          <!--<div class="level-item has-text-centered">
+          <!--Modal button 
+            <div class="level-item has-text-centered">
             <div>
               
               <button class="button is-fullwidth is-success is-medium"
                 @click="isEnquireModalActive = true">
                 Enquire about {{ title }}
               </button>
-              <b-modal :active.sync="isEnquireModalActive" has-modal-card>
-                <enquire-modal-card :current-class="title"></enquire-modal-card>
-              </b-modal>
+              
             </div>
           </div>-->
+          <div class="container enquiry-container">
+            <a class="button is-square-button is-white-turquoise-button is-pulled-right" @click="isEnquireModalActive = true">Enquire about {{ title }}</a>
+            <b-modal :active.sync="isEnquireModalActive" has-modal-card>
+              <simple-enquiry-modal :current-class="title"></simple-enquiry-modal>
+            </b-modal>
+          </div>
         </section>
       </div>
       <div class="column is-half right-column" :style="rightColumnHeight">
@@ -103,6 +108,11 @@
           </div>
           <div class="container" v-if="items">
             <info-card v-for="item in items" :key="item.title" :item="item"/>
+          </div>
+        </section>
+        <section class="section">
+          <div class="has-text-centered">
+            <a class="button is-square-button is-default-button" @click="isEnquireModalActive = true">Enquire about {{ title }}</a>
           </div>
         </section>
       </div>
@@ -115,7 +125,7 @@
 import Markdown from 'markdown-it'
 import InfoCard from '~/components/InfoCard'
 import DayInfo from '~/components/DayInfo'
-import EnquireModalCard from '~/components/EnquireModalCard'
+import SimpleEnquiryModal from '~/components/SimpleEnquiryModal'
 import 'vue-resize/dist/vue-resize.css'
 import { ResizeObserver } from 'vue-resize' // Used to re-calc view hieght on resize
 
@@ -128,7 +138,7 @@ export default {
   components: {
     InfoCard,
     DayInfo,
-    EnquireModalCard,
+    SimpleEnquiryModal,
     ResizeObserver
   },
 
@@ -224,11 +234,10 @@ export default {
 .left-column {
 padding-left: 0px;
 padding-right: 0px;
-background-color: #2f3a4e;
 }
 
 .right-column {
-
+  
 }
 
 .container {

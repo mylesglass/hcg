@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-content">
       <div class="media">
-        <div class="media-left">
+        <div class="media-left" v-if="item.image">
           <figure class="image is-128x128 is-hidden-mobile" :class="{ ribbon: item.is_ribbon }">
             <img :src="item.image">
           </figure>

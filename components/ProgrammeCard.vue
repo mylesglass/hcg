@@ -42,7 +42,7 @@ export default {
       if (this.category === "Recreational") return 'is-success'
       else if (this.category === "Intermediate") return 'is-info'
       else if (this.category === "Advanced") return 'is-danger'
-      else return 'is-white'
+      else if (this.category === "Service") return 'is-white'
     },
 
     dimensions () {

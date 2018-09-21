@@ -42,7 +42,7 @@ collections:
           - {label: "Time", name: "time", widget: "string", default: "3:30 - 4:20PM"}
           - {label: "Cost", name: "cost", widget: "string", default: "$120"}
           - {label: "Detail", name: "detail", widget: "string", default: ""}
-      - {label: "Category", name: "category", widget: "select", options: ["Recreational", "Intermediate", "Advanced"]}
+      - {label: "Category", name: "category", widget: "select", options: ["Recreational", "Intermediate", "Advanced", "Service"]}
       - {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Additional Items"
@@ -200,7 +200,7 @@ collections:
         - label: "Office Hours"
           name: "hours"
           widget: "list"
-          field: 
+          field:
             - {label: "Hour Item", name: "hour_item", widget: "string"}
         - label: "Phone Disclaimer"
           name: "phone_disclaimer"
@@ -230,7 +230,7 @@ collections:
     - name: "sponsors"
       label: "Sponsors"
       file: "content/sponsors.json"
-      fields: 
+      fields:
         - label: "Title"
           name: "title"
           widget: "string"

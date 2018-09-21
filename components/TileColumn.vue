@@ -64,9 +64,7 @@ export default {
   display: table;
 
   header {
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 3rem;
   }
 }
 

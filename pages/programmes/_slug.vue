@@ -94,7 +94,7 @@
             </div>
           </div>-->
           <div class="container enquiry-container">
-            <a class="button is-square-button is-white-turquoise-button is-pulled-right" @click="isEnquireModalActive = true">Enquire about {{ title }}</a>
+            <a class="button is-square-button is-white-turquoise-button is-pulled-right" @click="isEnquireModalActive = true">Enquire</a>
             <b-modal :active.sync="isEnquireModalActive" has-modal-card>
               <simple-enquiry-modal :current-class="title"></simple-enquiry-modal>
             </b-modal>
@@ -112,7 +112,7 @@
         </section>
         <section class="section">
           <div class="has-text-centered">
-            <a class="button is-square-button is-default-button" @click="isEnquireModalActive = true">Enquire about {{ title }}</a>
+            <a class="button is-square-button is-default-button" @click="isEnquireModalActive = true">Enquire</a>
           </div>
         </section>
       </div>

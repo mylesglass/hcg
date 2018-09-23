@@ -46,4 +46,8 @@ export default {
 header {
   padding-bottom: 2rem;
 }
+
+#about {
+  min-height: calc(100vh - 3.25rem);
+}
 </style>

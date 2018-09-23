@@ -199,9 +199,9 @@ ul, ol {
 }
 
 .is-ci-button {
-    color: $hcg-navy;
-    border-color: white;
-    background-color: white;
+    color: white;
+    border-color: $hcg-purple;
+    background-color: $hcg-purple;
     -webkit-border-bottom-right-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-radius-bottomright: 5px;
@@ -212,8 +212,8 @@ ul, ol {
 
 .is-ci-button:hover {
     color: white;
-    border-color: $hcg-purple;
-    background-color: $hcg-purple;
+    border-color: $hcg-navy;
+    background-color: $hcg-navy;
 }
 
 // Markdown

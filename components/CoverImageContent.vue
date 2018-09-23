@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="ci-content is-navy has-text-white">
+    <div class="ci-content">
       <div class="ci-title">
         <h1>{{ title }}</h1>
       </div>
@@ -31,15 +31,16 @@ export default {
 .container {
   position: absolute;
   bottom: 5vh;
-  padding-right: 2rem;
+  padding-right: 5vw;
+  left: 5vw;
 
   @media all and (min-width: 960px) {
     max-width: 55vw;
   }
 
   .ci-content {
+    background-color: white;
     padding: 3rem;
-    opacity: 0.8;
     -webkit-border-radius: 5px;
     -webkit-border-bottom-right-radius: 0;
     -moz-border-radius: 5px;
@@ -61,13 +62,6 @@ export default {
         font-size: 40px;
         letter-spacing: -0.009em;
         line-height: 56px;
-        opacity: 1;
-        
-        @media all and (max-width: 768px) {
-          font-size: 30px;
-          letter-spacing: -0.008em;
-          line-height: 42px;
-        }
 
         @media all and (min-width: 1216px) {
           font-size: 60px;

@@ -1,17 +1,9 @@
 <template>
   <div id="homepage">
     <!-- Splash -->
-    <section class="hero is-large has-background-image" :style="bg">
+    <section class="hero has-background-image" :style="bg">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="splash-title">{{ splash_heading }}</h1>
-          <p class="splash-subtitle">{{ splash_subtitle }}</p>
-          <div class="field">
-            <div class="control">
-              <nuxt-link :to="splash_link" class="button is-square-button is-purple-button">{{ splash_button }}</nuxt-link>
-            </div>
-          </div>
-        </div>
+          <cover-image-content :title="splash_heading" :content="splash_subtitle" :button="splash_button" :url="splash_link"></cover-image-content>
       </div>
     </section>
 
@@ -49,6 +41,7 @@
 import Foot from '~/components/Foot'
 import TileColumn from '~/components/TileColumn'
 import Sponsors from '~/components/Sponsors'
+import CoverImageContent from '~/components/CoverImageContent'
 
 export default {
   async asyncData() {
@@ -59,7 +52,8 @@ export default {
   components: {
     Foot,
     TileColumn,
-    Sponsors
+    Sponsors,
+    CoverImageContent
   },
 
   computed: {
@@ -75,43 +69,19 @@ export default {
   padding-bottom: 120px;
 }
 
-$title-pad: 0.25em;
+.hero-body {
+  .container {
 
-.splash-title {
-  font-size: 4rem;
-  font-weight: 900;
-  display: inline;
-  background: white; 
-  padding: 2rem;
+  }
 }
 
 .hero {
   height: calc(100vh - 3.25rem);
 }
 
-.hero-body {
-  .container {
-    left: 5vw;
-    bottom: 5vh;
-    position: absolute;
-    padding-right: 5vw;
-  }
-}
-
-@media only all and (max-width: 768px) {
-  .splash-title {
-    font-size: 2rem;
-    line-height: 6rem;
-  }
-}
-
-.splash-subtitle {
-  background: white; 
-  padding: 2rem;
-}
-
 .contact-button {
   margin-top: 3rem;
 }
+
 </style>
 

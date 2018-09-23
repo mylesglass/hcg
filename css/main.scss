@@ -38,7 +38,7 @@ header {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0.003em;
     line-height: 22px;
 }
@@ -193,6 +193,24 @@ ul, ol {
 }
 
 .is-card-button:hover {
+    color: white;
+    border-color: $hcg-purple;
+    background-color: $hcg-purple;
+}
+
+.is-ci-button {
+    color: $hcg-navy;
+    border-color: white;
+    background-color: white;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.is-ci-button:hover {
     color: white;
     border-color: $hcg-purple;
     background-color: $hcg-purple;

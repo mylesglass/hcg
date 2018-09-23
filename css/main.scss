@@ -27,15 +27,20 @@ body {
 
 header {
     h1 {
-        font-size: 2.4rem;
         font-weight: 900;
-        line-height: 2.5rem;
+        font-size: 40px;
+        letter-spacing: -0.009em;
+        line-height: 56px;
         padding-bottom: 1rem;
     }
 
-    p {
-        font-size: 1rem;
-    }
+    
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 0.003em;
+    line-height: 22px;
 }
 
 .hero-body {
@@ -48,11 +53,6 @@ header {
     font-weight: 600;
     font-size: 1.8rem;
     padding-top: 1rem;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.8rem;
 }
 
 .paragraph + .paragraph {

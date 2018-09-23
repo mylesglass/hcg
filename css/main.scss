@@ -163,15 +163,15 @@ ul, ol {
 }
 
 .is-white-navy-button {
-    color: $hcg-navy;
-    border-color: $hcg-navy;
-    background-color: $hcg-bg;
+    color: white;
+    border-color: white;
+    background-color: $hcg-navy;
 }
 
 .is-white-navy-button:hover {
-    color: $hcg-bg;
-    border-color: $hcg-navy;
-    background-color: $hcg-navy;
+    color: $hcg-navy;
+    border-color: white;
+    background-color: white;
 }
 
 .is-purple-button {

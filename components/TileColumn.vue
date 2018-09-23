@@ -35,12 +35,14 @@ export default {
   computed: {
     columnType () {
       if (this.color === 0) return ''
+      if (this.color === 15) return 'is-navy has-text-white'
       else if (this.color % 2 === 0) return 'is-purple has-text-white'
       else if (this.color % 2 === 1) return 'is-turquoise has-text-white'
     },
 
     buttonType () {
       if (this.color === 0) return 'is-default-button'
+      if (this.color === 15) return 'is-white-navy-button'
       else if (this.color % 2 === 0) return 'is-white-purple-button'
       else if (this.color % 2 === 1) return 'is-white-turquoise-button'
     }

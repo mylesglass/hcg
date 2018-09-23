@@ -1,7 +1,7 @@
 <template>
   <div id="homepage">
     <!-- Splash -->
-    <section class="hero has-background-image" :style="bg">
+    <section class="hero has-background-image is-hidden-touch" :style="bg">
       <div class="hero-body">
           <cover-image-content :title="splash_heading" :content="splash_subtitle" :button="splash_button" :url="splash_link"></cover-image-content>
       </div>
@@ -9,6 +9,15 @@
 
     <!-- Points of Interest -->
     <div class="columns is-gapless is-multiline">
+      <tile-column 
+        class="is-hidden-desktop"
+        :title="splash_heading"
+        :content="splash_subtitle"
+        :buttonText="splash_button"
+        :buttonUrl="splash_link"
+        :imageUrl="splash_image"
+        :color="15">
+      </tile-column>
       <tile-column
         v-for="(tile, index) in home_tiles"
         :key="index"

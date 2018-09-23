@@ -48,26 +48,14 @@ export default {
     border-radius: 5px;
     border-bottom-right-radius: 0;
 
-    @media all and (max-width: 380px) {
-      -webkit-border-bottom-left-radius: 0px;
-      -moz-border-radius-bottomleft: 0px;
-      border-bottom-left-radius: 0px;
-    }
-
     .ci-title {
       padding-bottom: 1rem;
     
       h1 {
         font-weight: 800;
-        font-size: 40px;
+        font-size: 60px;
         letter-spacing: -0.009em;
-        line-height: 56px;
-
-        @media all and (min-width: 1216px) {
-          font-size: 60px;
-          letter-spacing: -0.009em;
-          line-height: 76px;
-        }
+        line-height: 76px;
       }
       
       p {

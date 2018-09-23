@@ -9,18 +9,18 @@
       "image": "/images/uploads/splash_2.jpg"
     },
     {
-      "title": "Awesome coaches, dedicated to gymnastics",
-      "content": "Our staff all have a passion for gymnastics, and are fully trained through Gymnastics NZ. We are proud to offer a high coach-to-gymnast ratio.",
-      "button": "meet our team",
-      "url": "/staff",
-      "image": "/images/uploads/asb.jpg"
-    },
-    {
       "title": "Opportunities for all abilities",
       "content": "We believe everybody can do gymnastics, and offer a range of programmes and services for all ages and abilities.",
       "button": "See our programmes",
       "url": "/programmes",
       "image": "/images/uploads/team-4x3.jpg"
+    },
+    {
+      "title": "Awesome coaches, dedicated to gymnastics",
+      "content": "Our staff all have a passion for gymnastics, and are fully trained through Gymnastics NZ. We are proud to offer a high coach-to-gymnast ratio.",
+      "button": "meet our team",
+      "url": "/staff",
+      "image": "/images/uploads/asb.jpg"
     }
   ],
   "splash_button": "See our programmes",

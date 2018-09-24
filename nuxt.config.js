@@ -108,7 +108,7 @@ module.exports = {
   },
 
   redirect: [
-    { from: '^/holprog', to: '/programmes/holiday-programme' }
+    { from: '/holprog', to: '/programmes/holiday-programme' }
   ],
 
   /*

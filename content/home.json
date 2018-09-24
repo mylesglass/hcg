@@ -2,6 +2,13 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
+      "title": "Holiday Programme",
+      "content": "We running a Holiday Programme during the first week of the school holidays (1st Oct - 5th Oct).",
+      "button": "Read More",
+      "url": "/holprog",
+      "image": "/images/uploads/13694331_1260689887297908_1012880581_o.jpg"
+    },
+    {
       "title": "Safe, Friendly Environment",
       "content": "We believe gymnastics is a safe and nuturing sport, and from the moment you walk into our gymnasium you will see a safe, colourful, and exciting environment to learn gymnastics within.",
       "button": "Learn About Us",

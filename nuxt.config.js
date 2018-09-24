@@ -83,7 +83,8 @@ module.exports = {
   */
   modules: [
     'nuxt-buefy',
-    'nuxt-material-design-icons'
+    'nuxt-material-design-icons',
+    '@nuxtjs/redirect-module'
   ],
   /*
   ** Customize the progress bar color
@@ -105,6 +106,11 @@ module.exports = {
       }
     }
   },
+
+  redirect: [
+    { from: '^/holprog', to: '/programmes/holiday-programme' }
+  ],
+
   /*
   ** Build configuration
   */

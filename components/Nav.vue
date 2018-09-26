@@ -51,7 +51,7 @@
             <p>{{ item.title }}</p>
         </nuxt-link>
 
-        <a class="navbar-item login-item is-hidden-touch" href="https://harbourcitygym.friendlymanager.com/login?">
+        <a class="navbar-item login-item is-hidden-touch" href="https://gnz.friendlymanager.com/login?club=harbourcitygym">
           <b-icon icon="login-variant" class="nav-icon is-hidden-touch"></b-icon>
           <p>Login</p>
         </a>
@@ -77,7 +77,7 @@
             </nuxt-link>
           </div>
           <div class="level-item has-text-centered">
-            <a href="https://harbourcitygym.friendlymanager.com/login?" @click.native="toggleMenu">
+            <a href="https://gnz.friendlymanager.com/login?club=harbourcitygym" @click.native="toggleMenu">
               <p class="heading">Login</p>
               <b-icon icon="login-variant" class="nav-icon"></b-icon>
             </a>

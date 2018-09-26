@@ -20,7 +20,7 @@
         }
       ],
       "time": "2:00 - 4:00PM",
-      "cost": "$160",
+      "cost": "$205",
       "detail": "Junior Training"
     },
     {
@@ -30,7 +30,7 @@
         }
       ],
       "time": "4:00 - 6:00PM",
-      "cost": "$190",
+      "cost": "$289",
       "detail": "Intermediate Training 2"
     },
     {
@@ -40,7 +40,7 @@
         }
       ],
       "time": "6:00 - 8:00PM",
-      "cost": "$---",
+      "cost": "$160",
       "detail": "Senior Training"
     }
   ],

@@ -53,7 +53,7 @@ export default {
 <style lang="scss" scoped>
 .tile-column {
   //max-width: 1400px;
-  //margin: auto
+  //margin: auto tested commit
 }
 
 .paragraph {

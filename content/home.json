@@ -2,18 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Holiday Programme",
-      "content": "We running a Holiday Programme during the first week of the school holidays (1st Oct - 5th Oct).",
-      "button": "Read More",
-      "url": "/holprog",
-      "image": "/images/uploads/13694331_1260689887297908_1012880581_o.jpg"
-    },
-    {
       "title": "Safe, Friendly Environment",
       "content": "We believe gymnastics is a safe and nuturing sport, and from the moment you walk into our gymnasium you will see a safe, colourful, and exciting environment to learn gymnastics within.",
       "button": "Learn About Us",
       "url": "/about",
-      "image": "/images/uploads/splash_2.jpg"
+      "image": "/images/uploads/holprog-main.jpg"
     },
     {
       "title": "Opportunities for all abilities",
@@ -21,6 +14,13 @@
       "button": "See our programmes",
       "url": "/programmes",
       "image": "/images/uploads/team-4x3.jpg"
+    },
+    {
+      "title": "Birthday Parties",
+      "content": "Have an awesome, action-packed birthday party at HCG! ",
+      "button": "Read More",
+      "url": "/programmes/birthday-parties",
+      "image": "/images/uploads/bday.jpg"
     }
   ],
   "splash_button": "See our programmes",

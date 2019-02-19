@@ -18,11 +18,6 @@
         <!-- Programmes -->
         <b-dropdown v-model="dropdown" hoverable v-if="$store.state.nav_items.dropdown" class="is-hidden-touch">
           <nuxt-link :to="$store.state.nav_items.dropdown.url" slot="trigger" class="navbar-item">
-            <span class="icon nav-icon">
-              <figure class="image cartwheel-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.667 46"><path d="M28.943 24.75l-2.648-7.305c4.913-4.381 8.211-11.814 8.663-12.868l-3.677-1.575c-1.384 3.231-6.035 11.948-10.866 13.45-4.226 1.316-13.278-1.3-16.409-2.419L2.66 17.799c1.03.369 8.62 3.007 14.807 3.007.518 0 1.02-.027 1.514-.066l2.686 7.411c-4.009 4.531-3.588 13.17-3.516 14.271l3.991-.261c-.167-2.552.131-10.275 3.564-12.226 6.512-3.699 14.387 1.803 14.462 1.856l2.332-3.25c-.325-.232-6.577-4.628-13.557-3.791z"/><circle cx="29.546" cy="34.76" r="3.594"/></svg>
-              </figure>
-            </span>
             <p>{{ $store.state.nav_items.dropdown.title }}</p>
             <b-icon icon="chevron-down" class="nav-icon"></b-icon>
           </nuxt-link>
@@ -47,12 +42,10 @@
           v-for="item in $store.state.nav_items.menu_items"
           :key="item.title"
           :to="item.url">
-            <b-icon :icon="item.icon" class="nav-icon is-hidden-touch"></b-icon>
             <p>{{ item.title }}</p>
         </nuxt-link>
 
         <a class="navbar-item login-item is-hidden-touch" href="https://gnz.friendlymanager.com/login?club=harbourcitygym">
-          <b-icon icon="login-variant" class="nav-icon is-hidden-touch"></b-icon>
           <p>Login</p>
         </a>
 
@@ -134,8 +127,8 @@ $turq: hsl(197, 78%, 41%);
 
   .navbar-menu {
     .nav-icon {
-      padding-right: 30px;
-      padding-left: 30px;
+      padding-right: 10px;
+      padding-left: 10px;
       color: $nav-unselected;
       -webkit-transition: color 0.5s; /* Safari */
       transition: color 0.5s;
@@ -155,15 +148,13 @@ $turq: hsl(197, 78%, 41%);
 
     .navbar-item {
       padding-bottom: 6px;
-      min-width: 10rem;
 
       p {
-        text-transform: uppercase;
-        font-size: 0.8rem;
-        font-weight: 500;
-        letter-spacing: 2px;
+        font-size: 1rem;
+        font-weight: 700;
         color: $nav-unselected;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         -webkit-transition: color 0.5s; /* Safari */
         transition: color 0.5s;
       }
@@ -222,7 +213,7 @@ $turq: hsl(197, 78%, 41%);
 }
 
 .nav-logo {
-  width: 9rem;
+  width: 10rem;
   padding-top: 6px;
 }
 

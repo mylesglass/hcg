@@ -11,7 +11,7 @@
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">general enquiries</p>
-            <a :href="'mailto:office@hcg.org.nz?subject=' + currentClass.replace(' ','+') + '+Enquiry'" class="button is-success is-medium is-square-button"><b-icon icon="email"></b-icon><span>office@hcg.org.nz</span></a>
+            <a :href="'mailto:office@hcg.org.nz?subject=' + currentClass + ' Enquiry'" class="button is-success is-medium is-square-button"><b-icon icon="email"></b-icon><span>office@hcg.org.nz</span></a>
           </div>
         </div>
         <div class="level-item has-text-centered">

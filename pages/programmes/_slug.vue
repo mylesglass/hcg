@@ -229,6 +229,7 @@ export default {
 .right-section {
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: #f2f2f2;
 }
 
 .left-column {

@@ -1,39 +1,34 @@
 <template>
   <div id="homepage">
-    <!-- Splash -->
-    <section class="hero has-background-image is-hidden-touch" :style="bg">
-      <div class="hero-body">
-          <cover-image-content :title="splash_heading" :content="splash_subtitle" :button="splash_button" :url="splash_link"></cover-image-content>
+    <!-- Landing Item -->
+    <splash
+      :image="splash_image"
+      :title="splash_heading"
+      :description="splash_subtitle"
+      :url="splash_link"
+      :button="splash_button">
+    </splash>
+
+    <section class="section focus-section">
+      <div class="container">
+        <!-- Focus Items -->
+        <div class="columns">
+          <news-tile 
+            v-for="(tile, index) in home_tiles"
+            :key="index"
+            :image="tile.image"
+            :title="tile.title" 
+            :description="tile.content"
+            :url="tile.url">
+          </news-tile>
+        </div>
       </div>
     </section>
 
-    <!-- Points of Interest -->
-    <div class="columns is-gapless is-multiline">
-      <tile-column 
-        class="is-hidden-desktop"
-        :title="splash_heading"
-        :content="splash_subtitle"
-        :buttonText="splash_button"
-        :buttonUrl="splash_link"
-        :imageUrl="splash_image"
-        :color="15">
-      </tile-column>
-      <tile-column
-        v-for="(tile, index) in home_tiles"
-        :key="index"
-        :title="tile.title"
-        :content="tile.content"
-        :buttonText="tile.button"
-        :buttonUrl="tile.url"
-        :imageUrl="tile.image"
-        :color="index">
-      </tile-column>
-    </div>
-
     <!-- Contact -->
-    <section class="section">
+    <section class="section contact-section">
       <div class="container has-text-centered">
-        <header>
+        <header class="contact-header">
           <h1>{{ contact_title }}</h1>
           <p>{{ contact_subtitle }}</p>
         </header>
@@ -52,6 +47,10 @@ import TileColumn from '~/components/TileColumn'
 import Sponsors from '~/components/Sponsors'
 import CoverImageContent from '~/components/CoverImageContent'
 
+import Splash from '~/components/Splash'
+import NewsTile from '~/components/NewsTile'
+
+
 export default {
   async asyncData() {
     let content = await import('~/content/home.json')
@@ -62,7 +61,9 @@ export default {
     Foot,
     TileColumn,
     Sponsors,
-    CoverImageContent
+    CoverImageContent,
+    NewsTile,
+    Splash
   },
 
   computed: {
@@ -74,23 +75,40 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$hcg-purple: #452b7d;
+
 .section  {
-  padding-bottom: 120px;
+  
 }
 
-.hero-body {
-  .container {
-
-  }
+.contact-header {
+  padding-bottom: 2rem;
 }
 
-.hero {
-  height: calc(100vh - 3.25rem);
+.contact-section {
+  margin-bottom: 3rem;
 }
 
-.contact-button {
-  margin-top: 3rem;
+.call-to-action {
+  $pad: 1rem;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  padding-top: $pad;
+  padding-bottom: $pad;
 }
 
+.cta-link {
+  color: $hcg-purple;
+  font-weight: 700;
+}
+
+.splash-section {
+  background-color: $hcg-purple;
+}
+
+.focus-section {
+
+}
 </style>
 

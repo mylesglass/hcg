@@ -6,21 +6,11 @@
     {
       "days": [
         {
-          "thursday": true
-        }
-      ],
-      "time": "7:00 - 8:30PM",
-      "cost": "-",
-      "detail": "Intermediate Training 1"
-    },
-    {
-      "days": [
-        {
           "sunday": true
         }
       ],
-      "time": "2:00 - 4:00PM",
-      "cost": "$205",
+      "time": "2:30 - 4:00PM",
+      "cost": "$190",
       "detail": "Junior Training"
     },
     {
@@ -30,8 +20,8 @@
         }
       ],
       "time": "4:00 - 6:00PM",
-      "cost": "$289",
-      "detail": "Intermediate Training 2"
+      "cost": "$210",
+      "detail": "Intermediate Training"
     },
     {
       "days": [
@@ -39,8 +29,8 @@
           "sunday": true
         }
       ],
-      "time": "6:00 - 8:00PM",
-      "cost": "$160",
+      "time": "4:00 - 6:00PM",
+      "cost": "$210",
       "detail": "Senior Training"
     }
   ],

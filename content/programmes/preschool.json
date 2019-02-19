@@ -8,11 +8,12 @@
         {
           "tuesday": false,
           "wednesday": true,
-          "thursday": true
+          "thursday": true,
+          "friday": true
         }
       ],
       "time": "9:30 - 10:15AM",
-      "cost": "$100",
+      "cost": "$106 - 118",
       "detail": "Preschool"
     },
     {
@@ -24,7 +25,7 @@
         }
       ],
       "time": "10:30 - 11:15AM",
-      "cost": "$108",
+      "cost": "$113 - 125",
       "detail": "Advanced Preschool"
     },
     {
@@ -34,7 +35,7 @@
         }
       ],
       "time": "9:00 - 9:45PM",
-      "cost": "$108",
+      "cost": "$125",
       "detail": "Preschool"
     },
     {
@@ -44,7 +45,7 @@
         }
       ],
       "time": "10:00 - 10:45AM",
-      "cost": "$108",
+      "cost": "$130",
       "detail": "4 - 6 Year Olds"
     }
   ],

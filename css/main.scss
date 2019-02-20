@@ -283,3 +283,12 @@ ul, ol {
     opacity: 0;
 }
 
+// mobile table fix 
+
+.table {
+    background-color: transparent;
+    
+    tr {
+        background: white !important;
+    }
+}

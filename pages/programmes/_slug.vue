@@ -13,10 +13,14 @@
             <day-info :days="props.row.days[0]"/>
           </b-table-column>
           <b-table-column field="time" label="Time">
-            {{ props.row.time }}
+            <p class="is-size-7">
+              {{ props.row.time }}
+            </p>
           </b-table-column>
           <b-table-column field="cost" label="Cost">
-            {{ props.row.cost }}
+            <p class="is-size-7">
+              {{ props.row.cost }}
+              </p>
           </b-table-column>
           <b-table-column field="detail" label="Details" :visible="hasDetails">
             <b-tooltip :label="props.row.detail" position="is-left">

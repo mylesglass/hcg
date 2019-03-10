@@ -108,7 +108,8 @@ module.exports = {
   },
 
   redirect: [
-    { from: '/holprog', to: '/programmes/holiday-programme' }
+    { from: '/holprog', to: '/programmes/holiday-programme' },
+    { from: '/disco', to: 'https://goo.gl/forms/185snuc76ajQpDgd2'}
   ],
 
   /*

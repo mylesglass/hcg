@@ -19,7 +19,7 @@
             <br/>
             <p>
               <a href="https://goo.gl/forms/185snuc76ajQpDgd2">Please fill out this form to secure your tickets!</a>
-              <br />
+              <br /><br/>
               Pay by either:
             </p>
             <ul>

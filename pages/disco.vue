@@ -9,7 +9,9 @@
           <div class="container">
             <header>
               <h1>Disco!</h1>
-              <p>Come along to the club to join us in dancing the night away! Pizza slices, lollies, and glow sticks will be available for purchase. You are welcome to bring your friends who do not attend gym.</p>
+              <p>Come along to the club to join us in dancing the night away!<br/>
+              Pizza slices, lollies, and glow sticks will be available for purchase.<br/>
+              You are welcome to bring your friends who do not attend gym.</p>
             </header>
             <p><strong>Saturday 30th March</strong></p>
             <p><strong>6:15 - 8:30 PM</strong></p>
@@ -21,7 +23,8 @@
               Pay by either:
             </p>
             <ul>
-              <li>Pay online into the HCG bank account 12-3174-0258558-00. Use Disco and your name as reference</li>
+              <li>Pay online into the HCG bank account 12-3174-0258558-00.<br/>
+              Use Disco and your name as reference</li>
               <li>Bringing cash on the night.</li>
             </ul>
           </div>

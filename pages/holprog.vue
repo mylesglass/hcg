@@ -1,10 +1,5 @@
 <template>
   <div id="disco">
-    <div class="columns">
-      <div class="column is-half">
-        <img src="/images/uploads/holprog-t1-19-v3.jpg" alt="">
-      </div>
-      <div class="column is-half">
         <section class="section">
           <div class="container">
             <header>
@@ -27,8 +22,6 @@
             <p>Pay online into the HCG bank account 12-3174-0258558-00.</p>
           </div>
         </section>
-      </div>
-    </div>
   </div>
 </template>
 

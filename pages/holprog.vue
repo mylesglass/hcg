@@ -11,7 +11,7 @@
           <img src="/images/uploads/header.png" alt="Easter Holiday Programme" class="title-image">
         </figure>
         <p class="blurb">
-          Harbour City GymSports is hosting an easter holiday programme over the Term 1 break!
+          Harbour City GymSports is hosting an Easter holiday programme over the Term 1 break!
         </p>
 
         <p class="blurb">

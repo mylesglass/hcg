@@ -1,9 +1,14 @@
 <template>
   <div id="holprog">
+    <img src="/images/svg/easter-egg-1.svg" class="egg egg1">
+    <img src="/images/svg/easter-egg-2.svg" class="egg egg2">
+    <img src="/images/svg/easter-egg-3.svg" class="egg egg3">
+    <img src="/images/svg/easter-egg-4.svg" class="egg egg4">
+    <img src="/images/svg/easter-egg-5.svg" class="egg egg5">
     <section class="section">
       <div class="container main-container">
         <figure class="image">
-          <img src="/images/uploads/header.png" alt="Easter Holiday Programme">
+          <img src="/images/uploads/header.png" alt="Easter Holiday Programme" class="title-image">
         </figure>
         <p class="blurb">
           Harbour City GymSports is hosting an easter holiday programme over the Term 1 break!
@@ -30,6 +35,7 @@
         </nav>
       </div>
     </section>
+    
   </div>
 </template>
 
@@ -40,9 +46,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 #holprog {
   background-color: #ACD6F3;
   min-height: 100vh;
+}
+
+.title-image {
+  z-index: 1;
 }
 
 .main-container {
@@ -56,6 +67,41 @@ export default {
   color: #262262;
   font-weight: 500;
   padding-bottom: 2rem;
+}
+
+.egg {
+  position: absolute;
+  z-index: 0;
+}
+
+.egg1 {
+  width: 12vw;
+  top: 10vh;
+  left: 10vw;
+}
+
+.egg2 {
+  width: 12vw;
+  top: 10vh;
+  right: 10vw;
+}
+
+.egg3 {
+  width: 12vw;
+  bottom: 10vh;
+  left: 20vw;
+}
+
+.egg4 {
+  width: 12vw;
+  bottom: 10vh;
+  right: 10vw;
+}
+
+.egg5 {
+  width: 7vw;
+  bottom: 5vh;
+  left: 40vw;
 }
 
 </style>

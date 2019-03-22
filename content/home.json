@@ -2,10 +2,10 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Safe, Friendly Environment",
-      "content": "We believe gymnastics is a safe and nurturing sport, and from the moment you walk into our gymnasium you will see a well-equipped, colourful, and exciting environment to learn gymnastics in.",
-      "button": "Learn About Us",
-      "url": "/about",
+      "title": "Easter Holiday Progamme",
+      "content": "We are hosting an Easter holiday programme over the Term 1 break!",
+      "button": "Learn More",
+      "url": "/holprog",
       "image": "/images/uploads/holprog-main.jpg"
     },
     {

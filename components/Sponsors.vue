@@ -6,7 +6,7 @@
         <p>{{ $store.state.sponsors.description }}</p>
       </header>
       <no-ssr>
-        <carousel :perPage="3" :autoplay="true" :autoplayTimeout="3000">
+        <carousel :perPage="4" :autoplay="true" :autoplayTimeout="3000">
           <slide v-for="sponsor in $store.state.sponsors.items" :key="sponsor.name">
             <div class="sponsor-container ">
               <figure class="image is-128x128">

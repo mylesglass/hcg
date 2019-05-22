@@ -1,10 +1,22 @@
 {
-    "title": "Sponsors",
-    "description": "Thank you to all our sponsors who allow us to do what we love!",
-    "items": [
-        {
-            "name": "Eastern Suburbs Sports Trust",
-            "imageUrl": "/images/uploads/esst.jpg"
-        }
-    ]
+  "title": "Sponsors",
+  "description": "Thank you to all our sponsors who allow us to do what we love!",
+  "items": [
+    {
+      "name": "Eastern Suburbs Sports Trust",
+      "imageUrl": "/images/uploads/esst.jpg"
+    },
+    {
+      "name": "Coffee Supreme",
+      "imageUrl": "/images/uploads/supreme.jpg"
+    },
+    {
+      "name": "Pak N Save Kilbirnie",
+      "imageUrl": "/images/uploads/pns.png"
+    },
+    {
+      "name": "New World Wellington City",
+      "imageUrl": "/images/uploads/nw.png"
+    }
+  ]
 }

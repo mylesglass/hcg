@@ -9,11 +9,11 @@
       "image": "/images/uploads/preschool_4x3.jpg"
     },
     {
-      "title": "Opportunities for all abilities",
-      "content": "Everybody can do gymnastics. We offer a range of programmes and services for all ages and abilities.",
-      "button": "See our programmes",
-      "url": "/programmes",
-      "image": "/images/uploads/team-4x3.jpg"
+      "title": "Holiday Programme",
+      "content": "We are running a holiday programme during the first week of the Term 2 break. Spaces are limited, get in quick!",
+      "button": "Register",
+      "url": "/holprog",
+      "image": "/images/uploads/holprog-main.jpg"
     },
     {
       "title": "Birthday Parties",

@@ -6,22 +6,21 @@
     {
       "days": [
         {
-          "tuesday": false,
           "wednesday": true,
-          "thursday": true,
-          "friday": true
+          "thursday": true
         }
       ],
-      "time": "9:30 - 10:15AM",
+      "time": "9:30 - 10:15 AM",
       "cost": "$106 - 118",
       "detail": "Preschool"
     },
     {
       "days": [
         {
-          "tuesday": true,
+          "tuesday": false,
           "wednesday": true,
-          "thursday": true
+          "thursday": true,
+          "saturday": false
         }
       ],
       "time": "10:30 - 11:15AM",
@@ -34,7 +33,7 @@
           "saturday": true
         }
       ],
-      "time": "9:00 - 9:45PM",
+      "time": "9:00 - 9:45AM",
       "cost": "$125",
       "detail": "Preschool"
     },

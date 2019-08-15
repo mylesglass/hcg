@@ -9,18 +9,18 @@
       "image": "/images/uploads/preschool_4x3.jpg"
     },
     {
-      "title": "Holiday Programme",
-      "content": "We are running a holiday programme during the first week of the Term 3 break. Spaces are limited, get in quick!",
-      "button": "Register",
-      "url": "/holprog",
-      "image": "/images/uploads/holprog-main.jpg"
-    },
-    {
       "title": "Birthday Parties",
       "content": "Have an awesome, action-packed birthday party at HCG!",
       "button": "Read More",
       "url": "/programmes/birthday-parties",
       "image": "/images/uploads/bday.jpg"
+    },
+    {
+      "title": "About Us",
+      "content": "Learn who we are, and what we do",
+      "button": "Okay",
+      "url": "/about",
+      "image": "/images/uploads/holprog-main.jpg"
     }
   ],
   "splash_button": "See our programmes",

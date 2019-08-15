@@ -9,28 +9,30 @@
           "sunday": true
         }
       ],
-      "time": "2:30 - 4:00PM",
-      "cost": "$190",
+      "time": "2:00 - 4:00PM",
+      "cost": "$210",
       "detail": "Junior Training"
     },
     {
       "days": [
         {
+          "thursday": true,
           "sunday": true
         }
       ],
-      "time": "4:00 - 6:00PM",
-      "cost": "$210",
+      "time": "6:45 - 8:15 PM Thursday & 4:00 - 6:00PM Sunday",
+      "cost": "$315",
       "detail": "Intermediate Training"
     },
     {
       "days": [
         {
+          "thursday": true,
           "sunday": true
         }
       ],
-      "time": "4:00 - 6:00PM",
-      "cost": "$210",
+      "time": "6:45 - 8:15 PM Thursday & 5:30 - 7:30PM Sunday",
+      "cost": "$315",
       "detail": "Senior Training"
     }
   ],

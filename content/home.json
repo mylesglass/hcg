@@ -2,6 +2,13 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
+      "title": "Holiday Programme",
+      "content": "Sign up for our Term 3 Holiday Programme now!",
+      "button": "Sign me up!",
+      "url": "/holprog",
+      "image": "/images/uploads/holprog.jpg"
+    },
+    {
       "title": "5 & 6 Year Old Classes",
       "content": "We currently have open spaces in our recreational gymnastics classes for 5 & 6 year olds!",
       "button": "Learn More",
@@ -14,13 +21,6 @@
       "button": "Read More",
       "url": "/programmes/birthday-parties",
       "image": "/images/uploads/bday.jpg"
-    },
-    {
-      "title": "About Us",
-      "content": "Learn who we are, and what we do",
-      "button": "Okay",
-      "url": "/about",
-      "image": "/images/uploads/holprog-main.jpg"
     }
   ],
   "splash_button": "See our programmes",

@@ -1,7 +1,7 @@
 <template>
   <div id="springs">
     <section class="section">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEFHn8PwGsjd3r5cNJXfdkQrSeG5LIgU53lueYpvCCpcVlAQ/viewform?embedded=true" width="100%" height="1693" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEFHn8PwGsjd3r5cNJXfdkQrSeG5LIgU53lueYpvCCpcVlAQ/viewform?embedded=true" width="100%" height="2300px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
     
   </div>
@@ -21,7 +21,7 @@ export default {
 }
 
 .section {
-  padding: 1rem 1rem;
+  padding: 3rem 1rem;
 }
 
 </style>

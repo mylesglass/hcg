@@ -27,7 +27,7 @@
               <p>
                 The floor is made up of 1600 springs covered with plywood and foam. The plywood and foam are in great condition - so instead of replacing the whole thing we just need to replace the springs.
                 <br/><br/>
-                We're thinking that since <i>many hands make light work</i> if we can get our extended gymnastics community to help chip in a purchase a spring or two, we'll be able to get the springs shipped here from USA over the summer break, and have a new bouncier floor ready for 2020!
+                We're thinking that if we can get our extended gymnastics community to help chip in and purchase a spring or two, we'll be able to get the springs shipped here from USA for the summer break, and have a new bouncier floor ready for 2020!
                 <br/><br/>
                 <strong>Fill out the form on this page to purchase a spring (or 10)</strong>
               </p>

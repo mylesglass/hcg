@@ -14,23 +14,23 @@
           <img src="~/assets/spring-image-header.jpg" alt="Spring Fundraiser!">
           <br>
           <p>
-            The floor is one of the main pieces of equipment we use in gymnastics. All classes currently run within the gym work on the floor. It's a bit of the hard side, and if we can do a bit of renovation to increase the floors spring we'll be able to utilise it even more! Creating a surface with more rebound will allow our gymnasts to learn more difficult skills - while lessening the risk of injury through overuse.
+            The floor is one of the most essential pieces of equipment we use in gymnastics. All of our programmes within the gym use the floor. It's a bit on the hard side, and if we can do a bit of renovation to increase the floors spring we'll be able to use it even more! Creating a surface with more rebound will allow our gymnasts to learn more difficult skills - while decreasing the risk of injury through overuse.
           </p>
           <br>
           <div class="columns">
             <div class="column">
-              <p>
-                The floor is made up of 1600 springs covered with plywood and foam. The plywood and foam are still in great condition - so instead of replacing the whole thing we just need to replace the springs.
-                <br/><br/>
-                We're thinking that since <i>many hands make light work</i>, if we can get our extended gymnastics community to help chip in a purchase a spring or two, we'll be able to get the springs shipped here from USA over the summer break, and have a new floor ready for 2020!
-                <br/><br/>
-                <strong>Fill out the form on this page to purchase a spring (or 10)</strong>
-              </p>
-            </div>
-            <div class="column">
               <figure >
                 <img src="~/assets/spring-floor-illustration.png" alt="Spring Floor Illustration" width="">
               </figure>
+            </div>
+            <div class="column">
+              <p>
+                The floor is made up of 1600 springs covered with plywood and foam. The plywood and foam are in great condition - so instead of replacing the whole thing we just need to replace the springs.
+                <br/><br/>
+                We're thinking that since <i>many hands make light work</i> if we can get our extended gymnastics community to help chip in a purchase a spring or two, we'll be able to get the springs shipped here from USA over the summer break, and have a new bouncier floor ready for 2020!
+                <br/><br/>
+                <strong>Fill out the form on this page to purchase a spring (or 10)</strong>
+              </p>
             </div>
           </div>
           <div class="markdown">
@@ -44,9 +44,10 @@
             <p>
               <strong>Board Sponsors</strong>
               <br/>
-              Any group, family, or business that purchases a lot of 32 springs - get a special panel of recognition on our board. You can make it your logo, your family name, or a picture of your dog*
+              Any group, family, or business that purchases a lot of 32 springs - get a special panel of recognition on our board. You can make it your businesses logo, your family name, or a picture of your dog*
               
             </p>
+            <br>
             <span class="meta">*must meet design guidelines</span>
           </div>
         </div>

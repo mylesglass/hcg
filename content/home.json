@@ -2,10 +2,10 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Holiday Programme",
-      "content": "Sign up for our Term 3 Holiday Programme now!",
-      "button": "Sign me up!",
-      "url": "/holprog",
+      "title": "Spring Floor Fundraiser",
+      "content": "Help make our floor bouncier by purchasing a spring for us!",
+      "button": "I'd love to help!",
+      "url": "/springs",
       "image": "/images/uploads/holprogt3-19.jpg"
     },
     {

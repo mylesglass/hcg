@@ -44,7 +44,7 @@
             <p>
               <strong>Board Sponsors</strong>
               <br/>
-              Any group, family, or business that purchases a lot of 32 springs - get a special panel of recognition on our board. You can make it your businesses logo, your family name, or a picture of your dog*
+              Any group, family, or business that purchases a lot of 32 springs - gets a special panel of recognition on our board. You can make it your businesses logo, your family name, or a picture of your dog*
               
             </p>
             <br>

@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <div class="container">
+    <div class="container main-container">
       <header>
         <h1>Login</h1>
       </header>

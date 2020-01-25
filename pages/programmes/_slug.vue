@@ -1,43 +1,42 @@
 <template>
   <section class="section">
-    <div class="container">
+    <div class="container main-container">
       <header>
         <h1>{{ title }}</h1>
         <p>{{ subtitle }}</p>
       </header>
-    </div>
-    <div class="container table-container">
-      <b-table :data="classes">
-        <template slot-scope="props">
-          <b-table-column field="days" label="Day">
-            <day-info :days="props.row.days[0]"/>
-          </b-table-column>
-          <b-table-column field="time" label="Time">
-            <p class="is-size-7">
-              {{ props.row.time }}
-            </p>
-          </b-table-column>
-          <b-table-column field="cost" label="Cost">
-            <p class="is-size-7">
-              {{ props.row.cost }}
+      
+      <div class="table-container">
+        <b-table :data="classes">
+          <template slot-scope="props">
+            <b-table-column field="days" label="Day">
+              <day-info :days="props.row.days[0]"/>
+            </b-table-column>
+            <b-table-column field="time" label="Time">
+              <p class="is-size-7">
+                {{ props.row.time }}
               </p>
-          </b-table-column>
-          <b-table-column field="detail" label="Details" :visible="hasDetails">
-            <b-tooltip :label="props.row.detail" position="is-left">
-              <b-icon icon="alert-circle" type="is-info"></b-icon>
-            </b-tooltip>
-          </b-table-column>
-        </template>
-      </b-table>
-      <div class="image-container has-background-image" :style="bg"></div>
-    </div>
-
-    
-    <div class="container">
+            </b-table-column>
+            <b-table-column field="cost" label="Cost">
+              <p class="is-size-7">
+                {{ props.row.cost }}
+                </p>
+            </b-table-column>
+            <b-table-column field="detail" label="Details" :visible="hasDetails">
+              <b-tooltip :label="props.row.detail" position="is-left">
+                <b-icon icon="alert-circle" type="is-info"></b-icon>
+              </b-tooltip>
+            </b-table-column>
+          </template>
+        </b-table>
+        <div class="image-container has-background-image" :style="bg"></div>
+      </div>
+      
       <span v-html="htmlContent" class="markdown"></span>
-    </div>
-    <div class="container" v-if="items">
-      <info-card v-for="item in items" :key="item.title" :item="item"/>
+    
+      <div v-if="items">
+        <info-card v-for="item in items" :key="item.title" :item="item"/>
+      </div>
     </div>
   </section>
 </template>
@@ -161,10 +160,6 @@ padding-right: 0px;
 
 .right-column {
   
-}
-
-.container {
-  max-width: 600px;
 }
 
 @media screen and (min-width: 769px) {

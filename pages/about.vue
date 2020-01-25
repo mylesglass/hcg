@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <section class="section">
-      <div class="container">
+      <div class="container main-container">
         <header>
           <h1>{{ title }}</h1>
           <p>{{ subtitle }}</p>

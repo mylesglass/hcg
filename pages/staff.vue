@@ -1,6 +1,6 @@
 <template>
   <section class="section staff-section">
-    <div class="container">
+    <div class="container main-container">
       <header>
         <h1>Staff</h1>
         <p>Something's gone wrong. Please check back here soon.</p>

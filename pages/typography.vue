@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <div class="container">
+    <div class="container main-container">
       <header>
         <h1>Seventeenth Century and Beyond</h1>
         <p>By J.K. Rowling</p>

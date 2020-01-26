@@ -4,9 +4,9 @@
   "phone": "04 386 4443",
   "phone_description": "We can be reached via phone during the following hours:",
   "hours": [
-    "Tuesday: 9:30 - 1:00 PM",
-    "Wedneday: 9:30 - 1:00 PM",
-    "Thursday: 9:30 - 1:00 PM"
+    "Monday: 9:00 - 12:00 PM",
+    "Wedneday: 9:00 - 12:00 PM",
+    "Thursday: 9:00 - 12:00 PM"
   ],
   "phone_disclaimer": "We are usually in the gym outside of these hours, but it is difficult for our staff to answer the phone when they are busy coaching. You can leave a message and we will ring you back during our office hours.",
   "email_description": "Send us a message, and we will get back to you as soon as we can.",
@@ -24,8 +24,8 @@
       "url": "kay@hcg.org.nz"
     },
     {
-      "title": "Recreational Programme Enquires",
-      "url": "gym4all@hcg.org.nz"
+      "title": "Recreational Enquiries",
+      "url": "myles@hcg.org.nz"
     }
   ]
 }

@@ -23,7 +23,7 @@
                 </p>
             </b-table-column>
             <b-table-column field="detail" label="Details" :visible="hasDetails">
-              <b-tooltip :label="props.row.detail" position="is-left">
+              <b-tooltip :label="props.row.detail" multilined position="is-left">
                 <b-icon icon="alert-circle" type="is-info"></b-icon>
               </b-tooltip>
             </b-table-column>

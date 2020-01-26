@@ -4,7 +4,7 @@
   "items": [
     {
       "name": "Eastern Suburbs Sports Trust",
-      "imageUrl": "/images/uploads/esst.jpg"
+      "imageUrl": "/images/uploads/esst.png"
     },
     {
       "name": "Coffee Supreme",
@@ -17,6 +17,10 @@
     {
       "name": "New World Wellington City",
       "imageUrl": "/images/uploads/nw.png"
+    },
+    {
+      "name": "FlexiTime",
+      "imageUrl": "/images/uploads/flexitime.png"
     }
   ]
 }

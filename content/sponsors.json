@@ -3,12 +3,12 @@
   "description": "Thank you to all our sponsors who allow us to do what we love!",
   "items": [
     {
-      "name": "Eastern Suburbs Sports Trust",
-      "imageUrl": "/images/uploads/esst.png"
-    },
-    {
       "name": "Coffee Supreme",
       "imageUrl": "/images/uploads/supreme.jpg"
+    },
+    {
+      "name": "Eastern Suburbs Sports Trust",
+      "imageUrl": "/images/uploads/esst.png"
     },
     {
       "name": "Pak N Save Kilbirnie",

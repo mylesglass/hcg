@@ -14,11 +14,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Harbour City GymSports',
+    title: 'Harbour City Gymnastics',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Harbour City GymSports is located in Hataitai, Wellington. We offer fun, friendly, and exciting gymnastics programmes for all ages and abilities.' },
+      { hid: 'description', name: 'description', content: 'Harbour City Gymnastics is located in Hataitai, Wellington. We offer fun, friendly, and exciting gymnastics programmes for all ages and abilities.' },
       { name: 'msapplication-TileColor', content: '#0e132b' },
       { name: 'msapplication-TileImage', content: '/favicon/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#0e132b'}

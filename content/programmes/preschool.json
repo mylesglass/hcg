@@ -11,21 +11,21 @@
         }
       ],
       "time": "9:30 - 10:15 AM",
-      "cost": "$118 + fees",
-      "detail": "Preschool. Fees may include Gymnastics NZ's preschool member fee of $5.75, and HCG's annual membership fee of $10"
+      "cost": "$106 + fees",
+      "detail": "Preschool. Fees may include Gymnastics NZ's preschool member fee of $5.20, and HCG's annual membership fee of $10"
     },
     {
       "days": [
         {
           "tuesday": false,
           "wednesday": true,
-          "thursday": true,
+          "thursday": false,
           "saturday": false
         }
       ],
-      "time": "10:30 - 11:15AM",
-      "cost": "$125 + fees",
-      "detail": "Advanced Preschool. Fees may include Gymnastics NZ's preschool member fee of $5.75, and HCG's annual membership fee of $10"
+      "time": "10:30 - 11:00AM",
+      "cost": "$5 per session",
+      "detail": "Free Play Class"
     },
     {
       "days": [
@@ -34,8 +34,8 @@
         }
       ],
       "time": "9:00 - 9:45AM",
-      "cost": "$125 + fees",
-      "detail": "Preschool. Fees may include Gymnastics NZ's preschool member fee of $5.75, and HCG's annual membership fee of $10"
+      "cost": "$113 + fees",
+      "detail": "Preschool. Fees may include Gymnastics NZ's preschool member fee of $5.20, and HCG's annual membership fee of $10"
     },
     {
       "days": [
@@ -44,8 +44,8 @@
         }
       ],
       "time": "10:00 - 10:45AM",
-      "cost": "$130 + fees",
-      "detail": "4 - 6 Year Olds. Fees may include Gymnastics NZ's preschool member fee of $5.75, and HCG's annual membership fee of $10"
+      "cost": "$117 + fees",
+      "detail": "4 - 6 Year Olds. Fees may include Gymnastics NZ's preschool member fee of $5.20, and HCG's annual membership fee of $10"
     }
   ],
   "category": "Recreational",

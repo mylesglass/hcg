@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/redirect-module": "^0.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "hammer": "0.0.5",
     "markdown-it": "^8.4.2",
     "node-sass": "^4.12.0",

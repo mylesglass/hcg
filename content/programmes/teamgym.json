@@ -10,29 +10,29 @@
         }
       ],
       "time": "2:30 - 4:00PM",
-      "cost": "$189 + fees",
+      "cost": "$190 + fees",
       "detail": "Junior. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
     },
     {
       "days": [
         {
-          "thursday": true,
+          "thursday": false,
           "sunday": true
         }
       ],
       "time": "4:00 - 6:00PM",
-      "cost": "$283.50 + fees",
+      "cost": "$210 + fees",
       "detail": "Intermediate. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
     },
     {
       "days": [
         {
-          "thursday": true,
+          "thursday": false,
           "sunday": true
         }
       ],
       "time": "5:30 - 7:30PM",
-      "cost": "$283.50 + fees",
+      "cost": "$210 + fees",
       "detail": "Advanced. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
     }
   ],

@@ -1,4 +1,6 @@
 {
-    "gnz_logo": "/images/uploads/gnz.png",
-    "foot1": "<strong>Harbour City GymSports</strong> is a <a href=\"https://gymnasticsnz.com\">Gymnastics New Zealand</a> affiliated club."
+  "gnz_logo": "/images/uploads/gnz.png",
+  "est_logo": "/images/uploads/esst.png",
+  "foot1": "<strong>Harbour City Gymnastics</strong> is a <a href=\"https://gymnasticsnz.com\">Gymnastics New Zealand</a> affiliated club.",
+  "foot2": "<a href=\"https://goo.gl/maps/tFcMiE4qRtW7wbH46\">37 Hataitai Park, Ruahine St, Hataitai, Wellington</a>"
 }

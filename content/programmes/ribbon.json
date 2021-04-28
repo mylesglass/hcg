@@ -21,7 +21,7 @@
         {
           "tuesday": true,
           "wednesday": true,
-          "thursday": true
+          "thursday": false
         }
       ],
       "time": "3:30 - 4:20PM",

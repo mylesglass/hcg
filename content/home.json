@@ -2,18 +2,18 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Holiday Programme",
-      "content": "We're running a holiday programme over the Term 1 break",
-      "button": "Register",
-      "url": "/holprog",
-      "image": "/images/uploads/holprog-main.jpg"
+      "title": "Preschool Classes",
+      "content": "Teach your little one how to safely play, climb, fall, roll, and have fun in our gym!",
+      "button": "Learn More",
+      "url": "/programmes/preschool",
+      "image": "/images/uploads/preschool_4x3.jpg"
     },
     {
       "title": "5 & 6 Year Old Classes",
       "content": "We currently have open spaces in our recreational gymnastics classes for 5 & 6 year olds!",
       "button": "Learn More",
       "url": "/programmes/ribbon",
-      "image": "/images/uploads/preschool_4x3.jpg"
+      "image": "/images/uploads/4xbadge_3.jpg"
     },
     {
       "title": "Birthday Parties",

@@ -2,11 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Preschool Classes",
-      "content": "Teach your little one how to safely play, climb, fall, roll, and have fun in our gym!",
-      "button": "Learn More",
-      "url": "/programmes/preschool",
-      "image": "/images/uploads/preschool_4x3.jpg"
+      "title": "Holiday Programme",
+      "content": "We are running a holiday programme during the Term 3 break!",
+      "button": "Register now",
+      "url": "/programmes/holprog",
+      "image": "/images/uploads/asdasdsdsads.jpg"
     },
     {
       "title": "5 & 6 Year Old Classes",

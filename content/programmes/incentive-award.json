@@ -6,7 +6,8 @@
     {
       "days": [
         {
-          "tuesday": true
+          "tuesday": true,
+          "thursday": true
         }
       ],
       "time": "4:30 - 5:30PM",
@@ -30,7 +31,7 @@
         }
       ],
       "time": "3:45 - 5:00PM",
-      "cost": "$190 + fees",
+      "cost": "$171 + fees",
       "detail": "Levels 5+. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
     }
   ],

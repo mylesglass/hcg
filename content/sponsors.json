@@ -16,7 +16,15 @@
     },
     {
       "name": "Four Winds Foundation",
-      "imageUrl": "/images/uploads/6091e1abdcd3ce0025023dfa_four-winds-with-icon-logo.png"
+      "imageUrl": "/images/uploads/fw.png"
+    },
+    {
+      "name": "Lion Foundation",
+      "imageUrl": "/images/uploads/lf.png"
+    },
+    {
+      "name": "Grassroots Trust",
+      "imageUrl": "/images/uploads/gr.png"
     }
   ]
 }

@@ -2,11 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Preschool Gymnastics",
-      "content": "Our preschool programme helps young ones to learn to move in a safe but challenging environment",
-      "button": "Learn More",
-      "url": "/programmes/preschool",
-      "image": "/images/uploads/preschool_4x3.jpg"
+      "title": "Holiday Programme!",
+      "content": "We're running a holiday programme over the Term 1 break!",
+      "button": "Register",
+      "url": "/holprog",
+      "image": "/images/uploads/postcard.png"
     },
     {
       "title": "5 & 6 Year Old Classes",

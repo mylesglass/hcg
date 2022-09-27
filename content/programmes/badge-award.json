@@ -7,11 +7,21 @@
       "days": [
         {
           "monday": true,
+          "wednesday": false
+        }
+      ],
+      "time": "4:30 - 5:30",
+      "cost": "$124 (8 weeks) + fees",
+      "detail": "Fees may include Gymnastics NZ's Recreational Member fee of $9.20, and HCG's Annual Membership Fee of $10"
+    },
+    {
+      "days": [
+        {
           "wednesday": true
         }
       ],
       "time": "4:30 - 5:30",
-      "cost": "$156 + fees",
+      "cost": "$140 (9 weeks) + fees",
       "detail": "Fees may include Gymnastics NZ's Recreational Member fee of $9.20, and HCG's Annual Membership Fee of $10"
     }
   ],

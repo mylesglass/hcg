@@ -10,7 +10,7 @@
         }
       ],
       "time": "10:00 - 12:00 PM",
-      "cost": "$150 - 200",
+      "cost": "$180 - 230",
       "detail": "Price dependent on number of guests"
     },
     {
@@ -20,7 +20,7 @@
         }
       ],
       "time": "12:30 - 2:30 PM",
-      "cost": "$150 - 200",
+      "cost": "$180 - 230",
       "detail": "Price dependent on number of guests"
     }
   ],

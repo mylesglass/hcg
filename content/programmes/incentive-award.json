@@ -1,5 +1,5 @@
 {
-  "title": "Incentive Award",
+  "title": "EXCEL",
   "subtitle": "Artistic gymnastics for gymnasts looking for more.",
   "age": "6+ Years Old",
   "classes": [
@@ -7,12 +7,12 @@
       "days": [
         {
           "tuesday": true,
-          "thursday": true
+          "thursday": false
         }
       ],
       "time": "4:30 - 5:30PM",
-      "cost": "$143 + fees",
-      "detail": "Junior class for levels 1 - 3. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
+      "cost": "$161 + fees",
+      "detail": "Junior class for levels 1 - 3. Fees may include Gymnastics NZ's recreational member fee of $10.17, and HCG's quarterly membership of $5 "
     },
     {
       "days": [
@@ -21,8 +21,18 @@
         }
       ],
       "time": "5:00 - 6:15PM",
-      "cost": "$171 + fees",
-      "detail": "Levels 4 & 5. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
+      "cost": "$215 + fees",
+      "detail": "Levels 3 & 4. Fees may include Gymnastics NZ's recreational member fee of $10.17, and HCG's quarterly membership of $5 "
+    },
+    {
+      "days": [
+        {
+          "thursday": true
+        }
+      ],
+      "time": "3:30 - 4:30",
+      "cost": "$179 + fees",
+      "detail": "Junior class for levels 1 - 3. Fees may include Gymnastics NZ's recreational member fee of $10.17, and HCG's quarterly membership of $5 "
     },
     {
       "days": [
@@ -32,11 +42,11 @@
       ],
       "time": "3:45 - 5:00PM",
       "cost": "$171 + fees",
-      "detail": "Levels 5+. Fees may include Gymnastics NZ's recreational member fee of $9.20, and HCG's annual membership fee of $10"
+      "detail": "Levels 4+. Fees may include Gymnastics NZ's recreational member fee of $10.17, and HCG's quarterly membership of $5 "
     }
   ],
   "category": "Intermediate",
   "thumbnail": "/images/uploads/incentive4x3.jpg",
-  "body": "The Incentive Award programme is designed Gymnastics New Zealand, and offers awards in 4 different codes; Artistic, Trampoline, Rhythmic, and Aerobics. Harbour City GymSports currently offers Artistic Incentive Awards for levels 1 – 7.\r\n\nGymnasts work in small focused groups towards achieving skills and routines required by their level. Gymnasts 6 years and over gain entry to these classes by coach selection, and have generally participated in our Ribbon or Badge award programmes.\n\n## Assessment\n\nAwards are gained through a testing process where gymnasts are examined by qualified GNZ judges. Classes will be offered testing twice yearly within the Club. Testing is carried out either on a special testing day, or during normal class time. Preparation for testing involves:\n\n* Conditioning – Development of strength, agility and flexibility\r\n* Skills – A cross section of skills on all apparatus\r\n* Routines – Skills sequences performed on various apparatus\n\n## Competitions\n\nIncentive class gymnasts have the opportunity to enter “Gym for All” competitions. GFA competitions are held across the region and we actively encourage Incentive class participants to enter.",
+  "body": "EXCEL is a 6-level programme created by Harbour City Gymnastics for recreational gymnasts.\r\n\nWe currently offer this programme for artistic gymnastics, which covers both women’s and\r men’s apparatus i.e. Vault, Bars, Beam, Floor, Pommel, Rings.\r\n\nThere is a high emphasis on teaching technique that is both aesthetically pleasing and that will\r develop later towards more difficult skills. Compared to our entry-level recreational classes\r (Ribbon & Badge), gymnasts will find that they are spending more class time working in small\r groups with a coach to learn new skills.\r\n\n## Assessment\n\nGymnasts are judged to verify that they are performing their set skills to a certain level, before\r being able to move upwards into the next level. Testing happens throughout the year on specific\r testing days, and also at competitions (see below).\r\n\n## Competitions\n\nGymnasts in EXCEL are offered the opportunity\r to compete in Gym-For-All competitions during\r the year. Routines are developed within the\r class for these competitions, and\r supplementary sessions are allocated to allow\r the gymnasts to prepare.",
   "items": []
 }

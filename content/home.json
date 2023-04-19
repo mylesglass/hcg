@@ -2,11 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Holiday Programme!",
-      "content": "We're running a holiday programme over the Term 1 break!",
-      "button": "Register",
-      "url": "/holprog",
-      "image": "/images/uploads/postcard.png"
+      "title": "Learn to Handstand",
+      "content": "Try our adults handbalancing class at Harbour City Gymnastics",
+      "button": "Register now",
+      "url": "/handbalancing",
+      "image": "/images/uploads/handbalancing.jpg"
     },
     {
       "title": "5 & 6 Year Old Classes",

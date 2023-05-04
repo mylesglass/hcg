@@ -16,11 +16,11 @@
       "image": "/images/uploads/4xbadge_3.jpg"
     },
     {
-      "title": "Birthday Parties",
-      "content": "Have an awesome, action-packed birthday party at HCG!",
-      "button": "Read More",
-      "url": "/programmes/birthday-parties",
-      "image": "/images/uploads/bday.jpg"
+      "title": "Holiday Programme",
+      "content": "We're running a holiday programme over the Term 2 break!",
+      "button": "Register",
+      "url": "/holprog",
+      "image": "/images/uploads/postcard.png"
     }
   ],
   "splash_button": "See our programmes",

@@ -14,7 +14,7 @@ export default {
 
 <style lang="scss" scoped>
 #movie {
-  background-color: #F9CBD6;
+  background-color: #00A7BA;
   
 }
 .section {

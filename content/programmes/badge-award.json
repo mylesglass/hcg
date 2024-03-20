@@ -6,13 +6,16 @@
     {
       "days": [
         {
-          "monday": true,
+          "monday": true
+        },
+        {
+          "monday": false,
           "wednesday": true
         }
       ],
       "time": "4:30 - 5:30",
-      "cost": "$176 + fees",
-      "detail": "Fees may include Gymnastics NZ's recreational member fee of $10.17, and HCG's quarterly membership of $5 "
+      "cost": "$158 + fees",
+      "detail": "No session Monday 3rd June. Fees may include Gymnastics NZ's recreational member fee of $10.17, and HCG's quarterly membership of $5 "
     }
   ],
   "category": "Recreational",

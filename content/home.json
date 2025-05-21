@@ -2,25 +2,25 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
+      "title": "Movie Fundraiser",
+      "content": "Come and watch The Greatest Showman at the state-of-the-art HCG movie theatre. Set up your own seating from all of our gym matting, lie back, and enjoy The Greatest Showman  projected onto the gym wall. ",
+      "button": "Book Tickets",
+      "url": "/tgs",
+      "image": "/images/uploads/website-thumbnail.jpg"
+    },
+    {
+      "title": "Hoodie Fundraiser",
+      "content": "Harbour City Gymnastics branded hoodies are now available for order",
+      "button": "Purchase Here",
+      "url": "/hoodies",
+      "image": "/images/uploads/website-thumb.jpg"
+    },
+    {
       "title": "Holiday Programme",
-      "content": "We're running a holiday programme in the Term 1 break!",
+      "content": "We're running a holiday programme in the Term 2 break!",
       "button": "Register",
       "url": "/holprog",
       "image": "/images/uploads/postcard.png"
-    },
-    {
-      "title": "5 & 6 Year Old Classes",
-      "content": "We currently have open spaces in our recreational gymnastics classes for 5 & 6 year olds!",
-      "button": "Learn More",
-      "url": "/programmes/ribbon",
-      "image": "/images/uploads/4xbadge_3.jpg"
-    },
-    {
-      "title": "Preschool Spaces Available",
-      "content": "We currently have spaces for preschool children on Wednesday and Saturday",
-      "button": "Learn More",
-      "url": "/programmes/preschool",
-      "image": "/images/uploads/preschool_4x3.jpg"
     }
   ],
   "splash_button": "See our programmes",

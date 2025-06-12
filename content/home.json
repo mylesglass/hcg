@@ -2,11 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Movie Fundraiser",
-      "content": "Come and watch The Greatest Showman at the state-of-the-art HCG movie theatre. Set up your own seating from all of our gym matting, lie back, and enjoy The Greatest Showman  projected onto the gym wall. ",
-      "button": "Book Tickets",
-      "url": "/tgs",
-      "image": "/images/uploads/website-thumbnailssfsdf.jpg"
+      "title": "Holiday Programme",
+      "content": "We're running a holiday programme in the Term 2 break!",
+      "button": "Register",
+      "url": "/holprog",
+      "image": "/images/uploads/blank-template-for-marketing-website_thumb.jpg"
     },
     {
       "title": "Hoodie Fundraiser",
@@ -16,11 +16,11 @@
       "image": "/images/uploads/website-thumb.jpg"
     },
     {
-      "title": "Holiday Programme",
-      "content": "We're running a holiday programme in the Term 2 break!",
-      "button": "Register",
-      "url": "/holprog",
-      "image": "/images/uploads/blank-template-for-marketing-website_thumb.jpg"
+      "title": "Movie Fundraiser",
+      "content": "Come and watch The Greatest Showman at the state-of-the-art HCG movie theatre. Set up your own seating from all of our gym matting, lie back, and enjoy The Greatest Showman  projected onto the gym wall. ",
+      "button": "Book Tickets",
+      "url": "/tgs",
+      "image": "/images/uploads/website-thumbnailssfsdf.jpg"
     }
   ],
   "splash_button": "See our programmes",

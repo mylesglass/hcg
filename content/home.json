@@ -9,18 +9,18 @@
       "image": "/images/uploads/blank-template-for-marketing-website_thumb.jpg"
     },
     {
-      "title": "Hoodie Fundraiser",
-      "content": "Harbour City Gymnastics branded hoodies are now available for order",
-      "button": "Purchase Here",
-      "url": "/hoodies",
-      "image": "/images/uploads/website-thumb.jpg"
+      "title": "Have your birthday party at HCG!",
+      "content": "Our exciting gymnasium will be the perfect venue for your next stress-free birthday party!",
+      "button": "Learn More",
+      "url": "/programmes/birthday-parties",
+      "image": "/images/uploads/bday.jpg"
     },
     {
-      "title": "Movie Fundraiser",
-      "content": "Come and watch The Greatest Showman at the state-of-the-art HCG movie theatre. Set up your own seating from all of our gym matting, lie back, and enjoy The Greatest Showman  projected onto the gym wall. ",
-      "button": "Book Tickets",
-      "url": "/tgs",
-      "image": "/images/uploads/website-thumbnailssfsdf.jpg"
+      "title": "5 & 6 Year Old Spaces Available",
+      "content": "We have spaces open in our 5 & 6 year old recreational classes for Term 3!",
+      "button": "Learn More",
+      "url": "/programmes/ribbon",
+      "image": "/images/uploads/ribbon_4x3.jpg"
     }
   ],
   "splash_button": "See our programmes",

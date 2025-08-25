@@ -2,11 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Holiday Programme",
-      "content": "We're running a holiday programme in the Term 2 break!",
-      "button": "Register",
-      "url": "/holprog",
-      "image": "/images/uploads/blank-template-for-marketing-website_thumb.jpg"
+      "title": "Moana Gym Movie",
+      "content": "We're watching Moana at the gym on September 13th, send the kids along!",
+      "button": "Book Now",
+      "url": "/moana",
+      "image": "/images/uploads/moana-website-thumbnail.jpg"
     },
     {
       "title": "Have your birthday party at HCG!",
@@ -16,11 +16,11 @@
       "image": "/images/uploads/bday.jpg"
     },
     {
-      "title": "5 & 6 Year Old Spaces Available",
-      "content": "We have spaces open in our 5 & 6 year old recreational classes for Term 3!",
-      "button": "Learn More",
-      "url": "/programmes/ribbon",
-      "image": "/images/uploads/ribbon_4x3.jpg"
+      "title": "Downton Abbey: The Grand Finale",
+      "content": "We're running a movie fundraiser at Brooklyn Cinema on September 17th",
+      "button": "Book Now",
+      "url": "/downton",
+      "image": "/images/uploads/downton-website-thumbnail.jpg"
     }
   ],
   "splash_button": "See our programmes",

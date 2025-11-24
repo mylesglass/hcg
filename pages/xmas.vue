@@ -1,7 +1,7 @@
 <template>
   <div id="holprog">
     <section class="section">
-      <img src="~/assets/xmas-holprog-25.png" alt="XMAS Holiday Programme!">\
+      <img src="~/assets/xmas-holprog-25.png" alt="XMAS Holiday Programme!" class="header-image">\
       <script src="https://harbourcitygym.friendlymanager.com/js/loadform/holidayprogram.js"></script>
     </section>
   </div>
@@ -17,7 +17,13 @@ export default {
 
 #holprog {
   background-color: #f1e9d7;
-  
+}
+
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
 }
 
 .section {

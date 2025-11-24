@@ -2,17 +2,17 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Moana Gym Movie",
-      "content": "We're watching Moana at the gym on September 13th, send the kids along!",
+      "title": "Christmas Programme",
+      "content": "Drop off the kids for a fun day and go get your shopping finished",
       "button": "Book Now",
-      "url": "/moana",
-      "image": "/images/uploads/moana-website-thumbnail.jpg"
+      "url": "/xmas",
+      "image": "/images/uploads/xmas-holprog-2025.png"
     },
     {
-      "title": "Term 3 Holiday Programme",
-      "content": "Get ready for an action-packed holiday full of fun, challenges, and creative activities at our gymnastics programme! Our experienced coaches will guide participants through engaging drills and exciting games, helping them develop new skills and build confidence in a supportive and energetic environment.",
-      "button": "Register now",
-      "url": "/holprog",
+      "title": "Circus Carnival",
+      "content": "Our end-of-year show and receration prizegiving will be running on Sunday 7th December",
+      "button": "Learn More",
+      "url": "/prizegiving",
       "image": "/images/uploads/holiday-programme-25-t3-website_thumb.jpg"
     },
     {

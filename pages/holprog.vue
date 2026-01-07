@@ -1,6 +1,7 @@
 <template>
   <div id="holprog">
     <section class="section">
+      <img src="~/assets/holprog-title.png" alt="Holiday Programme!" class="header-image">\
       <script src="https://harbourcitygym.friendlymanager.com/js/loadform/holidayprogram.js"></script>
     </section>
   </div>
@@ -15,7 +16,7 @@ export default {
 <style lang="scss" scoped>
 
 #holprog {
-  background-color: #ACD6F3;
+  background-color: #ffffff;
   
 }
 

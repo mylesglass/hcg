@@ -20,6 +20,13 @@ export default {
   
 }
 
+.header-image {
+  display: block;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto
+}
+
 .section {
   padding: 1rem 1rem;
 }

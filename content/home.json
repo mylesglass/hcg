@@ -2,11 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Christmas Programme",
-      "content": "Drop off the kids for a fun day and go get your shopping finished",
+      "title": "Summer Holiday Programme",
+      "content": "Sign up for our super fun gymnastics holiday programme in January 2026",
       "button": "Book Now",
-      "url": "/xmas",
-      "image": "/images/uploads/xmas-holprog-2025.png"
+      "url": "/holprog",
+      "image": "/images/uploads/summer-holprog.png"
     },
     {
       "title": "Circus Carnival",

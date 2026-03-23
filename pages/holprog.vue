@@ -11,21 +11,24 @@
         </div>
 
         <p class="subtitle">
-          Keep the kids moving and having fun these school holidays! Our holiday programme is the perfect way for tamariki aged 5–12 to burn off energy, learn new skills, and make new friends in a fun, safe, and supportive environment.
+          Keep the kids moving and having fun! Our holiday programme is the perfect way for tamariki to burn off energy, learn new skills, and make friends in a safe, supportive environment. 
           <br><br>
-          <strong>Spaces fill up fast every break, so be sure to get your booking in early to join in.</strong>
+          <strong>Spaces fill up fast, so be sure to book early!</strong>
         </p>
       </div>
 
       <div class="columns-container">
         <div class="column">
-          <p>Children spend their day exploring the gym through guided circuits, trampoline time, structured coaching, and free play. Whether they are a total beginner or a regular member, our coaches ensure everyone has a chance to challenge themselves and learn something new!</p>
+          <h3>Active Gymnastics</h3>
+          <p>Kids explore the gym through guided circuits, trampoline time, and structured coaching. Perfect for beginners and regular members alike to learn new skills.</p>
         </div>
         <div class="column">
-          <p>It isn’t just about gymnastics! We balance out the physical mahi with creative activities, team-building games, and supervised free play. This variety keeps the energy high and ensures every child finds something they love doing throughout the day.</p>
+          <h3>Beyond the Beam</h3>
+          <p>We balance physical mahi with creative activities and team games. This variety ensures every child finds something they love doing all day long.</p>
         </div>
         <div class="column">
-          <p>Our programme runs from 9:00 AM to 3:00 PM every weekday during the school holidays. With our central location and experienced coaching team, you can drop the kids off knowing they are in for a day full of active adventure while you head to work or take a breather.</p>
+          <h3>Easy for Parents</h3>
+          <p>Running 9:00 AM – 3:00 PM with an experienced team, you can drop the kids off for an active adventure while you head to work or take a breather.</p>
         </div>
       </div>
 
@@ -42,10 +45,9 @@ export default {
 
 <style lang="scss" scoped>
 #holprog {
-  background-color: #462d7e; // Deep Purple
-  color: #ffffff; // White Text
+  background-color: #ffffff;
+  color: #333333;
   line-height: 1.6;
-  min-height: 100vh;
 }
 
 .section {
@@ -56,40 +58,36 @@ export default {
 
 .header-content {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 
   h1 {
     font-size: 2.8rem;
-    font-weight: 800; // Bold
+    font-weight: 800;
     margin-bottom: 1.5rem;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    color: #1a1a1a;
   }
 
   .details-bar {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
     padding: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.15); // Semi-transparent white
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #f3f4f6;
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 
     @media (max-width: 768px) {
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.8rem;
       border-radius: 15px;
     }
   }
 
   .subtitle {
     font-size: 1.15rem;
-    max-width: 850px;
+    max-width: 800px;
     margin: 0 auto;
-    color: #f0f0f0;
   }
 }
 
@@ -103,22 +101,21 @@ export default {
     flex: 1;
     min-width: 280px;
     font-size: 1rem;
-    background: rgba(255, 255, 255, 0.1); // Subtle contrast
+    background: #fafafa;
     padding: 2rem;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #eeeeee;
+    text-align: center; // Centering text for a cleaner look
     
+    h3 {
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #462d7e; // Using your purple as an accent for titles
+    }
+
     p {
       margin: 0;
     }
   }
-}
-
-// Ensure the external form script container doesn't get lost on dark background
-#holidayprogram-form-container {
-  background: white; 
-  padding: 20px;
-  border-radius: 12px;
-  color: #333; // Form fields usually look best with dark text
 }
 </style>

@@ -2,7 +2,7 @@
   <div id="holprog">
     <section class="section">
       <div class="header-content">
-        <h1>Gymnastics Holiday Programmes</h1>
+        <h1>Gymnastics Holiday Programme</h1>
 
         <div class="details-bar">
           <div class="detail-item"><strong>Price:</strong> $45 per day</div>
@@ -23,7 +23,7 @@
           <p>Kids explore the gym through guided circuits, trampoline time, and structured coaching. Perfect for beginners and regular members alike to learn new skills.</p>
         </div>
         <div class="column">
-          <h3>Beyond the Beam</h3>
+          <h3>BFlex those Creative Muscles/h3>
           <p>We balance physical mahi with creative activities and team games. This variety ensures every child finds something they love doing all day long.</p>
         </div>
         <div class="column">
@@ -61,10 +61,10 @@ export default {
   margin-bottom: 3.5rem;
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
-    color: #1a1a1a;
+    color: #462d7e;
   }
 
   .details-bar {

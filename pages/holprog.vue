@@ -3,8 +3,15 @@
     <section class="section">
       <div class="header-content">
         <h1>Gymnastics Holiday Programmes</h1>
+
+        <div class="details-bar">
+          <div class="detail-item"><strong>Price:</strong> $45 per day</div>
+          <div class="detail-item"><strong>Time:</strong> 9AM – 3PM</div>
+          <div class="detail-item"><strong>Ages:</strong> 5 – 12 years</div>
+        </div>
+
         <p class="subtitle">
-          Keep the kids moving and having fun these school holidays! Our holiday programme is the perfect way for tamariki aged 5–13 to burn off energy, learn new skills, and make new friends in a fun, safe, and supportive environment.
+          Keep the kids moving and having fun these school holidays! Our holiday programme is the perfect way for tamariki aged 5–12 to burn off energy, learn new skills, and make new friends in a fun, safe, and supportive environment.
           <br><br>
           <strong>Spaces fill up fast every break, so be sure to get your booking in early to join in.</strong>
         </p>
@@ -35,14 +42,15 @@ export default {
 
 <style lang="scss" scoped>
 #holprog {
-  background-color: #ffffff;
-  color: #333;
+  background-color: #462d7e; // Deep Purple
+  color: #ffffff; // White Text
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 .section {
-  padding: 2rem 1rem;
-  max-width: 1000px;
+  padding: 3rem 1rem;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -51,31 +59,66 @@ export default {
   margin-bottom: 3rem;
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: 800; // Bold
     margin-bottom: 1.5rem;
-    color: #1a1a1a;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .details-bar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.15); // Semi-transparent white
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-size: 1.2rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0.5rem;
+      border-radius: 15px;
+    }
   }
 
   .subtitle {
-    font-size: 1.1rem;
-    max-width: 800px;
+    font-size: 1.15rem;
+    max-width: 850px;
     margin: 0 auto;
+    color: #f0f0f0;
   }
 }
 
 .columns-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
 
   .column {
     flex: 1;
-    min-width: 250px; // Ensures it stacks on mobile
-    font-size: 0.95rem;
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
+    min-width: 280px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1); // Subtle contrast
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    p {
+      margin: 0;
+    }
   }
+}
+
+// Ensure the external form script container doesn't get lost on dark background
+#holidayprogram-form-container {
+  background: white; 
+  padding: 20px;
+  border-radius: 12px;
+  color: #333; // Form fields usually look best with dark text
 }
 </style>

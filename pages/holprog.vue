@@ -23,7 +23,7 @@
           <p>Kids explore the gym through guided circuits, trampoline time, and structured coaching. Perfect for beginners and regular members alike to learn new skills.</p>
         </div>
         <div class="column">
-          <h3>BFlex those Creative Muscles</h3>
+          <h3>Flex those Creative Muscles</h3>
           <p>We balance physical mahi with creative activities and team games. This variety ensures every child finds something they love doing all day long.</p>
         </div>
         <div class="column">

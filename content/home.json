@@ -2,18 +2,11 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
-      "title": "Summer Holiday Programme",
-      "content": "Sign up for our super fun gymnastics holiday programme in January 2026",
+      "title": "Holiday Programme",
+      "content": "Sign up for our super fun gymnastics holiday programme in the Term 1 break",
       "button": "Book Now",
       "url": "/holprog",
-      "image": "/images/uploads/summer-holprog.png"
-    },
-    {
-      "title": "Circus Carnival",
-      "content": "Our end-of-year show and receration prizegiving will be running on Sunday 7th December",
-      "button": "Learn More",
-      "url": "/prizegiving",
-      "image": "/images/uploads/carnival-2025.png"
+      "image": "/images/uploads/web-thumbnail.jpg"
     },
     {
       "title": "Gymnastics Birthday Parties!",

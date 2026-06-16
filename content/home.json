@@ -2,8 +2,15 @@
   "splash_image": "/images/uploads/beam-splash-colored-2tone.jpg",
   "home_tiles": [
     {
+      "title": "Quiz Night",
+      "content": "It is time to test your trivia skills and support our gym community! We are hosting a Harbour City Gymnastics Quiz Night at Waitoa Social Club in Hataitai, and we would love to see you there for a fun night of laughs and a bit of friendly challenge.",
+      "button": "Buy Tickets",
+      "url": "/quiz",
+      "image": "/images/uploads/quiz-night-2026.jpg"
+    },
+    {
       "title": "Holiday Programme",
-      "content": "Sign up for our super fun gymnastics holiday programme in the Term 1 break",
+      "content": "Sign up for our super fun gymnastics holiday programme in the Term 2 break",
       "button": "Book Now",
       "url": "/holprog",
       "image": "/images/uploads/web-thumbnail.jpg"

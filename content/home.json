@@ -16,11 +16,11 @@
       "image": "/images/uploads/bday.jpg"
     },
     {
-      "title": "Movie Night",
-      "content": "Drop the kids off to the gym for a movie night",
-      "button": "Buy Tickets",
-      "url": "/movie",
-      "image": "/images/uploads/tangled-movie-promo-2-.jpg"
+      "title": "Ribbon Class for 5 & 6 Year Olds",
+      "content": "Learn more about our erntry level Ribbon class for recreational gymnasts, the perfect place for beginners",
+      "button": "Learn more",
+      "url": "/programmes/ribbon",
+      "image": "/images/uploads/ribbon_4x3.jpg"
     }
   ],
   "splash_button": "See our programmes",
